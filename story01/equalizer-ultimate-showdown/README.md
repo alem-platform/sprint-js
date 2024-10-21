@@ -4,7 +4,7 @@ Your task is to build the Equalizer function, which will settle the debate of wh
 
 ### Your Objective:
 
-Create a function called `equalizer`. This function will receive two arguments, compare them using strict equality (===), and return the verdict.
+Create a function called `equalizer`. This function will receive two arguments, compare them using strict equality, and return the verdict.
 
 ### Function Details:
 
