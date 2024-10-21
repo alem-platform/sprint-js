@@ -1,6 +1,6 @@
 # Map Masters
 
-With the legendary map method, you are tasked with applying a function to each element in an array, returning a brand-new array of transformed elements.
+With the legendary `map` method, you are tasked with applying a function to each element in an array, returning a brand-new array of transformed elements.
 
 ### Your Objective:
 

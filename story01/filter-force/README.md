@@ -1,6 +1,6 @@
 # Filter Force – The Elite Testers
 
-Your mission in this problem is to filter through the endless sea of elements and separate the worthy from the unworthy. Using the mighty filter array method, you must pass each element through a test and return a new array with only those that succeed!
+Your mission in this problem is to filter through the endless sea of elements and separate the worthy from the unworthy. Using the mighty `filter` array method, you must pass each element through a test and return a new array with only those that succeed!
 
 ### Your Objective:
 
