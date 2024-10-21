@@ -1,4 +1,4 @@
-# Mission Type: Log the Unknown
+# Log the Unknown
 
 Welcome to the JS-bootcamp, explorer! Your mission, should you choose to accept it, is to identify the unknown. You will be part of an elite task force tasked with scanning and classifying mysterious objects from different dimensions (a.k.a. any JavaScript value).
 
