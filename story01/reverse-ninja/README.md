@@ -5,3 +5,13 @@ You’ve been trained by the Reverse Ninjas, masters of stealth and agility. You
 ### Your Objective:
 
 Create a function called `reverseNinja` that takes a string and returns it reversed, using no built-in string methods. Only your wits and loops will get the job done.
+
+### Example Operation:
+
+```js
+reverseNinja("hello");
+// Output: 'olleh'
+
+reverseNinja("JavaScript");
+// Output: 'tpircSavaJ'
+```

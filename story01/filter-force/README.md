@@ -10,3 +10,10 @@ Create a function called `filterForce` that takes two arguments:
 2. A callback function: The test that each element must pass.
 
 The function should return a new array with elements that pass the callback function's test.
+
+### Example Operation:
+
+```js
+filterForce([1, 2, 3, 4, 5], (num) => num > 2);
+// Output: [3, 4, 5]
+```

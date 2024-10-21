@@ -5,3 +5,16 @@ In the world of Boolean Transcenders, you must be able to convert any value to i
 ### Your Objective:
 
 Create a function called `booleanTranscender` that takes any value (primitive or object) and returns its Boolean equivalent.
+
+### Example Operation:
+
+```js
+booleanTranscender(0);
+// Output: false
+
+booleanTranscender("Hello");
+// Output: true
+
+booleanTranscender(null);
+// Output: false
+```

@@ -19,3 +19,19 @@ To the object created above add method called `squareSentries` that takes an arr
 ## Part C: Append Champions – Expanding Without Destruction
 
 Your task is to append an element to an array without altering the original array, ensuring immutability. Create another method called `appendChampion` that takes two arguments: an array and a new element. Method should return a new array with the element appended, keeping the original array intact.
+
+### Example Operation:
+
+```js
+console.log(immutablePrimitives.str);
+// immutable string value given for str
+
+immutablePrimitives.squareSentries([1, 2, 3]);
+// Output: [1, 4, 9]
+
+immutablePrimitives.squareSentries([4, 5, 6]);
+// Output: [16, 25, 36]
+
+immutablePrimitives.appendChampion([1, 2, 3], 4);
+// Output: [1, 2, 3, 4]
+```

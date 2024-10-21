@@ -10,3 +10,13 @@ Create a function called `someSense` that takes two arguments:
 2. A callback function: The truth test that will be applied to each element.
 
 The function should return true if at least one element passes the test, otherwise false.
+
+### Example Operation:
+
+```js
+someSense([1, 2, 3], (num) => num > 2);
+// Output: true
+
+someSense(["apple", "banana", "cherry"], (fruit) => fruit === "orange");
+// Output: false
+```

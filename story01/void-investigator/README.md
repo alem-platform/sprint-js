@@ -9,3 +9,16 @@ Create a function called `voidInvestigator` that takes a single value and return
 - null
 - undefined
 - or any other type (use typeof for this part).
+
+### Example Operation:
+
+```js
+voidInvestigator(null);
+// Output: 'null'
+
+voidInvestigator(undefined);
+// Output: 'undefined'
+
+voidInvestigator(42);
+// Output: 'number'
+```

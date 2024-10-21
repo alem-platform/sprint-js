@@ -11,3 +11,16 @@ Create a function called `equalizer`. This function will receive two arguments, 
 Target Entities: You will receive two unknown values, and your task is to evaluate whether they are strictly the same. No Sneaky Coercion: This is a battle of absolutes!
 
 Mission Verdict: The function will return true if the entities are strictly equal, otherwise false.
+
+### Example Operation:
+
+```js
+equalizer(42, 42);
+// Output: true
+
+equalizer("42", 42);
+// Output: false
+
+equalizer(null, undefined);
+// Output: false
+```

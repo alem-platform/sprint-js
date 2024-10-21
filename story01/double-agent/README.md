@@ -11,3 +11,16 @@ Create a function called `doubleAgent` that accepts an array of numbers and retu
 Target Array: You will receive an array of numbers, and your mission is to double each value.
 Stealth Mode: Ensure the original array is not modified — use non-mutative methods to create a new array with doubled values.
 Return the Clone: The function will return the new array with the updated values, leaving the original untouched.
+
+### Example Operation:
+
+```js
+doubleAgent([1, 2, 3]);
+// Output: [2, 4, 6]
+
+doubleAgent([10, 20, 30]);
+// Output: [20, 40, 60]
+
+doubleAgent([5, 15, 25]);
+// Output: [10, 30, 50]
+```

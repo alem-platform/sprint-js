@@ -10,3 +10,13 @@ Create a function called `mapMasters` that takes two arguments:
 2. A callback function: The magic spell (function) that will transform each element.
 
 The function should return a new array with the transformed values.
+
+### Example Operation:
+
+```js
+mapMasters([1, 2, 3], (num) => num * 2);
+// Output: [2, 4, 6]
+
+mapMasters(["a", "b", "c"], (letter) => letter.toUpperCase());
+// Output: ['A', 'B', 'C']
+```
