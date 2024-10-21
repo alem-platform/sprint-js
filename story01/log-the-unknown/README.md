@@ -15,13 +15,12 @@ Mission Report: The function should return a heroic message like: "Scanning comp
 ### Example Mission:
 
 ```js
-Copy code
 logTheUnknown(42);
-// Output: "Scanning complete: This is a number!"
+// will return "Scanning complete: This is a number!"
 
 logTheUnknown("hello");
-// Output: "Scanning complete: This is a string!"
+// will return "Scanning complete: This is a string!"
 
 logTheUnknown({});
-// Output: "Scanning complete: This is an object!"
+// will return "Scanning complete: This is an object!"
 ```
