@@ -4,7 +4,7 @@ The world of floating-point numbers is chaotic and unruly! As the chosen RoundMa
 
 ### Your Objective:
 
-Create a function named `roundMaster` that takes a number and returns it rounded to two decimal places. Your goal is to ensure accuracy in calculations across the land.
+Create a function named `roundMaster` that takes a number and returns it rounded to two decimal places. Your goal is to ensure accuracy in calculations.
 
 ### Function Details:
 
