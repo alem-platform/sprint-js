@@ -25,11 +25,11 @@ const eventTracker = {
 ### Example
 
 ```js
-eventTracker.logEvent("Login");
-eventTracker.logEvent("Click");
-eventTracker.logEvent("Scroll");
-eventTracker.logEvent("Hover");
-eventTracker.logEvent("Logout");
-eventTracker.logEvent("NewLogin"); // Should clear old events
-console.log(eventTracker.currentEvents); // Shows last 5 events
+eventTracker.logEvent("Login"); // 1
+eventTracker.logEvent("Click"); // 2
+eventTracker.logEvent("Scroll"); // 3
+eventTracker.logEvent("Hover"); // 4
+eventTracker.logEvent("Logout"); // 5
+eventTracker.logEvent("NewLogin"); // 1 (clears old events first)
+console.log(eventTracker.currentEvents); // Shows only ["NewLogin"]
 ```
