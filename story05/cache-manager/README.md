@@ -31,7 +31,15 @@ const cacheManager = {
 
 ```js
 const cache = cacheManager.init();
-console.log(cache.set("key1", "value1")); // { value: "value1", timestamp: 1234567890 }
-console.log(cache.get("key1")); // "value1"
-console.log(cache.get("nonexistent")); // undefined
+
+const entry1 = cache.set("apiKey", "abc123");
+console.log(entry1);
+// Should show: { value: "abc123", timestamp: 1234567890 }
+
+console.log(cache.get("apiKey")); // Should show: "abc123"
+console.log(cache.get("missing")); // Should show: undefined
+
+const entry2 = cache.set("apiKey", "newValue");
+console.log(entry2);
+// Should show: { value: "newValue", timestamp: 1234567891 }
 ```
