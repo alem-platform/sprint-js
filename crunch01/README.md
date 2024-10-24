@@ -143,6 +143,7 @@ function visualizeMaze(mazeArray, startPoint, finalPoint) {
       if (x === startPoint[0] && y === startPoint[1]) {
         cellDiv.classList.add("start"); // Start point
       }
+      // Set final point
       if (x === finalPoint[0] && y === finalPoint[1]) {
         cellDiv.classList.add("end"); //Final point
       }
