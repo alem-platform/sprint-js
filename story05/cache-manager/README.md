@@ -26,3 +26,12 @@ const cacheManager = {
   },
 };
 ```
+
+### Example
+
+```js
+const cache = cacheManager.init();
+console.log(cache.set("key1", "value1")); // { value: "value1", timestamp: 1234567890 }
+console.log(cache.get("key1")); // "value1"
+console.log(cache.get("nonexistent")); // undefined
+```
