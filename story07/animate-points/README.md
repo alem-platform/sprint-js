@@ -32,6 +32,7 @@ Rules:
 
 (setTimeout)[https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout]
 (setInterval)[https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval]
+(throw)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw]
 
 ### Example:
 
@@ -43,6 +44,18 @@ animatePoints({
   duration: 1000, // 1 second
   onStep: (value, step, time) => console.log(value),
 });
+
+try {
+  animatePoints({
+    start: 0,
+    end: 10,
+    steps: 0, // invalid steps
+    duration: 1000,
+    onStep: console.log,
+  });
+} catch (e) {
+  console.log("Error caught successfully");
+}
 //Should output (approximately):
 // 0    // at 0ms
 // 25   // at 200ms
