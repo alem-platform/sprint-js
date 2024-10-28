@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: green;
+}
+
+.main-container {
+  display: flex;
+}
+
+#maze-container {
+  display: grid;
+  gap: 1px;
+  margin: 20px auto;
+  border: 2px solid #333;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.cell.wall {
+  background-color: black;
+}
+
+.cell.path {
+  background-color: white;
+}
+
+.cell.visited {
+  background-color: gray;
+}
+
+.cell.path-found {
+  background-color: green;
+}
+
+.cell.start {
+  background-color: yellow;
+}
+
+.cell.end {
+  background-color: red;
+}
+
+#start-btn {
+  background-color: green;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+#start-btn:hover {
+  background-color: #29b94d;
+}
+
+/* Active effect (when clicking) */
+#start-btn:active {
+  transform: scale(0.98);
+  background-color: #4fce6f;
+}
