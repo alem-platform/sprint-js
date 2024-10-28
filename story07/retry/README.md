@@ -29,51 +29,31 @@ function cancellable(fn, args, t, cancelTimeMs) {
 ### Example:
 
 ```js
-const result = [];
-const fn = (x) => result.push(x);
-const args = [5];
-const t = 100;
-const cancelTimeMs = 250;
+ // Example 1: Simple retry
+ const fetchWithRetry = retry(
+     async () => {
+         const response = await fetch('https://api.example.com/data');
+         if (!response.ok) throw new Error('API error');
+         return response.json();
+     },
+     3,
+     1000
+ );
 
-cancellable(fn, args, t, cancelTimeMs);
+ // Example 2: With retry callback
+ const result = await retry(
+     async () => { // some async operation },
+     3,
+     1000,
+     (attempt, error) => {
+         console.log(`Attempt ${attempt} failed: ${error.message}`);
+     }
+ );
 
-return new Promise((resolve) => {
-  setTimeout(() => {
-    // Should have called approximately 3 times (0ms, 100ms, 200ms)
-    console.assert(
-      result.length === 3,
-      `Test 1 Failed: Expected 3 calls, got ${result.length}`
-    );
-    console.assert(
-      result.every((x) => x === 5),
-      "Test 1 Failed: Wrong arguments passed"
-    );
-    resolve();
-  }, cancelTimeMs + 100);
-});
-```
-
-```js
-const result = [];
-const fn = (x, y) => result.push([x, y]);
-const args = [1, 2];
-const t = 50;
-const cancelTimeMs = 125;
-
-cancellable(fn, args, t, cancelTimeMs);
-
-return new Promise((resolve) => {
-  setTimeout(() => {
-    // Should have called approximately 3 times (0ms, 50ms, 100ms)
-    console.assert(
-      result.length === 3,
-      `Test 2 Failed: Expected 3 calls, got ${result.length}`
-    );
-    console.assert(
-      result.every(([x, y]) => x === 1 && y === 2),
-      "Test 2 Failed: Wrong arguments passed"
-    );
-    resolve();
-  }, cancelTimeMs + 50);
-});
+//  Expected behavior:
+//  1. If fn succeeds on first try, returns result immediately
+//  2. If fn fails, retries up to specified number of times
+//  3. If any attempt takes longer than timeout, considers it a failure
+//  4. Calls onRetry between attempts with attempt number and error
+//  5. If all attempts fail, throws the last error
 ```
