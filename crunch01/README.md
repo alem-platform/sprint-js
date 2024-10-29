@@ -70,8 +70,7 @@ Your task is to find the shortest path from a starting point `X` to a target poi
   [1, 1, 2, 1, 1, 2, 1, 0, 1],
   [1, 1, 1, 1, 1, 1, 1, 1, 1],
 ],
-  [1, 1], // start point
-  [6, 5]; // final destination
+// Please note that visiting points can differ based on the selected searching algorithm
 ```
 
 ### Testing
