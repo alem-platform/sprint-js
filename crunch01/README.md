@@ -6,7 +6,7 @@ One day, Sir Wiggleton found himself lost inside a magical maze created by the m
 
 But Wiggleton, not wanting to live out his days eating berries in a maze, cried out, “There must be a way out! And if I cannot find it, I’ll invent a strategy to get through!” Thus, Wiggleton began learning about two powerful techniques: [DFS](https://en.wikipedia.org/wiki/Depth-first_search) and [Dijkstra’s](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) Pathfinding.
 
-## Problem
+## Objective
 
 You are given a maze in the form of a 2D array (grid) where:
 
