@@ -1,6 +1,6 @@
 # BigInt Brains
 
-Welcome to the league of BigInt Brains, where numbers too large for mortals must be handled with ease. Your mission is to sum two enormous integers using the arcane power of `BigInt`.
+Welcome to the league of BigInt Brains, where numbers too large for mortals must be handled with ease. Your mission is to sum two enormous integers using the arcane power of [BigInt](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/BigInt).
 
 ### Instructions:
 

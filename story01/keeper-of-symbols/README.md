@@ -1,3 +1,3 @@
 # The Keeper of Symbols
 
-In the world of mysterious symbols, regular object keys won’t suffice! Create an object called `symbolKeeper` that uses Symbol as its keys. Your task is to demonstrate how to access these symbol properties.
+In the world of mysterious symbols, regular object keys won’t suffice! Create an object called `symbolKeeper` that uses [Symbol](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Symbol) as its keys. Your task is to demonstrate how to access these symbol properties.

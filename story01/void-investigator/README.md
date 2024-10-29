@@ -1,6 +1,6 @@
 # The Void Investigator
 
-You are the Void Investigator, tasked with exploring the murky depths of `null` and `undefined`. Using your vast knowledge, you must create a function that can distinguish between null, undefined, and other values. Only by identifying them correctly can you navigate the void.
+You are the Void Investigator, tasked with exploring the murky depths of [null](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/null) and [undefined](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/undefined). Using your vast knowledge, you must create a function that can distinguish between null, undefined, and other values. Only by identifying them correctly can you navigate the void.
 
 ### Instructions:
 

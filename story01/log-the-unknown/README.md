@@ -4,7 +4,7 @@ Welcome to the JS-bootcamp, explorer! Your mission, should you choose to accept 
 
 ### Instructions:
 
-Create a function called logTheUnknown. This highly classified function will accept any value and log its type using advanced alien technology, codename: typeof.
+Create a function called logTheUnknown. This highly classified function will accept any value and log its type using advanced alien technology, codename: [typeof](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof).
 
 ### Function Details:
 
