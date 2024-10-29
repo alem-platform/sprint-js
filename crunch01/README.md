@@ -36,8 +36,7 @@ Your task is to find the shortest path from a starting point `X` to a target poi
 
 - Mark the cells that have been visited (during search process with selected Algorithm) with number 2.
 - Highlight the final path once found by replacing cells with number 3
-- For checking you solution you can use ready-for-use [starting code](https://github.com/alem-platform/bootcamp-js/tree/crunch01/crunch01/maze-escape)
-  s
+- For checking you solution you can use ready-for-use [maze-escape starting code](https://github.com/alem-platform/bootcamp-js/tree/crunch01/crunch01/maze-escape)
 
 ### Example
 
