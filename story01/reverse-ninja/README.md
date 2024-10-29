@@ -1,12 +1,10 @@
-# Reverse Ninja – The String Assassin
+# Reverse Ninja
 
-You’ve been trained by the Reverse Ninjas, masters of stealth and agility. Your task: to reverse a string **WITHOUT** relying on any built-in string methods. This ancient technique must be performed entirely by hand, showing your mastery over the string arts.
+### Instructions:
 
-### Your Objective:
+Create a function called `reverseNinja` that takes a string and returns it reversed, using no built-in string methods. Only your wits and [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) will get the job done.
 
-Create a function called `reverseNinja` that takes a string and returns it reversed, using no built-in string methods. Only your wits and loops will get the job done.
-
-### Example Operation:
+### Example:
 
 ```js
 reverseNinja("hello");

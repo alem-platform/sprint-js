@@ -1,4 +1,4 @@
-# Immutability Mastery – The Protectors of Data Integrity
+# Immutability Mastery
 
 As a member of the Immutability Masters, you must learn the difference between primitive and object immutability. These tasks will teach you how to protect data from unintended changes, keeping your code safe and predictable. Time to sharpen your skills!
 
@@ -20,7 +20,7 @@ To the object created above add method called `squareSentries` that takes an arr
 
 Your task is to append an element to an array without altering the original array, ensuring immutability. Create another method called `appendChampion` that takes two arguments: an array and a new element. Method should return a new array with the element appended, keeping the original array intact.
 
-### Example Operation:
+### Example:
 
 ```js
 console.log(immutablePrimitives.str);

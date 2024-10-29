@@ -1,8 +1,8 @@
-# The Truth Seekers
+# Some Sense
 
 You are tasked with answering one simple question: Is there at least one element that passes the test? Using the mystical `some` method, your mission is to determine whether any element in the array meets the condition of your callback.
 
-### Your Objective:
+### Instructions:
 
 Create a function called `someSense` that takes two arguments:
 
@@ -11,7 +11,7 @@ Create a function called `someSense` that takes two arguments:
 
 The function should return true if at least one element passes the test, otherwise false.
 
-### Example Operation:
+### Example:
 
 ```js
 someSense([1, 2, 3], (num) => num > 2);

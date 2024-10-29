@@ -1,8 +1,8 @@
-# Threshold Defender – Filter by Power
+# Threshold Defender
 
-Not every number makes the cut! Create a function called `thresholdDefender` that filters an array of numbers, returning only those greater than a specified threshold. Show no mercy to numbers that don’t make the grade!
+Not every number makes the cut! Create a function called `thresholdDefender` that filters an array of numbers, returning only those greater than a specified threshold.
 
-### Example Operation:
+### Example:
 
 ```js
 thresholdDefender([10, 5, 20, 30], 15);

@@ -1,8 +1,8 @@
-# Reduce Rangers – Unite the Elements
+# Reduce Ranger
 
-As a Reduce Ranger, your mission is to unite the elements into a single force using the almighty `reduce` method. You will gather the elements from an array and combine them into one powerful result. Use your skills wisely to accumulate the values based on the provided callback.
+Unite the elements into a single force using the almighty [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) method.
 
-### Your Objective:
+### Instructions:
 
 Create a function called `reduceRangers` that takes three arguments:
 
@@ -12,7 +12,7 @@ Create a function called `reduceRangers` that takes three arguments:
 
 The function will return a single value, the result of combining all elements.
 
-### Example Operation:
+### Example:
 
 ```js
 reduceRangers([1, 2, 3, 4], (sum, num) => sum + num, 0);

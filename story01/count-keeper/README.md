@@ -1,8 +1,8 @@
-# The Count Keeper – Tally the Elements
+# The Count Keeper
 
 In the Kingdom of Arrays, your task is to count how many times each element appears in an array. Write a function called `countKeeper` that takes an array and returns an object with the count of each element’s occurrence.
 
-### Example Operation:
+### Example:
 
 ```js
 countKeeper([1, 2, 2, 3, 1, 1, 3]);

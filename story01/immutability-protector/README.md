@@ -1,8 +1,8 @@
-# Immutability Protector – The Safe Update
+# Immutability Protector
 
 In this quest, you need to update a property of an object without mutating the original. Write a function called `updateObject` that returns a new object with one property updated. Keep the original object safe from any changes!
 
-### Example Operation:
+### Example:
 
 ```js
 const obj = { name: "Alice", age: 25 };
