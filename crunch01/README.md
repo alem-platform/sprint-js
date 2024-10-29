@@ -34,12 +34,13 @@ Your task is to find the shortest path from a starting point `X` to a target poi
 
 4. Visualization Requirements:
 
-Mark the cells that have been visited (during search process with selected Algorithm) with number 2.
-Highlight the final path from start to end once found with number 3
+- Mark the cells that have been visited (during search process with selected Algorithm) with number 2.
+- Highlight the final path from start to end once found with number 3
+- For checking you solution you can use ready-for-use [starting code](https://github.com/alem-platform/bootcamp-js/tree/crunch01/crunch01/start)
 
 ### Testing
 
-You can take those 3 testing maps for testing your solution:
+You can take those 3 starting maps for testing your solution:
 
 ```js
 [
@@ -49,8 +50,8 @@ You can take those 3 testing maps for testing your solution:
   [1, 0, 0, 0, 0, 1],
   [1, 1, 1, 1, 1, 1],
 ],
-  [0, 1],
-  [3, 1];
+  [0, 1], // start point
+  [3, 1]; // final destrination
 ```
 
 ```js
@@ -71,8 +72,8 @@ You can take those 3 testing maps for testing your solution:
   [1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1],
   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
 ],
-  [1, 1],
-  [16, 13];
+  [1, 1], // start point
+  [16, 13]; // final destrination
 ```
 
 ```js
@@ -95,6 +96,6 @@ You can take those 3 testing maps for testing your solution:
   [1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1],
   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
 ],
-  [1, 1],
-  [18, 15];
+  [1, 1], // start point
+  [18, 15]; // final destrination
 ```
