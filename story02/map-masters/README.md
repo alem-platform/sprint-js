@@ -1,6 +1,6 @@
 # Map Masters
 
-With the legendary `map` method, you are tasked with applying a function to each element in an array, returning a brand-new array of transformed elements.
+With the legendary [map](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map) method, you are tasked with applying a function to each element in an array, returning a brand-new array of transformed elements.
 
 ### Instructions:
 

@@ -1,6 +1,6 @@
 # Concat Crusaders
 
-It’s time to unite two arrays into one! As a Concat Crusader, you must use the built-in concat method called as `concatCrusaders` to combine two arrays into a new array, leaving the original ones untouched. No mutation allowed!
+It’s time to unite two arrays into one! As a Concat Crusader, you must use the built-in [concat](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) method called as `concatCrusaders` to combine two arrays into a new array, leaving the original ones untouched. No mutation allowed!
 
 ### Example:
 
