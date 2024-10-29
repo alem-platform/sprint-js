@@ -1,8 +1,8 @@
-# Null vs Undefined – The Void Investigator
+# The Void Investigator
 
 You are the Void Investigator, tasked with exploring the murky depths of `null` and `undefined`. Using your vast knowledge, you must create a function that can distinguish between null, undefined, and other values. Only by identifying them correctly can you navigate the void.
 
-### Your Objective:
+### Instructions:
 
 Create a function called `voidInvestigator` that takes a single value and returns a string indicating whether the value is:
 
@@ -10,7 +10,7 @@ Create a function called `voidInvestigator` that takes a single value and return
 - undefined
 - or any other type (use typeof for this part).
 
-### Example Operation:
+### Example:
 
 ```js
 voidInvestigator(null);
