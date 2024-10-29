@@ -11,7 +11,7 @@
 | 06. | immutability-mastery   | 1       | [github.com](./immutability-mastery)   |
 | 07. | merge-masters          | 1       | [github.com](./merge-masters)          |
 | 08. | key-finder             | 1       | [github.com](./key-finder)             |
-| 09. | object-twin            | 1       | [github.com](./object-twin)            |
+| 09. | is-equal               | 1       | [github.com](./is-equal)               |
 | 10. | array-flattener        | 1       | [github.com](./array-flattener)        |
 | 11. | count-keeper           | 1       | [github.com](./count-keeper)           |
 | 12. | concat-crusaders       | 1       | [github.com](./concat-crusaders)       |
@@ -19,3 +19,5 @@
 | 14. | immutability-protector | 1       | [github.com](./immutability-protector) |
 | 15. | threshold-defender     | 1       | [github.com](./threshold-defender)     |
 | 16. | zero-mover             | 1       | [github.com](./zero-mover)             |
+
+s
