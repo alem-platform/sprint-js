@@ -1,6 +1,6 @@
 # Reduce Ranger
 
-Unite the elements into a single force using the almighty [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) method.
+Unite the elements into a single force using the [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) method, your task is to determine whether any element in the array meets the condition of your callback.
 
 ### Instructions:
 

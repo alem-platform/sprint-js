@@ -14,7 +14,7 @@
 | 09. | is-equal               | 1       | [github.com](./is-equal)               |
 | 10. | array-flattener        | 1       | [github.com](./array-flattener)        |
 | 11. | count-keeper           | 1       | [github.com](./count-keeper)           |
-| 12. | concat-crusaders       | 1       | [github.com](./concat-crusaders)       |
+| 12. | merge                  | 1       | [github.com](./merge)                  |
 | 13. | clone-master           | 1       | [github.com](./clone-master)           |
 | 14. | immutability-protector | 1       | [github.com](./immutability-protector) |
 | 15. | threshold-defender     | 1       | [github.com](./threshold-defender)     |

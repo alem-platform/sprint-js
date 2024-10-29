@@ -1,6 +1,6 @@
 # The Clone Master
 
-Cloning isn’t just for science fiction! Your task is to write a function called `deepClone` that creates a deep copy of an object, no matter how deeply nested its properties are. Nothing should be left behind! It’s all about perfect duplication.
+Your task is to write a function called `deepClone` that creates a deep copy of an object.
 
 ### Example:
 

@@ -1,6 +1,11 @@
 # Falsy Busters
 
-The Falsy Busters are on a mission to clean up the streets of your array. Your task is to identify and remove all falsy values (false, null, undefined, 0, NaN, "") using built-in array methods. Only truthy values shall remain in the city of data!
+Your task is to identify and remove all falsy values (false, null, undefined, 0, NaN, "") using built-in array methods.
+
+### Resources
+
+- [Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+- [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 ### Instructions:
 

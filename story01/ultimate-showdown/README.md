@@ -1,6 +1,6 @@
 # The Ultimate Showdown
 
-Your task is to build the Equalizer function, which will settle the debate of whether two entities are truly, strictly equal.
+Your task is to build the `equalizer` function, which will settle the debate of whether two entities are truly, strictly equal.
 
 ### Instructions:
 
@@ -8,9 +8,9 @@ Create a function called `equalizer`. This function will receive two arguments, 
 
 ### Function Details:
 
-Target Entities: You will receive two unknown values, and your task is to evaluate whether they are strictly the same. No Sneaky Coercion: This is a battle of absolutes!
+Target Entities: You will receive two unknown values, and your task is to evaluate whether they are strictly the same.
 
-Mission Verdict: The function will return true if the entities are strictly equal, otherwise false.
+The function will return true if the entities are strictly equal, otherwise false.
 
 ### Example:
 

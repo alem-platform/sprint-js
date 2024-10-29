@@ -6,4 +6,5 @@ Write a function called `isEqual` that accepts two objects and returns true if t
 
 ```js
 isEqual({ a: 1 }, { a: 1 }); // Output: true
+isEqual({ a: "1" }, { a: 1 }); // Output: false
 ```

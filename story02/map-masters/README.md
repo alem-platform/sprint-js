@@ -1,13 +1,17 @@
 # Map Masters
 
-With the legendary [map](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map) method, you are tasked with applying a function to each element in an array, returning a brand-new array of transformed elements.
+Write a function called `transformArray` which applies a function to each element in an array.
+
+### Resources
+
+- [map](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 ### Instructions:
 
 Create a function called `mapMasters` that takes two arguments:
 
-1. An array: The collection of elements you will transform.
-2. A callback function: The magic spell (function) that will transform each element.
+1. An array
+2. A callback function
 
 The function should return a new array with the transformed values.
 

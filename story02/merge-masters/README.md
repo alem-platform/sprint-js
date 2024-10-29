@@ -1,6 +1,6 @@
 # Merge Masters
 
-As a Merge Master, your task is to combine two arrays into one without altering the original arrays. Preserve the immutability of each array while creating a new, merged one. Mutate not!
+As a Merge Master, your task is to combine two arrays into one without altering the original arrays. Preserve the immutability of each array while creating a new, merged one.
 
 ### Instructions:
 
