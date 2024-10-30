@@ -1,6 +1,10 @@
 # Stringify
 
-Сonvert all primitive values into their string form. Сreate a function called `toString` that turns any primitive value into its string representation.
+Сonvert all primitive values into their string form.
+
+### Instructions
+
+Сreate a function called `toString` that turns any primitive value into its string representation.
 
 ### Example:
 

@@ -1,6 +1,6 @@
 # Double Agent
 
-You’ve been tasked to double the values in a series of numbers while ensuring that their original form remains untouched. As the Double Agent, your mission is to create an identical clone of the [array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), and only then, double the values within it.
+You’ve been tasked to double the values in a series of numbers while ensuring that their original form remains untouched.
 
 ### Instructions:
 
@@ -11,6 +11,10 @@ function doubleAgent(array) {
   //
 }
 ```
+
+### Resoures:
+
+[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 ### Example:
 
