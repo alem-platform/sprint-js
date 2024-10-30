@@ -1,6 +1,6 @@
 # The Sum Savior
 
-You’ve been tasked with a simple yet powerful mission: to add two numbers, but with a twist. Create a function called `sumSavior` that accepts two numbers. If only one number is provided, the second number defaults to 20
+You’ve been tasked with a simple yet powerful problem: to add two numbers, but with a twist. Create a function called `sumSavior` that accepts two numbers. If only one number is provided, the second number defaults to 20.
 
 ### Example:
 

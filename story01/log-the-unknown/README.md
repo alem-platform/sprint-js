@@ -1,10 +1,10 @@
 # Log the Unknown
 
-Welcome to the JS-bootcamp, explorer! Your mission, should you choose to accept it, is to identify the unknown. You will be part of an elite task force tasked with scanning and classifying mysterious objects from different dimensions (a.k.a. any JavaScript value).
+In this problem you need to identify the unknown. You will be tasked with scanning and classifying objects of different types (a.k.a. any JavaScript value).
 
 ### Instructions:
 
-Create a function called logTheUnknown. This highly classified function will accept any value and log its type using advanced alien technology, codename: [typeof](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof).
+Create a function called `logTheUnknown`. This highly classified function will accept any value and log its type using [typeof](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof) operator.
 
 ### Function Details:
 

@@ -1,6 +1,6 @@
 # Array Flattener
 
-You’ve been tasked with simplifying a nested array by one level. Write a function called `flattenOnce` that takes a nested array and flattens it by one level, revealing hidden treasures within. Use your array-manipulating skills to make this happen.
+You’ve been tasked with simplifying a nested [array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) by one level. Write a function called `flattenOnce` that takes a nested array and flattens it by one level, revealing hidden treasures within. Use your array-manipulating skills to make this happen.
 
 ### Example:
 

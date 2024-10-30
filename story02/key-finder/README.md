@@ -1,6 +1,6 @@
 # The Key Finder
 
-Write a function called `keyGuardian` that takes an object and a key name, and checks if the key is present, using the in operator. The presence of the key must be true, even if its value is falsy
+Write a function called `keyGuardian` that takes an object and a key name, and checks if the key is present, using the `in` operator. The presence of the key must be true, even if its value is `falsy`.
 
 ### Resources:
 

@@ -8,7 +8,7 @@ Create a function called `valueCheck` that takes a single value and returns a st
 
 - [null](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/null)
 - [undefined](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-- or any other type (use [typeof](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof) for this part).
+- or any other type (use [typeof](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof) operator for this part).
 
 ### Example:
 

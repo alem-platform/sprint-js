@@ -4,7 +4,7 @@ Your task is to build the `equalizer` function, which will settle the debate of 
 
 ### Instructions:
 
-Create a function called `equalizer`. This function will receive two arguments, compare them using strict equality, and return the verdict.
+Create a function called `equalizer`. This function will receive two arguments, compare them using [strict equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality), and return the verdict.
 
 ### Function Details:
 

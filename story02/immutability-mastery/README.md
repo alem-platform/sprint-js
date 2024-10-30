@@ -6,9 +6,9 @@ As a member of the Immutability Masters, you must learn the difference between p
 
 Create an object named `immutablePrimitives` where you declare several const parameters, each holding primitive values for:
 
-- str for strings
-- num for number
-- bool for boolean
+- str for [strings]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String()
+- num for [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+- bool for [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
 Attempt to change their values through object call and note why it’s impossible to alter them.
 

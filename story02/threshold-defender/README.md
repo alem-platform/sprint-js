@@ -1,6 +1,6 @@
 # Threshold Defender
 
-Not every number makes the cut! Create a function called `thresholdDefender` that filters an array of numbers, returning only those greater than a specified threshold.
+Not every number makes the cut. Create a function called `thresholdDefender` that filters an array of numbers, returning only those greater than a specified threshold.
 
 ### Example:
 
