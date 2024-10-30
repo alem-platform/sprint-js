@@ -1,11 +1,5 @@
 # Filter Force
 
-You need to be able to filter through the elements and separate the worthy from the unworthy.
-
-### Resources:
-
-- [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-
 ### Instructions:
 
 Create a function called `filterForce` that takes two arguments:
@@ -14,6 +8,10 @@ Create a function called `filterForce` that takes two arguments:
 2. A callback function: The test that each element must pass.
 
 The function should return a new array with elements that pass the callback function's test.
+
+### Resources:
+
+- [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 ### Example:
 

@@ -5,7 +5,7 @@ Your task is to identify and remove all falsy values (false, null, undefined, 0,
 ### Resources
 
 - [Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
-- [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- [Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 ### Instructions:
 
