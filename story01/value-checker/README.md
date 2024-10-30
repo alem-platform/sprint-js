@@ -1,6 +1,6 @@
 # Value Checker
 
-You are tasked with exploring the murky depths of `null` and `undefined`. You need to create a function that can distinguish between null, undefined, and other values.
+Create a function that can tell the difference between `null`, `undefined`, and regular values.
 
 ### Instructions:
 
@@ -13,12 +13,12 @@ Create a function called `valueCheck` that takes a single value and returns a st
 ### Example:
 
 ```js
-voidInvestigator(null);
+valueCheck(null);
 // Output: 'null'
 
-voidInvestigator(undefined);
+valueCheck(undefined);
 // Output: 'undefined'
 
-voidInvestigator(42);
+valueCheck(42);
 // Output: 'number'
 ```

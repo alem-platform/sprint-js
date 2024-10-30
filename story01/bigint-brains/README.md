@@ -1,12 +1,16 @@
 # BigInt Brains
 
-Some numbers are too large for mortals must be handled with ease. You're asked to sum two enormous integers using [BigInt](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/BigInt).
+Some numbers are too large to be handled with ease. You're asked to sum two enormous integers.
+
+### Resources
+
+[BigInt](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/BigInt).
 
 ### Instructions:
 
-Create a function called `bigIntBrains` that takes two arguments: two large integers as strings (Numbers too big for regular computation).
+Create a function called `bigIntBrains` that takes two arguments: two large numbers as strings.
 
-The function should return the sum of the two numbers, using `BigInt` to ensure accuracy.
+The function should return the sum of the two numbers as string.
 
 ### Example:
 
