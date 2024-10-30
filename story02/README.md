@@ -5,7 +5,7 @@
 | 00. | filter-force           | 1       | [github.com](./filter-force)           |
 | 01. | map-master             | 1       | [github.com](./map-master)             |
 | 02. | some-sense             | 1       | [github.com](./some-sense)             |
-| 03. | reduce-ranger          | 1       | [github.com](./reduce-ranger)          |
+| 03. | reducer                | 1       | [github.com](./reducer)                |
 | 04. | reverse-ninja          | 1       | [github.com](./reverse-ninja)          |
 | 05. | falsy-busters          | 1       | [github.com](./falsy-busters)          |
 | 06. | immutable              | 1       | [github.com](./immutable)              |
