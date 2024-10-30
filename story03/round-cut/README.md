@@ -1,6 +1,6 @@
 # Round Cut
 
-Time to challenge the rounding world! You’ll create functions that behave similarly to JavaScript's Math rounding functions, but without using them directly. Let’s test your skills in rounding logic.
+You’ll create functions that behave similarly to JavaScript's Math rounding functions, but without using them directly. Let’s test your skills in rounding logic.
 
 Write four separate functions that mimic the behavior of JavaScript's `Math.round(), Math.ceil(), Math.floor(), and Math.trunc()`. You are not allowed to use any built-in Math functions for this task.
 

@@ -1,6 +1,6 @@
 # Closure Destructor
 
-Write a function `closureDestructor` that uses a closure to capture some data (like an event handler or a large array). After capturing, the closure should be able to release memory explicitly when a `destroy()` method is called. Make sure the closure retains necessary information until `destroy()` is executed.
+Write a function `closureDestructor` that uses a [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) to capture some data (like an event handler or a large array). After capturing, the closure should be able to release memory explicitly when a `destroy()` method is called. Make sure the closure retains necessary information until `destroy()` is executed.
 
 ### Example:
 
