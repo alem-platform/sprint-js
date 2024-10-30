@@ -12,6 +12,5 @@
 | 07. | triple-threat-of-addition | 1       | [github.com](./triple-threat-of-addition) |
 | 08. | abstract-equality         | 1       | [github.com](./abstract-equality)         |
 | 09. | stringify                 | 1       | [github.com](./stringify)                 |
-| 10. | palindrom-protector       | 1       | [github.com](./palindrom-protector)       |
-| 11. | sum-saviour               | 1       | [github.com](./sum-saviour)               |
-| 12. | keeper-of-symbols         | 1       | [github.com](./keeper-of-symbols)         |
+| 10. | palindrome                | 1       | [github.com](./palindrome)                |
+| 11. | simple-sum                | 1       | [github.com](./simple-sum/)               |
