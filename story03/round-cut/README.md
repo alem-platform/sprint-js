@@ -1,10 +1,10 @@
 # Round Cut
 
-You’ll create functions that behave similarly to JavaScript's Math rounding functions, but without using them directly. Let’s test your skills in rounding logic.
-
-Write four separate functions that mimic the behavior of JavaScript's `Math.round(), Math.ceil(), Math.floor(), and Math.trunc()`. You are not allowed to use any built-in Math functions for this task.
+You’ll create functions that behave similarly to JavaScript's Math rounding functions, but without using them directly.
 
 ### Instructions:
+
+Write four separate functions that mimic the behavior of JavaScript's [Math.round()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round), [Math.ceil()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil), [Math.floor()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor), and [Math.trunc()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc). You are not allowed to use any built-in Math functions for this task.
 
 1. round(num)
    This function should round the given number to the nearest integer. Numbers ending in .5 or higher are rounded up, while others are rounded down.

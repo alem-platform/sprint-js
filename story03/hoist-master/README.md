@@ -1,16 +1,31 @@
 # Hoist Master
 
+Write a function called `hoistMaster` that demonstrates key JavaScript hoisting concepts.
+
 ### Instructions:
 
-Write a function called `hoistMaster` that showcases the following:
-
 1. Function Hoisting:
-   Call `magicFunction` before it's declared.
-   Define the function later in the code, where declared function should log `"I'm a hoisted function!")`, and hoisting will allow it to be used beforehand.
+
+Call a function named `magicFunction` before it is defined in the code.
+Define `magicFunction` afterward, with a body that logs "I'm a hoisted function!", showing how function declarations are hoisted to the top of their scope.
+
 2. Variable Hoisting:
-   Reference the variable `magicVar` before declaring it.
-   Hoisting will lift its declaration, but not its assignment.
-3. Conditional Madness:
-   Use an if condition that modifies `magicVar` based on its hoisted value (which will initially be undefined).
-4. Return:
-   The function should return `magicVar` after being conditionally modified.
+
+Reference a variable `magicVar` before it’s declared.
+Hoisting will lift its declaration to the top of the scope, but not its assignment, so its initial value will be undefined.
+
+3. Conditional Logic:
+
+Use an if condition that checks `magicVar` and modifies it based on its hoisted, initial value (undefined).
+
+4. Return Statement:
+
+The function should return `magicVar` after it’s been conditionally modified.
+
+```js
+function hoistMaster() {
+  // Call magicFunction here
+  // Use magicVar before declaring it
+  // Function and variable definitions follow
+}
+```

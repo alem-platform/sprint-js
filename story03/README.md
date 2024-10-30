@@ -19,4 +19,3 @@
 | 14. | value-protector      | 1       | [github.com](./value-protector)      |
 | 15. | hoist-master         | 1       | [github.com](./hoist-master)         |
 | 16. | hoisting-hierarchy   | 1       | [github.com](./hoisting-hierarchy)   |
-| 17. | shadow-wars          | 1       | [github.com](./shadow-wars)          |

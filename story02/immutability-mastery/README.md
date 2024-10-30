@@ -6,7 +6,7 @@ You need learn the difference between primitive and object immutability. These t
 
 Create an object named `immutablePrimitives` where you declare several const parameters, each holding primitive values for:
 
-- str for [strings]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String()
+- str for [strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 - num for [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 - bool for [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 

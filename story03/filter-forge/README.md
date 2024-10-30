@@ -1,6 +1,16 @@
 # Filter Forge
 
-In the Filter Forge, your task is to forge a custom version of the `filter` method. Create a function called `forgeFilter` that takes an array and a callback, and returns a new array with only the elements that pass the callback’s test—without using the built-in `filter` method.
+Create a custom version of the `filter` method. Write a function called `forgeFilter` that takes an array and a callback function, returning a new array with only the elements that pass the callback’s test—without using the built-in filter method.
+
+### Instructions:
+
+- The `forgeFilter` function should behave like Array.prototype.filter, applying the callback to each element and including only those elements for which the callback returns true.
+
+```js
+function forgeFilter(array, func) {
+  //...
+}
+```
 
 ### Example:
 

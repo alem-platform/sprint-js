@@ -4,8 +4,14 @@ Write a function `scopeSniper` that takes a nested closure and modifies a variab
 
 ### Instructions:
 
-Implement a function that can modify the outermost variable (from the global scope) through inner closures.
+Implement a function `scopeSniper` that can modify the outermost variable (from the global scope) through inner closures.
 Avoid passing the outer variable directly into the inner functions.
+
+```js
+function scopeSniper() {
+  // two nested levels here
+}
+```
 
 ### Example:
 

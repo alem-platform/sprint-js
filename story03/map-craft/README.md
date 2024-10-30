@@ -1,6 +1,10 @@
 # Map Craft
 
-In problem your task is to write your own `map` method from scratch. Build a function called `craftMap` that takes an array and applies a transformation to each element, returning a new array—without using the built-in `map` method. Time to showcase your craftsmanship!
+Create a custom version of the `map` method. Write a function called `craftMap` that takes an array and a callback function, applying the callback to each element and returning a new array with the transformed elements—without using the built-in map method.
+
+### Instructions:
+
+The `craftMap` function should mimic the behavior of `Array.prototype.map`, applying the callback to each element in the input array and collecting the results in a new array.
 
 ### Example:
 

@@ -1,6 +1,6 @@
 # Alem Countdown
 
-Write a function called `alemCountdown` that takes an integer N and returns a string containing all numbers from 1 to N (inclusive) separated by spaces. However, there are some special rules for certain numbers.
+Write a function called `alemCountdown` that takes an integer N and returns a string containing all numbers from 1 to N (inclusive) separated by spaces, considering special rules for certain numbers.
 
 ### Instructions:
 

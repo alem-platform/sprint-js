@@ -1,6 +1,11 @@
 # Object Purge
 
-Create a function called `objectPurge` that takes an object and a callback function to filter the object’s properties. If the callback returns true for any property’s value, you must delete that property. Cleanse the object from impurities!
+Write a function called `objectPurge` that takes an object and a callback function to filter the object’s properties. For each property, if the callback returns `true` for its value, remove that property from the object.
+
+### Instructions:
+
+- `objectPurge` should modify the original object by deleting any properties for which the callback function returns true when passed the property’s value.
+- The function should not return a new object but directly alter the input object.
 
 ### Example:
 
