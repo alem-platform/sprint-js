@@ -20,7 +20,7 @@ Add a method called `addElement` that takes an array and a new value. It should 
 
 ### Resources:
 
-(Object freeze)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze]
+[Object freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 
 ### Example:
 
