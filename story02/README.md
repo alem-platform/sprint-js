@@ -19,4 +19,3 @@
 | 15. | threshold-filter       | 1       | [github.com](./threshold-filter)       |
 | 16. | zero-mover             | 1       | [github.com](./zero-mover)             |
 
-s
