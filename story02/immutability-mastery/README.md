@@ -1,14 +1,14 @@
 # Immutability Mastery
 
-As a member of the Immutability Masters, you must learn the difference between primitive and object immutability. These tasks will teach you how to protect data from unintended changes, keeping your code safe and predictable. Time to sharpen your skills!
+You need learn the difference between primitive and object immutability. These tasks will teach you how to protect data from unintended changes, keeping your code safe and predictable.
 
 ## Part A: Immutable Primitives – The Unchangeable Foundations
 
 Create an object named `immutablePrimitives` where you declare several const parameters, each holding primitive values for:
 
-- str for strings
-- num for number
-- bool for boolean
+- str for [strings]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String()
+- num for [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+- bool for [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
 Attempt to change their values through object call and note why it’s impossible to alter them.
 

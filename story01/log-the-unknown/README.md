@@ -1,16 +1,19 @@
 # Log the Unknown
 
-Welcome to the JS-bootcamp, explorer! Your mission, should you choose to accept it, is to identify the unknown. You will be part of an elite task force tasked with scanning and classifying mysterious objects from different dimensions (a.k.a. any JavaScript value).
+Design a function called `logTheUnknown` that examines any given input and logs a message describing its type. Your function should use the JavaScript typeof operator and adjust the article ("a" or "an") based on the detected type.
 
 ### Instructions:
 
-Create a function called logTheUnknown. This highly classified function will accept any value and log its type using advanced alien technology, codename: typeof.
+- Create a function called `logTheUnknown`. This function should be able to accept any value and log its type using [typeof](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof) operator.
+- If the type starts with a vowel sound, use "an" in the message (e.g., "an object"). Otherwise, use "a" in the message (e.g., "a number", "a string")
 
-### Function Details:
+### Function Declaration:
 
-Target Object: Your function will receive a single input, a value from the vast multiverse (or just JavaScript).
-Advanced Scanning Technology: Using the built-in typeof, your function will determine the exact type of the object.
-Mission Report: The function should return a heroic message like: "Scanning complete: This is a [type]!".
+```js
+function logTheUnknown(n) {
+  //
+}
+```
 
 ### Example:
 

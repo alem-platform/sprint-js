@@ -1,6 +1,6 @@
 # Some Sense
 
-You are tasked with answering one simple question: Is there at least one element that passes the test? Using the mystical `some` method, your mission is to determine whether any element in the array meets the condition of your callback.
+You are tasked with answering one simple question: Is there at least one element that passes the test? Using the [some](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/some) method, your task is to determine whether any element in the array meets the condition of your callback.
 
 ### Instructions:
 
