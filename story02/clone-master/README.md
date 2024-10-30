@@ -8,6 +8,5 @@ Your task is to write a function called `deepClone` that creates a deep copy of 
 const original = { a: 1, b: { c: 2 } };
 const clone = deepClone(original);
 
-clone.b.c = 3;
-console.log(original.b.c); // Output: 2 (original stays intact)
+console.log(clone); // { a: 1, b: { c: 2 } }
 ```

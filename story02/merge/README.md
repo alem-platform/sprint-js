@@ -1,6 +1,15 @@
 # Merge
 
-It’s time to unite two arrays into one. Use the built-in [concat](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) method to combine two arrays into a new array.
+### Instructions
+
+Create a function `merge` which combines two arrays into a new array.
+Use the built-in [concat](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) method.
+
+```js
+function merge(array1, array2) {
+  //
+}
+```
 
 ### Function declaration
 
