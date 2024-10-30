@@ -1,8 +1,8 @@
 # Ultimate Accumulator
 
-Write a function called `reduceSummoner` that replicates the functionality of the built-in `reduce` method. This function should take an array, a callback function, and an initial value, then accumulate values into a single result based on the logic provided in the callback—without using the built-in reduce method.
-
 ### Instructions:
+
+Write a function called `reduceSummoner` that replicates the functionality of the built-in `reduce` method. This function should take an array, a callback function, and an initial value, then accumulate values into a single result based on the logic provided in the callback—without using the built-in reduce method.
 
 - Your function should iterate through each element in the array and apply the callback function to accumulate the result.
 - Parameters:

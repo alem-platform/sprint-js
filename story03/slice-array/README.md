@@ -1,9 +1,9 @@
 # Slice Array
 
+### Instructions:
+
 Write a function called `sliceArray` that divide the original array into sub-arrays, each having a length equal to the provided size.
 If the array cannot be split evenly, the last sub-array should contain the remaining elements.
-
-### Instructions:
 
 - The function should always return an array of arrays.
 - Each sub-array should have the specified length (except the last, which may have fewer elements if the original array doesn't divide evenly).

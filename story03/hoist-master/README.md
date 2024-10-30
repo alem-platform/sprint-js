@@ -1,8 +1,8 @@
 # Hoist Master
 
-Write a function called `hoistMaster` that demonstrates key JavaScript hoisting concepts.
-
 ### Instructions:
+
+Write a function called `hoistMaster` that demonstrates key JavaScript hoisting concepts.
 
 1. Function Hoisting:
 
@@ -21,6 +21,8 @@ Use an if condition that checks `magicVar` and modifies it based on its hoisted,
 4. Return Statement:
 
 The function should return `magicVar` after it’s been conditionally modified.
+
+### Expected function:
 
 ```js
 function hoistMaster() {

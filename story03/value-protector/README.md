@@ -1,8 +1,8 @@
 # Value Protector
 
-Create a function called `scopeGuardian` that returns two inner functions: `increaseTreasure` to modify a value defined in the outer scope and `revealTreasure` to return the current value. The initial treasure value should be set to 100. Keep the treasure secure within the scope!
-
 ### Instructions:
+
+Create a function called `scopeGuardian` that returns two inner functions: `increaseTreasure` to modify a value defined in the outer scope and `revealTreasure` to return the current value. The initial treasure value should be set to 100. Keep the treasure secure within the scope!
 
 - The outer function scopeGuardian should initialize a treasure value to 100.
 - It should return two inner functions:

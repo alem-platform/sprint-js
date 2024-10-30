@@ -1,8 +1,8 @@
 # Object Purge
 
-Write a function called `objectPurge` that takes an object and a callback function to filter the object’s properties. For each property, if the callback returns `true` for its value, remove that property from the object.
-
 ### Instructions:
+
+Write a function called `objectPurge` that takes an object and a callback function to filter the object’s properties. For each property, if the callback returns `true` for its value, remove that property from the object.
 
 - `objectPurge` should modify the original object by deleting any properties for which the callback function returns true when passed the property’s value.
 - The function should not return a new object but directly alter the input object.
