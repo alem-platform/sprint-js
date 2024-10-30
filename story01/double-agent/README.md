@@ -4,11 +4,13 @@ You’ve been tasked to double the values in a series of numbers while ensuring 
 
 ### Instructions:
 
-Create a function called `doubleAgent` that accepts an array of numbers and returns a new array where each number has been doubled. The original array must remain unchanged!
+Create a function called `doubleAgent` that accepts an array of numbers and returns a new array where each number has been doubled. The original array must remain unchanged.
 
-Target Array: You will receive an array of numbers, and your mission is to double each value.
-Stealth Mode: Ensure the original array is not modified — use non-mutative methods to create a new array with doubled values.
-Return the Clone: The function will return the new array with the updated values, leaving the original untouched.
+```js
+function doubleAgent(array) {
+  //
+}
+```
 
 ### Example:
 
