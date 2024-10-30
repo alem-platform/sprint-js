@@ -13,12 +13,12 @@ Create a function called `valueCheck` that takes a single value and returns a st
 ### Example:
 
 ```js
-voidInvestigator(null);
+valueCheck(null);
 // Output: 'null'
 
-voidInvestigator(undefined);
+valueCheck(undefined);
 // Output: 'undefined'
 
-voidInvestigator(42);
+valueCheck(42);
 // Output: 'number'
 ```
