@@ -16,7 +16,7 @@
 | 12. | merge                  | 1       | [github.com](./merge)                  |
 | 13. | clone-master           | 1       | [github.com](./clone-master)           |
 | 14. | immutability-protector | 1       | [github.com](./immutability-protector) |
-| 15. | threshold-defender     | 1       | [github.com](./threshold-defender)     |
+| 15. | threshold-filter       | 1       | [github.com](./threshold-filter)       |
 | 16. | zero-mover             | 1       | [github.com](./zero-mover)             |
 
 s
