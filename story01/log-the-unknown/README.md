@@ -5,6 +5,7 @@ Design a function called `logTheUnknown` that examines any given input and logs 
 ### Instructions:
 
 - Create a function called `logTheUnknown`. This function should be able to accept any value and log its type using [typeof](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof) operator.
+- The function should return message: "Scanning complete: This is a/an [type]!"
 - If the type starts with a vowel sound, use "an" in the message (e.g., "an object"). Otherwise, use "a" in the message (e.g., "a number", "a string")
 
 ### Function Declaration:
