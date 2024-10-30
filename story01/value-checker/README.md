@@ -1,6 +1,6 @@
 # Value Checker
 
-You are tasked with exploring the murky depths of `null` and `undefined`. You need to create a function that can distinguish between null, undefined, and other values.
+Create a function that can tell the difference between `null`, `undefined`, and regular values.
 
 ### Instructions:
 
