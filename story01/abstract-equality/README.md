@@ -1,6 +1,6 @@
 # The Abstract Equality
 
-Your mission is to create a function called `abstractEquality` that compares two values and determine if they are abstractly equal, even if the types differ.
+Yo need to create a function called `abstractEquality` that compares two values and determine if they are abstractly equal, even if the types differ.
 
 ### Resources:
 

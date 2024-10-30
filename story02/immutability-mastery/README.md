@@ -1,6 +1,6 @@
 # Immutability Mastery
 
-As a member of the Immutability Masters, you must learn the difference between primitive and object immutability. These tasks will teach you how to protect data from unintended changes, keeping your code safe and predictable. Time to sharpen your skills!
+You need learn the difference between primitive and object immutability. These tasks will teach you how to protect data from unintended changes, keeping your code safe and predictable.
 
 ## Part A: Immutable Primitives – The Unchangeable Foundations
 

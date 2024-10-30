@@ -1,6 +1,6 @@
 # Value Checker
 
-You are the Void Investigator, tasked with exploring the murky depths of `null` and `undefined`. You must create a function that can distinguish between null, undefined, and other values.
+You are tasked with exploring the murky depths of `null` and `undefined`. You need to create a function that can distinguish between null, undefined, and other values.
 
 ### Instructions:
 

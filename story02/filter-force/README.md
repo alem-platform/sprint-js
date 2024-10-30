@@ -1,6 +1,6 @@
 # Filter Force
 
-Your mission in this problem is to filter through the elements and separate the worthy from the unworthy.
+You need to be able to filter through the elements and separate the worthy from the unworthy.
 
 ### Resources:
 
