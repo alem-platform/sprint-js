@@ -3,7 +3,7 @@
 | №   | Название                  | Уровень | Ссылка                                    |
 | --- | ------------------------- | ------- | ----------------------------------------- |
 | 00. | log-the-unknown           | 1       | [github.com](./log-the-unknown)           |
-| 01. | ultimate-showdown         | 1       | [github.com](./ultimate-showdown)         |
+| 01. | equalizer                 | 1       | [github.com](./equalizer)                 |
 | 02. | round-master              | 1       | [github.com](./round-master)              |
 | 03. | double-agent              | 1       | [github.com](./double-agent)              |
 | 04. | bigint-brains             | 1       | [github.com](./bigint-brains)             |
