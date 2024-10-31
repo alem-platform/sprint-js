@@ -4,7 +4,7 @@ You’ll create functions that behave similarly to JavaScript's Math rounding fu
 
 ### Instructions:
 
-Write four separate functions that mimic the behavior of JavaScript's [Math.round()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round), [Math.ceil()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil), [Math.floor()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor), and [Math.trunc()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc). You are not allowed to use any built-in Math functions for this task.
+Write four separate functions that mimic the behavior of JavaScript's `Math.round()`, `Math.ceil()`, `Math.floor()`, and `Math.trunc()`. You are not allowed to use any built-in Math functions for this task.
 
 1. round(num)
    This function should round the given number to the nearest integer. Numbers ending in .5 or higher are rounded up, while others are rounded down.
@@ -17,6 +17,10 @@ Write four separate functions that mimic the behavior of JavaScript's [Math.roun
 
 4. trunc(num)
    This function should remove the fractional part of the number, returning only the integer part, regardless of whether it is positive or negative.
+
+### Resources
+
+[Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 ### Example:
 

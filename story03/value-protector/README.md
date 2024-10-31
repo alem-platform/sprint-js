@@ -2,18 +2,18 @@
 
 ### Instructions:
 
-Create a function called `scopeGuardian` that returns two inner functions: `increaseTreasure` to modify a value defined in the outer scope and `revealTreasure` to return the current value. The initial treasure value should be set to 100. Keep the treasure secure within the scope!
+Write a function called scopeGuardian that securely manages a value using two inner functions: `increaseValue` to modify the value and `revealValue` to access it.
 
 - The outer function scopeGuardian should initialize a treasure value to 100.
 - It should return two inner functions:
-  1. `increaseTreasure(amount)`: Increases treasure by the given amount.
-  2. `revealTreasure()`: Returns the current treasure value.
-- treasure should not be accessible outside the scope of `scopeGuardian`.
+  1. `increaseValue(amount)`: Increases treasure by the given amount.
+  2. `revealValue()`: Returns the current treasure value.
+- `value` should not be accessible outside the scope of `scopeGuardian`.
 
 ### Example:
 
 ```js
 const guard = scopeGuardian();
-guard.increaseTreasure(50);
-guard.revealTreasure(); // Output: 150
+guard.increaseValue(50);
+guard.revealValue(); // Output: 150
 ```
