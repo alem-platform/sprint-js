@@ -2,6 +2,10 @@
 
 Given a function that logs this. Use bind to create two new functions `showForObj1` and `showForObj2` that set `this` to two differennt given objects.
 
+### Resources:
+
+[this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+
 ### Starting Code:
 
 ```js

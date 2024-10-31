@@ -10,6 +10,10 @@ The function `setPrototypeLink` should accept two arguments:
 2. parentObj: The object that will serve as the prototype.
    After linking, childObj should have access to properties and methods from parentObj.
 
+### Resources:
+
+[Object.prototype.**proto**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto)
+
 ### Usage Example:
 
 ```js

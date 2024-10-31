@@ -4,7 +4,7 @@
 
 You're givem an object `child` that inherits from another given object `parent`. Create function `hasOwnIt` that checks if a property belongs directly to the child or the prototype.
 
-### Strating Code:
+### Starting Code:
 
 ```js
 const parent = { inheritedProp: "I am inherited" };
