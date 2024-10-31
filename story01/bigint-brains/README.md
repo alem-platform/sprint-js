@@ -4,7 +4,7 @@ Some numbers are too large to be handled with ease. You're asked to sum two enor
 
 ### Resources
 
-[BigInt](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/BigInt).
+[BigInt](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
 
 ### Instructions:
 
