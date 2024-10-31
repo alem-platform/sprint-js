@@ -11,5 +11,8 @@
 | 06. | triple-threat-of-addition | 1       | [github.com](./triple-threat-of-addition) |
 | 07. | abstract-equality         | 1       | [github.com](./abstract-equality)         |
 | 08. | stringify                 | 1       | [github.com](./stringify)                 |
-| 09. | palindrome                | 1       | [github.com](./palindrome)                |
-| 10. | simple-sum                | 1       | [github.com](./simple-sum/)               |
+| 09. | simple-sum                | 1       | [github.com](./simple-sum/)               |
+| 10. | key-finder                | 1       | [github.com](./key-finder)                |
+| 11. | is-equal                  | 1       | [github.com](./is-equal)                  |
+| 12. | clone-master              | 1       | [github.com](./clone-master)              |
+| 13. | immutability-protector    | 1       | [github.com](./immutability-protector)    |
