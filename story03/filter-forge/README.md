@@ -1,12 +1,10 @@
 # Filter Forge
 
-Create a custom version of the `filter` method.
+Create your own version of JavaScript's built-in `Array.prototype.filter()` method.
 
 ### Instructions:
 
-Write a function called `forgeFilter` that takes an array and a callback function, returning a new array with only the elements that pass the callback’s test—without using the built-in filter method.
-
-The `forgeFilter` function should behave like Array.prototype.filter, applying the callback to each element and including only those elements for which the callback returns true.
+Write a function called `forgeFilter` that takes an array and a callback function.
 
 ### Expected function:
 

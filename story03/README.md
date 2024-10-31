@@ -17,5 +17,3 @@
 | 12. | count-masters        | 1       | [github.com](./count-masters)        |
 | 13. | closure-destructure  | 1       | [github.com](./closure-destructure)  |
 | 14. | value-protector      | 1       | [github.com](./value-protector)      |
-| 15. | hoist-master         | 1       | [github.com](./hoist-master)         |
-| 16. | hoisting-hierarchy   | 1       | [github.com](./hoisting-hierarchy)   |
