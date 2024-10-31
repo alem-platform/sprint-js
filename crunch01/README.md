@@ -2,18 +2,16 @@
 
 Once upon a time in the land of Computoria, there lived a valiant knight named Sir Wiggleton the Wanderer. Despite his brave reputation, Sir Wiggleton had a small problem: he couldn’t find his way out of anything, not even a simple hedge maze! Whether it was escaping from his castle or locating the royal outhouse, Wiggleton had a knack for getting stuck in the most trivial situations.
 
-One day, Sir Wiggleton found himself lost inside a magical maze created by the mischievous wizard, Algor the Tricky. The maze was an ancient puzzle said to test the mental agility of even the most brilliant minds in Computoria. The wizard, however, found it amusing to keep Wiggleton trapped, watching him aimlessly wander about for hours.
+One day, Sir Wiggleton found himself lost inside a maze created by the mischievous wizard, Algor the Tricky. The maze was an ancient puzzle said to test the mental agility of even the most brilliant minds in Computoria. The wizard, however, found it amusing to keep Wiggleton trapped, watching him aimlessly wander about for hours.
 
-But Wiggleton, not wanting to live out his days eating berries in a maze, cried out, “There must be a way out! And if I cannot find it, I’ll invent a strategy to get through!” Thus, Wiggleton began learning about two powerful techniques: [DFS](https://en.wikipedia.org/wiki/Depth-first_search) and [Dijkstra’s](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) Pathfinding.
-
-## Objective
+### Objective
 
 You are given a maze in the form of a 2D array (grid) where:
 
 - 1 represents the walls (border or obstacles that cannot be crossed),
 - 0 represents open paths that can be navigated.
 
-Your task is to find the shortest path from a starting point `X` to a target point `Y` using an algorithm of your choice. You must visualize the pathfinding process step-by-step as it dynamically explores the maze.
+Your task is to find the shortest path from a starting point to a target point using an algorithm of your choice. You must visualize the pathfinding process step-by-step as it dynamically explores the maze.
 
 ### Instructions
 
@@ -29,8 +27,9 @@ Your task is to find the shortest path from a starting point `X` to a target poi
 
 3. Algorithm Choice:
 
-- DFS (Depth-First Search): Will explore one path deeply before backtracking.
-- Dijkstra's Algorithm: Will prioritize exploring shorter paths to the destination dynamically.
+- [DFS](https://en.wikipedia.org/wiki/Depth-first_search)
+- [Dijkstra’s Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+- Alternatively, choose any other pathfinding algorithm of your preference.
 
 4. Visualization Requirements:
 
@@ -75,7 +74,7 @@ Your task is to find the shortest path from a starting point `X` to a target poi
 
 ### Testing
 
-You can take those 3 starting maps for testing your solution:
+You can take these 3 maps to test your solution:
 
 ```js
 [

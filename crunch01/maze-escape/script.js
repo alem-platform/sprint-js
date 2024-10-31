@@ -45,7 +45,7 @@ function visualizeMaze(mazeArray, startPoint, finalPoint) {
   });
 }
 
-const startBtn = document.getElementById("start-btn");
+const startBtn = document.getElementById("find-path-btn");
 
 startBtn.addEventListener("click", () => {
   // call visualizeMaze function here with your solution
