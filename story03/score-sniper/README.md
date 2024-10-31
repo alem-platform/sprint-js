@@ -2,16 +2,28 @@
 
 ### Instructions:
 
-Write a function `scopeSniper` that takes a nested closure and modifies a variable two levels above its scope without directly referencing it. You must use closure chains to carefully manipulate a variable defined in the outermost function but only through inner closures.
+Write a function `scopeSniper` that returns a closure capable of modifying a variable defined two levels above its scope. The outer variable should not be directly referenced, and you must use closure chains to achieve this.
 
-Implement a function `scopeSniper` that can modify the outermost variable (from the global scope) through inner closures.
-Avoid passing the outer variable directly into the inner functions.
+### Requirements:
 
-### Expected function:
+- The outer variable will be defined within the `scopeSniper` function.
+- Return a function `modifyOuter` from `scopeSniper` that can modify the outer variable through inner closures.
+- Avoid passing the outer variable directly into the inner functions.
+
+### Staring Code:
 
 ```js
 function scopeSniper() {
-  // two nested levels here
+  let outerVariable = "Initial Value";
+
+  function modifyOuter() {
+    // inner function for closure chains implementation
+  }
+
+  return {
+    modifyOuter,
+    getOuterVariable: () => outerVariable,
+  };
 }
 ```
 
@@ -19,6 +31,7 @@ function scopeSniper() {
 
 ```js
 const sniper = scopeSniper();
-sniper();
-// Output: Outer variable is modified by closures without direct access.
+console.log(sniper.getOuterVariable()); // Output: "Initial Value"
+sniper.modifyOuter();
+console.log(sniper.getOuterVariable()); // Output: "Modified Value"
 ```
