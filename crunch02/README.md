@@ -81,13 +81,6 @@ You can expand your project with:
 
 - Dark/light theme toggle
 
-### Code Organization
-
-- Separate concerns (data, UI, events)
-- Use meaningful variable and function names
-- Include comments for complex logic
-- Follow consistent code formatting
-
 ## Project Structure
 
 ```
