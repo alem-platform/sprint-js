@@ -7,7 +7,7 @@
 | 02. | map-craft            | 1       | [github.com](./map-craft)            |
 | 03. | some-sorcerer        | 1       | [github.com](./some-sorcerer)        |
 | 04. | ultimate-accumulator | 1       | [github.com](./ultimate-accumulator) |
-| 05. | shadow-duel          | 1       | [github.com](./shadow-duel)          |
+| 05. | mirror-issue         | 1       | [github.com](./mirror-issue)         |
 | 06. | score-sniper         | 1       | [github.com](./score-sniper)         |
 | 07. | alem-countdown       | 1       | [github.com](./alem-countdown)       |
 | 08. | object-purge         | 1       | [github.com](./object-purge)         |
