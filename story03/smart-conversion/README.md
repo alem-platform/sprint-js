@@ -1,4 +1,4 @@
-# Coercion Conundrum
+# Smart Conversion
 
 ### Instructions
 

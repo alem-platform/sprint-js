@@ -2,16 +2,17 @@
 
 ### Instructions
 
-Write a function called `mirrorIssue` where a local variable with the same name as a global variable, `hero`, shadows the global one. Inside `mirrorIssue`, the local `hero` should replace the text "global" with "local" and return the modified value, showing the "power struggle" between the global and local scopes. Do not pass the global variable directly into the function.
+Write a function called `mirrorIssue` where a local variable with the same name as a global variable, `hero`, shadows the global one. Inside `mirrorIssue`, the local `hero` should replace the text "global" with "local" and return the modified value, showing the "power struggle" between the global and local scopes.
 
-- In `mirrorIssue`, declare a local variable named `hero` that shadows the global one.
-- Modify the local `hero` variable, changing "global" to "local", and return it.
+- In `mirrorIssue`, declare a local variable named `hero`.
+- Modify the local `hero` variable, by replacing the text "global" with "local" and return the modified value.
 
 ### Starting Code:
 
 ```js
+var hero = "...";
 var mirrorIssue = function () {
-  var hero = "";
+  var hero;
   // ...
   return hero;
 };

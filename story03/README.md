@@ -14,6 +14,6 @@
 | 09. | round-cut            | 1       | [github.com](./round-cut)            |
 | 10. | math-trio            | 1       | [github.com](./math-trio)            |
 | 11. | count-masters        | 1       | [github.com](./count-masters)        |
-| 12. | closure-manipulator  | 1       | [github.com](./closure-manipulator)  |
+| 12. | cashe-saviour        | 1       | [github.com](./cashe-saviour)        |
 | 13. | closure-destructure  | 1       | [github.com](./closure-destructure)  |
 | 14. | value-protector      | 1       | [github.com](./value-protector)      |
