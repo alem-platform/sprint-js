@@ -10,7 +10,7 @@ Write a function `scopeSniper` that returns a closure capable of modifying a var
 - Return a function `modifyOuter` from `scopeSniper` that can modify the outer variable through inner closures.
 - Avoid passing the outer variable directly into the inner functions.
 
-### Staring Code:
+### Starting Code:
 
 ```js
 function scopeSniper() {
