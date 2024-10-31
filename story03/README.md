@@ -8,7 +8,7 @@
 | 03. | some-sorcerer        | 1       | [github.com](./some-sorcerer)        |
 | 04. | ultimate-accumulator | 1       | [github.com](./ultimate-accumulator) |
 | 05. | mirror-issue         | 1       | [github.com](./mirror-issue)         |
-| 06. | score-sniper         | 1       | [github.com](./score-sniper)         |
+| 06. | closure-manipulator  | 1       | [github.com](./closure-manipulator)  |
 | 07. | alem-countdown       | 1       | [github.com](./alem-countdown)       |
 | 08. | object-purge         | 1       | [github.com](./object-purge)         |
 | 09. | coercion-conundrum   | 1       | [github.com](./coercion-conundrum)   |
