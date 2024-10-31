@@ -4,7 +4,7 @@ Create your own version of JavaScript's built-in `Array.prototype.filter()` meth
 
 ### Instructions:
 
-Write a function called `forgeFilter` that takes an array and a callback function.
+Write a function called `forgeFilter` that takes an array and a callback function, returning a new array with only the elements that pass the callback’s test—without using the built-in `filter` method.
 
 ### Expected function:
 

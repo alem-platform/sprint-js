@@ -2,14 +2,17 @@
 
 ### Instructions:
 
-Write a function called `sliceArray` that divide the original array into sub-arrays, each having a length equal to the provided size.
+Write a function called `sliceArray` that divides the original array into sub-arrays, each having a length equal to the provided size.
 If the array cannot be split evenly, the last sub-array should contain the remaining elements.
+in case of invalid input values, function should return initial array
 
-- The function should always return an array of arrays.
-- Each sub-array should have the specified length (except the last, which may have fewer elements if the original array doesn't divide evenly).
-- Parameters:
-  1. array: An array of any values (strings, numbers, objects, etc.).
-  2. size: An integer that specifies the number of elements each sub-array should contain.
+### Expected Function:
+
+```js
+function sliceArray(array, size) {
+  // ...
+}
+```
 
 ### Example:
 

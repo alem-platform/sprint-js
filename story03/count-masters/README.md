@@ -4,9 +4,16 @@
 
 Write a function called `countMaster` that returns another function (an inner function). This inner function will maintain its own count, even after multiple invocations. Each time the inner function is called, it should increment the counter and return the updated value.
 
-- Write a function `countMaster` that initializes a count variable at 0.
-- The function returns an inner function that increments count and returns the current value.
-- Ensure that the count value persists across multiple invocations of the inner function.
+1. Create a main function `countMaster` that:
+
+   - Takes an optional starting value (defaults to 0)
+   - Returns a new counter function
+
+2. The returned `counter` function should:
+
+   - Increment its internal count by 1 each time it's called
+   - Return the current count value
+   - Maintain its state between calls
 
 ### Example:
 
