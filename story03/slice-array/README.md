@@ -4,7 +4,7 @@
 
 Write a function called `sliceArray` that divides the original array into sub-arrays, each having a length equal to the provided size.
 If the array cannot be split evenly, the last sub-array should contain the remaining elements.
-in case of invalid input values, function should return initial array
+In case of invalid input values, function should return initial array
 
 ### Expected Function:
 
