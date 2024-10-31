@@ -4,7 +4,7 @@ Create a function called 'animatePoints' that animates a value from start to end
 
 ### Instructions
 
-Create a function called 'animatePoints' that animates a value from start to end over time.
+Create a function called `animatePoints` that animates a value from start to end over time.
 Instructions:
 Write a function that accepts an object with these properties:
 
