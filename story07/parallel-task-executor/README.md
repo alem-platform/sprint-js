@@ -37,8 +37,7 @@ const createTask =
     return `Completed in ${delay}ms`;
   };
 ```
-
-(Promise.all())[https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/all]
+[Promise.all()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
 
 ### Example:
 
