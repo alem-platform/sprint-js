@@ -71,7 +71,6 @@ A `data.json` file containing:
       "content": "...",
       "image": "url-to-image"
     }
-    // More articles...
   ]
 }
 ```
