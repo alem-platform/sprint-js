@@ -4,7 +4,7 @@ You’ve been tasked with a simple yet tricky problem: to add two numbers, but w
 
 ### Resources:
 
-(Default parameters)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters]
+[Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 
 ### Example:
 
