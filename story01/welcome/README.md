@@ -1,4 +1,8 @@
-# Intro
+| Expected files           |
+| ------------------------ |
+| `hello.js`, `index.html` |
+
+# Welcome
 
 Welcome to Javasript Bootcamp!🎉
 
@@ -29,9 +33,15 @@ Runtime environment examples:
 - etc.
 
 ```bash
-node hello-world.js
-bun hello-world.js
-deno hello-world.js
+node hello.js
+```
+
+```bash
+bun hello.js
+```
+
+```bash
+deno hello.js
 ```
 
 Let's create first JS program and run it in browser environment
@@ -62,16 +72,17 @@ echo '
 python3 -m http.server 8000
 ```
 
-4. Now visit this `URL` in your web browser: `http://localhost:8000`
+4. Now visit this URL in your web browser: `http://localhost:8000`
 
 5. Open Browser Developer Console: your message should appear in the console window. To run the code again, just refresh the page (F5).
 
 The console is a great playground for testing JavaScript code. Once you make changes to your files, refresh the browser to see the updates.
 
-Create a repository named bootcamp-js which will hold all your solutions for this bootcamp. Add your 2 generated files to it.
+For this bootcamp, you will work in the `bootcamp-js` repository, so create it first and add your generated files into it. This repository will store all your bootcamp solutions.
 
 ### Resources:
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 - [An Introduction to JavaScript](https://javascript.info/intro)
 - [JavaScript runtime environment (advanced)](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide/In_depth)
+- [http.server](https://docs.python.org/3/library/http.server.html)
