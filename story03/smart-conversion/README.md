@@ -2,13 +2,12 @@
 
 ### Instructions
 
-Write a function called `smartConversion` that takes three arguments: value, fromType, and toType. The goal is to convert value from its fromType to the toType specified.
+Write a function called `smartConversion` that takes three arguments: value, fromType, and toType.
+Your function should support 3 types of conversions:
 
-Your function should intelligently coerce the value based on the provided types, performing conversions:
-
-- String to number
-- Number to boolean
-- Boolean to string
+- `string` to `number`
+- `number` to `boolean`
+- `boolean` to `string`
 
 ### Expected function:
 
