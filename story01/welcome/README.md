@@ -4,7 +4,7 @@
 
 # Welcome
 
-Welcome to Javasript Bootcamp!🎉
+Welcome to JavaScript Bootcamp! (｡◕‿‿◕｡)
 
 We will start from basics and learn what is JS and how to run it.
 
