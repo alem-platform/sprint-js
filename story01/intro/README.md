@@ -4,7 +4,7 @@ Welcome to Javasript Bootcamp!🎉
 
 We will start from basics and learn what is JS and how to run it.
 
-JavaScript (JS) is a versatile programming language that brings life to the web.
+JavaScript is a programming language that brings life to the web.
 
 ### What is JavaScript?
 
