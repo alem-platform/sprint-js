@@ -28,20 +28,10 @@ Runtime environment examples:
 
 - Web Browsers
 - [Node.js](https://nodejs.org/en)
-- [Bun](https://bun.sh/)
-- [Deno](https://deno.com/)
 - etc.
 
 ```bash
 node hello.js
-```
-
-```bash
-bun hello.js
-```
-
-```bash
-deno hello.js
 ```
 
 Let's create first JS program and run it in browser environment
