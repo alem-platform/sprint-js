@@ -14,7 +14,7 @@ The function `setPrototypeLink` should accept two arguments:
 
 [Object.prototype.**proto**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto)
 
-### Usage Example:
+### Example:
 
 ```js
 const parentObj = {

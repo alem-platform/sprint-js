@@ -6,7 +6,7 @@ Define a function that takes an object with a `name` property, name it `showYour
 
 [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
-### Usage Example:
+### Example:
 
 ```js
 const person = { name: "Alice" };
