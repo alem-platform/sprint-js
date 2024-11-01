@@ -20,6 +20,14 @@ The function should:
 
 [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
+### Expected function:
+
+```js
+function timeLimit(fn, t) {
+  //
+}
+```
+
 ### Example:
 
 ```js
