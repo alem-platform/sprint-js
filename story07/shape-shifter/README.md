@@ -14,14 +14,13 @@ Your mission is to create the div of your dreams by adjusting these sliders!
 Create the `shapeShifter()` function:
 
 - Inside this function, create a div element dynamically.
-  Use HTML range inputs (sliders) to control the height, width, background color, border radius, and position (X and Y coordinates).
-  As the sliders are adjusted, update the styles of the div in real-time.
-  Slider Details:
-
-Height Slider: Adjust height from 50px to 500px.
-Width Slider: Adjust width from 50px to 500px.
-Color Picker: Choose a background color for the div.
-Radius Slider: Adjust the border radius from 0% (square) to 50% (circle).
+- Use HTML range inputs (sliders) to control the height, width, background color, border radius, and position (X and Y coordinates).
+- As the sliders are adjusted, update the styles of the div in real-time.
+- Slider Details:
+  - Height Slider: Adjust height from 50px to 500px.
+  - Width Slider: Adjust width from 50px to 500px.
+  - Color Picker: Choose a background color for the div.
+  - Radius Slider: Adjust the border radius from 0% (square) to 50% (circle).
 
 ### Starting HTML:
 

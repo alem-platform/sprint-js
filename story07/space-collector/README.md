@@ -8,14 +8,14 @@ Create three functions that demonstrate your ability to create, move, and monito
 - Track Movement: Write a function named moveActiveStar that updates the position of the most recently created star to follow the mouse cursor.
 - Check Position: Write a function named isStarCollected that returns true if a star element is completely inside the collection zone element, and false otherwise.
 
-### Start HTML Code:
+### Starting HTML Code:
 
 ```html
 <div class="collection-zone"></div>
 <div class="counter">Stars: 0</div>
 ```
 
-### Start CSS Code:
+### Starting CSS Code:
 
 ```css
 .star {
