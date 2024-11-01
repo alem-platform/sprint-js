@@ -30,22 +30,22 @@ Runtime environment examples:
 - [Node.js](https://nodejs.org/en)
 - etc.
 
-```bash
+```sh
 node hello.js
 ```
 
-Let's create first JS program and run it in browser environment
+Let's create the first JS program and run it in browser environment
 
 1. Create a js file named `hello.js`
 
-```bash
+```sh
 echo 'console.log("Hey there! 👋")' > hello.js
 ```
 
 2. Browser needs an entry point, which is an html file, so create an `index.html`
 
-```bash
-echo '
+```sh
+cat << EOF > index.html
 <html>
   <head>
     <title>Hello world</title>
@@ -53,12 +53,13 @@ echo '
   <body>
     <script type="module" src="hello.js"></script>
   </body>
-</html>' > index.html
+</html>
+EOF
 ```
 
 3. Start any local server:
 
-```bash
+```sh
 python3 -m http.server 8000
 ```
 
