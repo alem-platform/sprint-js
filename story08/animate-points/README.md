@@ -32,8 +32,8 @@ Rules:
 - Must handle edge cases (steps < 2, duration <= 0, etc.)
 - Callback timing must be as precise as possible
 
-[setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout)
-[setInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval)
+[setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout)  
+[setInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval)  
 [throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 
 ### Example:
