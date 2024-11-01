@@ -1,10 +1,10 @@
 # Promise.all()
 
-Implement Promise.all()
+Implement `Promise.all()`
 
 ### Instructions
 
-Create your own implementation of Promise.all() called promiseAll().
+Create your own implementation of `Promise.all()` called `promiseAll()`.
 
 ```js
 function promiseAll(promises) {
@@ -12,7 +12,9 @@ function promiseAll(promises) {
 }
 ```
 
-(Promise.all())[https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/all]
+### Resources:
+
+- [Promise.all()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
 
 ### Example:
 
