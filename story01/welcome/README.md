@@ -45,16 +45,7 @@ echo 'console.log("Hey there! 👋")' > hello.js
 2. Browser needs an entry point, which is an html file, so create an `index.html`
 
 ```sh
-cat << EOF > index.html
-<html>
-  <head>
-    <title>Hello world</title>
-  </head>
-  <body>
-    <script type="module" src="hello.js"></script>
-  </body>
-</html>
-EOF
+echo '<script type="module" src="hello.js"></script>' > index.html
 ```
 
 3. Start any local server:
