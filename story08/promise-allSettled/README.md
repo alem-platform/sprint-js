@@ -1,10 +1,10 @@
 # Promise.allSettled()
 
-Implement Promise.allSettled()
+Implement `Promise.allSettled()`
 
 ### Instructions
 
-Create your own implementation of Promise.allSettled() called promiseAllSettled().
+Create your own implementation of `Promise.allSettled()` called `promiseAllSettled()`.
 
 ```js
 function promiseAllSettled(promises) {
@@ -12,7 +12,9 @@ function promiseAllSettled(promises) {
 }
 ```
 
-(Promise.allSettled())[https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled]
+### Resources:
+
+- [Promise.allSettled()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)
 
 ### Example:
 
