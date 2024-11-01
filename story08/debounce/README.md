@@ -1,10 +1,10 @@
 # Debounce
 
-Create your own implementation of the lodash debounce function.
+Create your own implementation of the lodash `debounce` function.
 
 ### Instructions
 
-Write a function 'debounce' that works exactly like \_.debounce from lodash.
+Write a function `debounce` that works exactly like \_.debounce from `lodash`.
 Your function should accept these parameters:
 
 - func (Function): The function to debounce
@@ -13,7 +13,7 @@ Your function should accept these parameters:
   - leading (boolean): Call func on the leading edge of the timeout
   - trailing (boolean): Call func on the trailing edge of the timeout
 
-(lodash.debounce)[https://www.npmjs.com/package/lodash.debounce]
+[lodash.debounce](https://www.npmjs.com/package/lodash.debounce)
 
 ### Example:
 

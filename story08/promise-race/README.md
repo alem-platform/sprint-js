@@ -1,10 +1,10 @@
 # Promise.race()
 
-Implement Promise.race()
+Implement `Promise.race()`
 
 ### Instructions
 
-Create your own implementation of Promise.race() called promiseRace().
+Create your own implementation of `Promise.race()` called `promiseRace()`.
 
 ```js
 function promiseRace(promises) {
@@ -12,7 +12,7 @@ function promiseRace(promises) {
 }
 ```
 
-(Promise.race())[https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/race]
+[Promise.race()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/race)
 
 ### Example:
 
