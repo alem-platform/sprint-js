@@ -18,7 +18,9 @@ The function should:
 - Rejects with "Time Limit Exceeded" if fn takes longer than t milliseconds
 - Properly handles any errors thrown by fn
 
-[Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+### Resources:
+
+- [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 ### Expected function:
 

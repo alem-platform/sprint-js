@@ -26,7 +26,9 @@ function cancellable(fn, args, t, cancelTimeMs) {
 }
 ```
 
-[clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval)
+### Resources:
+
+- [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval)
 
 ### Example:
 

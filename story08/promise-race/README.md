@@ -12,7 +12,9 @@ function promiseRace(promises) {
 }
 ```
 
-[Promise.race()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/race)
+### Resources:
+
+- [Promise.race()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/race)
 
 ### Example:
 

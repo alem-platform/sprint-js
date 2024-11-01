@@ -12,7 +12,9 @@ function promiseAllSettled(promises) {
 }
 ```
 
-[Promise.allSettled()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)
+### Resources:
+
+- [Promise.allSettled()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)
 
 ### Example:
 

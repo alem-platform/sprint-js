@@ -31,7 +31,9 @@ function retry(fn, retries = 3, timeout = 1000, onRetry = null) {
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 ```
 
-[Promise.race()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/race)
+### Resources:
+
+- [Promise.race()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/race)
 
 ### Example:
 

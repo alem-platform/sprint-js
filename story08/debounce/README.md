@@ -13,7 +13,9 @@ Your function should accept these parameters:
   - leading (boolean): Call func on the leading edge of the timeout
   - trailing (boolean): Call func on the trailing edge of the timeout
 
-[lodash.debounce](https://www.npmjs.com/package/lodash.debounce)
+### Resources:
+
+- [lodash.debounce](https://www.npmjs.com/package/lodash.debounce)
 
 ### Example:
 
