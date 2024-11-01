@@ -52,7 +52,7 @@ Let's create first JS program and run it in browser environment
 echo 'console.log("Hey there! 👋")' > hello.js
 ```
 
-2. Browser need an entry point, which is an html file, so create an `index.html`
+2. Browser needs an entry point, which is an html file, so create an `index.html`
 
 ```bash
 echo '
