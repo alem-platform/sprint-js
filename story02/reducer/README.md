@@ -14,6 +14,14 @@ Create a function called `reducer` that takes three arguments:
 
 The function will return a single value, the result of combining all elements.
 
+### Expected function:
+
+```js
+function reducer(arr, fn, initialValue) {
+  // 
+}
+```
+
 ### Resources:
 
 [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
