@@ -8,13 +8,21 @@
 
 ### Instructions
 
-Сreate a function called `toString` that turns any primitive value into its string representation.
+Сreate a function `stringify` that turns any primitive value into its string representation.
+
+### Expected function: 
+
+```js
+function stringify(value) {
+  //
+}
+```
 
 ### Example:
 
 ```js
-toString(42); // Output: '42'
-toString(true); // Output: 'true'
-toString(null); // Output: 'null'
-toString(undefined); // Output: 'undefined'
+stringify(42); // Output: '42'
+stringify(true); // Output: 'true'
+stringify(null); // Output: 'null'
+stringify(undefined); // Output: 'undefined'
 ```
