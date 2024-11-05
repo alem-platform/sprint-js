@@ -1,5 +1,9 @@
 # Filter Force
 
+| Expected file   |
+| --------------- |
+| filter-force.js |
+
 ### Instructions:
 
 Create a function called `filterForce` that takes two arguments:

@@ -1,5 +1,9 @@
 # Double Agent
 
+| Expected file   |
+| --------------- |
+| double-agent.js |
+
 You’ve been tasked to double the values in a series of numbers while ensuring that their original form remains untouched.
 
 ### Instructions:
