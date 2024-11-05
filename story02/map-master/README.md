@@ -9,6 +9,14 @@ Create a function called `mapMaster` that takes two arguments:
 
 The function should return a new array with the transformed values.
 
+### Expected function:
+
+```js
+function mapMaster(array, func) {
+  //
+}
+```
+
 ### Resources
 
 - [map](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
