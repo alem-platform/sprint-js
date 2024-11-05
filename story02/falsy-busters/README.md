@@ -1,5 +1,9 @@
 # Falsy Busters
 
+| Expected file    |
+| ---------------- |
+| falsy-busters.js |
+
 Your task is to identify and remove all falsy values (false, null, undefined, 0, NaN, "") using built-in array methods.
 
 ### Resources

@@ -1,5 +1,9 @@
 # Map Master
 
+| Expected file |
+| ------------- |
+| map-master.js |
+
 ### Instructions:
 
 Create a function called `mapMaster` that takes two arguments:
