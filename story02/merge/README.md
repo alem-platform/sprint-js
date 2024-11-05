@@ -1,8 +1,8 @@
 # Merge
 
-| Expected file       |
-| ------------------- |
-| concat-crusaders.js |
+| Expected file |
+| ------------- |
+| merge.js      |
 
 ### Instructions
 
