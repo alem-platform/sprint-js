@@ -17,6 +17,13 @@ The function should return a new array with elements that pass the callback func
 
 - [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
+### Expected function:
+```
+function filterForce(arr, fn, initialValue) {
+  //
+}
+```
+
 ### Example:
 
 ```js
