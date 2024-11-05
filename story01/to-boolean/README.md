@@ -8,7 +8,15 @@ You must be able to convert any value to its Boolean equivalent.
 
 ### Instructions:
 
-Create a function called `toBoolean` that takes any value (primitive or object) and returns its Boolean equivalent.
+Create a function called `toBoolean` that takes any value (primitive or object) and returns its boolean equivalent.
+
+### Expected Function: 
+
+```js
+function toBoolean(value) {
+  //
+}
+```
 
 ### Example:
 
