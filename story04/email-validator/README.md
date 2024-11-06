@@ -2,9 +2,9 @@
 
 ### Instructions
 
-| Expected file        |
-| -------------------- |
-| email-validator.js   |
+| Expected file      |
+| ------------------ |
+| email-validator.js |
 
 Write a function called `isValidEmail` that validates email addresses based on specific rules.
 
@@ -38,17 +38,8 @@ function isValidEmail(email) {
 ### Example
 
 ```js
-console.log(isValidEmail("user@example.com"));
-console.log(isValidEmail("user.name+tag@example.co.uk"));
-console.log(isValidEmail(".user@example.com"));
-console.log(isValidEmail("user@.com"));
-```
-
-output:
-
-```bash
-true
-true
-false
-false
+console.log(isValidEmail("user@example.com")); // true
+console.log(isValidEmail("user.name+tag@example.co.uk")); // true
+console.log(isValidEmail(".user@example.com")); // false
+console.log(isValidEmail("user@.com")); // false
 ```

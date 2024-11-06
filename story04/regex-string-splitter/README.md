@@ -2,9 +2,9 @@
 
 ### Instructions
 
-| Expected file        |
-| -------------------- |
-| regex-string-splitter.js   |
+| Expected file            |
+| ------------------------ |
+| regex-string-splitter.js |
 
 Write a function called `multiSplit` that splits a string into an array based on multiple delimiters (space, comma, and semicolon) using a single regex pattern. The function should handle consecutive delimiters and trim whitespace.
 
