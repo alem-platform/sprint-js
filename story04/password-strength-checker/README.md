@@ -2,6 +2,10 @@
 
 ### Instructions
 
+| Expected file        |
+| -------------------- |
+| password-strength-checker.js   |
+
 Write a function called `checkPasswordStrength` that evaluates the strength of a password based on certain criteria.
 
 ### Expected Function
