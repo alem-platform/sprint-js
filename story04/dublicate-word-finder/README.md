@@ -1,5 +1,9 @@
 # Duplicate Word Finder
 
+| Expected file        |
+| -------------------- |
+| duplicete-word-finder.js   |
+
 ### Instructions
 
 Write a function called `findDuplicateWords` that finds all words that appear more than once in a text, ignoring case.
