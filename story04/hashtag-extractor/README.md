@@ -2,6 +2,10 @@
 
 ### Instructions
 
+| Expected file        |
+| -------------------- |
+| hashtag-extractor.js   |
+
 Write a function called `extractHashtags` that extracts all hashtags from a given text.
 
 The function should extract hashtags that:
