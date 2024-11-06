@@ -2,6 +2,10 @@
 
 ### Instructions
 
+| Expected file        |
+| -------------------- |
+| phone-number-formatter.js   |
+
 Write a function called `formatPhoneNumber` that formats phone numbers into a standardized format.
 
 ### Expected Function
