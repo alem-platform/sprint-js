@@ -2,9 +2,9 @@
 
 ### Instructions
 
-| Expected file        |
-| -------------------- |
-| password-strength-checker.js   |
+| Expected file                |
+| ---------------------------- |
+| password-strength-checker.js |
 
 Write a function called `checkPasswordStrength` that evaluates the strength of a password based on certain criteria.
 
@@ -46,17 +46,8 @@ Consider creating separate functions for each check
 ### Example
 
 ```js
-console.log(checkPasswordStrength("Pass123!"));
-console.log(checkPasswordStrength("weakpass"));
-console.log(checkPasswordStrength("StrongP@ssw0rd"));
-console.log(checkPasswordStrength("12345"));
-```
-
-output:
-
-```bash
-Medium
-Weak
-Strong
-Very Weak
+console.log(checkPasswordStrength("Pass123!")); // Medium
+console.log(checkPasswordStrength("weakpass")); // Weak
+console.log(checkPasswordStrength("StrongP@ssw0rd")); // Strong
+console.log(checkPasswordStrength("12345")); // Very Weak
 ```

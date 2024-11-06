@@ -1,8 +1,8 @@
 # Duplicate Word Finder
 
-| Expected file        |
-| -------------------- |
-| duplicate-word-finder.js   |
+| Expected file            |
+| ------------------------ |
+| duplicate-word-finder.js |
 
 ### Instructions
 
@@ -33,15 +33,7 @@ function findDuplicateWords(text) {
 ### Example
 
 ```js
-console.log(findDuplicateWords("The cat and the dog saw another cat"));
-console.log(findDuplicateWords("Hello HELLO hello World"));
-console.log(findDuplicateWords("No duplicates here"));
-```
-
-output:
-
-```bash
-["the", "cat"]
-["hello"]
-[]
+console.log(findDuplicateWords("The cat and the dog saw another cat")); // ["the", "cat"]
+console.log(findDuplicateWords("Hello HELLO hello World")); // ["hello"]
+console.log(findDuplicateWords("No duplicates here")); // []
 ```

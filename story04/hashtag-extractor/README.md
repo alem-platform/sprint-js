@@ -4,7 +4,7 @@
 
 | Expected file        |
 | -------------------- |
-| hashtag-extractor.js   |
+| hashtag-extractor.js |
 
 Write a function called `extractHashtags` that extracts all hashtags from a given text.
 
@@ -28,15 +28,7 @@ function extractHashtags(text) {
 ### Example
 
 ```js
-console.log(extractHashtags("Love this #photo #summer #vacation"));
-console.log(extractHashtags("No hashtags here!"));
-console.log(extractHashtags("#start middle #end"));
-```
-
-output:
-
-```bash
-["#photo", "#summer", "#vacation"]
-[]
-["#start", "#end"]
+console.log(extractHashtags("Love this #photo #summer #vacation")); // ["#photo", "#summer", "#vacation"]
+console.log(extractHashtags("No hashtags here!")); // []
+console.log(extractHashtags("#start middle #end")); // ["#start", "#end"]
 ```

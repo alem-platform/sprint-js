@@ -2,9 +2,9 @@
 
 ### Instructions
 
-| Expected file        |
-| -------------------- |
-| phone-number-formatter.js   |
+| Expected file             |
+| ------------------------- |
+| phone-number-formatter.js |
 
 Write a function called `formatPhoneNumber` that formats phone numbers into a standardized format.
 
@@ -32,17 +32,8 @@ Valid inputs:
 ### Example
 
 ```js
-console.log(formatPhoneNumber("1234567890"));
-console.log(formatPhoneNumber("11234567890"));
-console.log(formatPhoneNumber("123-456-7890"));
-console.log(formatPhoneNumber("12345"));
-```
-
-output:
-
-```bash
-(123) 456-7890
-+1 (123) 456-7890
-(123) 456-7890
-Invalid phone number
+console.log(formatPhoneNumber("1234567890")); // (123) 456-7890
+console.log(formatPhoneNumber("11234567890")); // +1 (123) 456-7890
+console.log(formatPhoneNumber("123-456-7890")); // (123) 456-7890
+console.log(formatPhoneNumber("12345")); // Invalid phone number
 ```
