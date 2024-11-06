@@ -1,5 +1,9 @@
 # Merge
 
+| Expected file |
+| ------------- |
+| merge.js      |
+
 ### Instructions
 
 Create a function `merge` which combines two arrays into a new array.

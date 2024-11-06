@@ -1,5 +1,9 @@
 # Array Flattener
 
+| Expected file      |
+| ------------------ |
+| array-flattener.js |
+
 ### Instructions:
 
 Write a function called `flattenOnce` that takes a nested array and flattens it by one level.

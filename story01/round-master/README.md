@@ -1,8 +1,20 @@
 # Round Master
 
+| Expected file   |
+| --------------- |
+| round-master.js |
+
 ### Instructions:
 
 Create a function named `roundMaster` that takes a number and returns it rounded to two decimal places. Your goal is to ensure accuracy in calculations.
+
+### Expected Function:
+
+```js
+function roundMaster(num) {
+  //
+}
+```
 
 ### Example:
 
