@@ -41,19 +41,9 @@ function multiSplit(text) {
 ### Example
 
 ```js
-console.log(multiSplit("apple,banana;orange cherry"));
-console.log(multiSplit("one;  two,,,three   four"));
-console.log(multiSplit("single"));
-console.log(multiSplit(""));
-console.log(multiSplit(",,;;  ,,"));
-```
-
-output:
-
-```bash
-["apple", "banana", "orange", "cherry"]
-["one", "two", "three", "four"]
-["single"]
-[]
-[]
+console.log(multiSplit("apple,banana;orange cherry")); // ["apple", "banana", "orange", "cherry"]
+console.log(multiSplit("one;  two,,,three   four")); // ["one", "two", "three", "four"]
+console.log(multiSplit("single")); // ["single"]
+console.log(multiSplit("")); // []
+console.log(multiSplit(",,;;  ,,")); // []
 ```
