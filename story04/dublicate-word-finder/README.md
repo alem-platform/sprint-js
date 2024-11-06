@@ -2,7 +2,7 @@
 
 | Expected file        |
 | -------------------- |
-| duplicete-word-finder.js   |
+| duplicate-word-finder.js   |
 
 ### Instructions
 
