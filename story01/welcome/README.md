@@ -60,7 +60,7 @@ python3 -m http.server 8000
 
 The console is a great playground for testing JavaScript code. Once you make changes to your files, refresh the browser to see the updates.
 
-For this bootcamp, you will work in the `bootcamp-js` repository, so create it first and add your generated files into it. This repository will store all your bootcamp solutions.
+For this bootcamp, you will work in the `sprint-js` repository, so create it first and add your generated files into it. This repository will store all your bootcamp solutions.
 
 ### Resources:
 
