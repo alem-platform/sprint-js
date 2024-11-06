@@ -1,5 +1,9 @@
 # Reducer
 
+| Expected file |
+| ------------- |
+| reducer.js    |
+
 ### Instructions:
 
 Create a function called `reducer` that takes three arguments:

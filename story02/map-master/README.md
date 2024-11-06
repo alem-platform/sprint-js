@@ -1,5 +1,9 @@
 # Map Master
 
+| Expected file |
+| ------------- |
+| map-master.js |
+
 ### Instructions:
 
 Create a function called `mapMaster` that takes two arguments:
@@ -8,6 +12,14 @@ Create a function called `mapMaster` that takes two arguments:
 2. A callback function
 
 The function should return a new array with the transformed values.
+
+### Expected function:
+
+```js
+function mapMaster(array, func) {
+  //
+}
+```
 
 ### Resources
 

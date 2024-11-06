@@ -1,5 +1,9 @@
 # The Count Keeper
 
+| Expected file   |
+| --------------- |
+| count-keeper.js |
+
 Your task is to count how many times each element appears in an array.
 
 ### Instructions:

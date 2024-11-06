@@ -1,5 +1,9 @@
 # Threshold filter
 
+| Expected file       |
+| ------------------- |
+| threshold-filter.js |
+
 Not every number makes the cut. Create a function called `thresholdFilter` that filters an array of numbers, returning only those greater than a specified threshold.
 
 ### Example:

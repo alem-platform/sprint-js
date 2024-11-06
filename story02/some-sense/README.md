@@ -1,5 +1,9 @@
 # Some Sense
 
+| Expected file |
+| ------------- |
+| some-sense.js |
+
 Your task is to determine whether any element in the array meets the condition of your callback.
 
 ### Instructions:
