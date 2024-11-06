@@ -4,7 +4,7 @@
 
 | Expected file        |
 | -------------------- |
-| email-validator.js |
+| email-validator.js   |
 
 Write a function called `isValidEmail` that validates email addresses based on specific rules.
 
