@@ -1,6 +1,10 @@
 # Math Trio
 
-Get ready to create three functions that handle multiplication, division, and modulo, but with a twist — you can’t use \*, /, or %.
+| Expected file |
+| ------------- |
+| math-trio.js  |
+
+Create three functions that handle multiplication, division, and modulo, but with a twist — you can’t use \*, /, or %.
 
 ### Instructions:
 

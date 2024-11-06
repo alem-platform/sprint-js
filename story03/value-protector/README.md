@@ -1,5 +1,9 @@
 # Value Protector
 
+| Expected file      |
+| ------------------ |
+| value-protector.js |
+
 ### Instructions:
 
 Write a function called `scopeGuardian` that manages a value using two inner functions: `increase` to modify the value and `reveal` to access it.

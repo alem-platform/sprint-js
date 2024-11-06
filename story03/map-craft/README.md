@@ -1,5 +1,9 @@
 # Map Craft
 
+| Expected file |
+| ------------- |
+| map-craft.js  |
+
 Create your own version of JavaScript's built-in `Array.prototype.map()` method.
 
 ### Instructions:

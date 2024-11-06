@@ -1,5 +1,9 @@
 # Price Management
 
+| Expected file       |
+| ------------------- |
+| price-management.js |
+
 Create a price management system using closure chains. The system should maintain a base price and allow different discounts to modify it while keeping the base price private and secure.
 
 ### Instructions

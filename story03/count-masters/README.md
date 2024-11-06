@@ -1,5 +1,9 @@
 # Count-Masters
 
+| Expected file   |
+| --------------- |
+| count-master.js |
+
 ### Instructions:
 
 Write a function called `countMaster` that returns another function (an inner function). This inner function will maintain its own count, even after multiple invocations. Each time the inner function is called, it should increment the counter and return the updated value.

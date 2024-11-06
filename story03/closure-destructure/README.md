@@ -1,5 +1,9 @@
 # Closure Destructor
 
+| Expected file          |
+| ---------------------- |
+| closure-destructure.js |
+
 ### Instructions:
 
 Write a function `closureDestructor` that uses a closure to capture some data (like an event handler or a large array). After capturing, the closure should be able to release memory explicitly when a `destroy()` method is called.

@@ -1,5 +1,9 @@
 # Round Cut
 
+| Expected file |
+| ------------- |
+| round-cut.js  |
+
 ### Instructions:
 
 Implement JavaScript's `Math.round()`, `Math.ceil()`, `Math.floor()`, and `Math.trunc()` methods without using the built-in `Math` methods.

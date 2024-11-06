@@ -9,7 +9,7 @@
 | 04. | ultimate-accumulator | 1       | [github.com](./ultimate-accumulator) |
 | 05. | alem-countdown       | 1       | [github.com](./alem-countdown)       |
 | 06. | object-purge         | 1       | [github.com](./object-purge)         |
-| 07. | coercion-conundrum   | 1       | [github.com](./coercion-conundrum)   |
+| 07. | smart-convesion      | 1       | [github.com](./smart-convesion)      |
 | 08. | round-cut            | 1       | [github.com](./round-cut)            |
 | 09. | math-trio            | 1       | [github.com](./math-trio)            |
 | 10. | count-masters        | 1       | [github.com](./count-masters)        |

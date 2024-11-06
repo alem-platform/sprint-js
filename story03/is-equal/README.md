@@ -1,5 +1,9 @@
 # Is Equal?
 
+| Expected file |
+| ------------- |
+| is-equal.js   |
+
 ### Instructions:
 
 Write a function `expect` that checks for values equality. It should take in any value `val` and return an object with the following two functions:
