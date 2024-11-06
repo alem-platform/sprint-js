@@ -2,6 +2,10 @@
 
 ### Instructions
 
+| Expected file        |
+| -------------------- |
+| log-parser.js   |
+
 Write a function called `parseLog` that extracts components from log entries using regex. Each log entry contains a timestamp, log level, and message.
 
 ### Expected Function
