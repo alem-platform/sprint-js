@@ -10,9 +10,9 @@ Write a function called `parseLog` that extracts components from log entries. Ea
 
 The function should parse logs with the format:
 
-- Date: YYYY-MM-DD
-- Time: HH:mm:ss
-- Log Level: [ERROR], [INFO], [WARNING], [DEBUG]
+- Date: `YYYY-MM-DD`
+- Time: `HH:mm:ss`
+- Log Level: `[ERROR]`, `[INFO]`, [`WARNING]`, `[DEBUG]`
 - Message: Rest of the line
 
 Requirements:
@@ -20,7 +20,6 @@ Requirements:
 - Return null for invalid log format
 - Extract each component into separate fields
 - Support all standard log levels
-- Consider date and time will always be in `YYYY-MM-DD` `HH:mm:ss` format
 
 ### Expected Function
 
