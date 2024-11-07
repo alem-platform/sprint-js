@@ -1,5 +1,9 @@
 # Duplicate Word Finder
 
+| Expected file            |
+| ------------------------ |
+| duplicate-word-finder.js |
+
 ### Instructions
 
 Write a function called `findDuplicateWords` that finds all words that appear more than once in a text, ignoring case.
@@ -10,13 +14,6 @@ The function should:
 - Ignore punctuation and special characters
 - Return array of duplicate words in lowercase
 - Return empty array if no duplicates found
-- Consider words separated by spaces or punctuation
-
-### Hints
-
-- Convert text to lowercase before processing
-- Use regex to split words and remove punctuation
-- Consider using a Map or object to count occurrences
 
 ### Expected Function
 
@@ -29,15 +26,7 @@ function findDuplicateWords(text) {
 ### Example
 
 ```js
-console.log(findDuplicateWords("The cat and the dog saw another cat"));
-console.log(findDuplicateWords("Hello HELLO hello World"));
-console.log(findDuplicateWords("No duplicates here"));
-```
-
-output:
-
-```bash
-["the", "cat"]
-["hello"]
-[]
+console.log(findDuplicateWords("The cat and the dog saw another cat")); // ["the", "cat"]
+console.log(findDuplicateWords("Hello HELLO hello World")); // ["hello"]
+console.log(findDuplicateWords("No duplicates here")); // []
 ```
