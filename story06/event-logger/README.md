@@ -1,6 +1,12 @@
 ### Event Logger
 
-Fix the scoping issues in this event tracking system. The code should maintain a maximum of 5 events.
+| Expected file   |
+| --------------- |
+| event-logger.js |
+
+### Instructions
+
+Fix the scoping issues in this event tracking system. The code should maintain maximum 5 events.
 
 ```js
 // BROKEN CODE
@@ -30,6 +36,7 @@ eventTracker.logEvent("Click"); // 2
 eventTracker.logEvent("Scroll"); // 3
 eventTracker.logEvent("Hover"); // 4
 eventTracker.logEvent("Logout"); // 5
-eventTracker.logEvent("NewLogin"); // 1 (clears old events first)
-console.log(eventTracker.currentEvents); // Shows only ["NewLogin"]
+
+eventTracker.logEvent("NewLogin"); // 1
+console.log(eventTracker.currentEvents); // ["NewLogin"]
 ```

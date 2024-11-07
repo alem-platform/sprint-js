@@ -1,10 +1,10 @@
 # Date Format Converter
 
-### Instructions|
-
 | Expected file            |
 | ------------------------ |
 | date-format-converter.js |
+
+### Instructions
 
 Write a function `convertDateFormat` that converts dates from one format to another.
 

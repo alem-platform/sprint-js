@@ -1,19 +1,31 @@
 # Product Catalog
 
+| Expected file      |
+| ------------------ |
+| product-catalog.js |
+
 ### Instructions
 
-Modernize the provided ProductCatalog class by converting it to use modern JavaScript features. The original code uses old-style JavaScript patterns that need to be updated.
+Refactor the provided legacy JavaScript code to create a modern `ProductCatalog` class that follows `ES6+` standards.
 
-The modernized class should:
+Implement methods:
 
-- Use ES6+ class syntax
-- Implement getters and setters
-- Use template literals for strings
-- Utilize enhanced object literals
-- Implement private fields where appropriate
-- Add input validation
-- Use arrow functions where appropriate
-- Implement proper error handling
+- `constructor`: Initializes a `private` array `_products` to store all products.
+- `addProduct(name, price)`:
+  - Validates that name is a non-empty string and price is a positive number.
+  - Throws an error if price is negative or name is invalid.
+  - Adds a new product object (with name and price properties) to the `_products` array.
+- `getProductInfo(name)`:
+
+  - Returns a formatted string "{product name} costs ${price}".
+  - Throws an error if the product is not found.
+
+- `totalProducts (getter)`:
+
+  - Returns the total number of products in the catalog.
+
+- `totalValue (getter)`:
+  - Returns the sum of the prices of all products in the catalog.
 
 ### Original Legacy Code
 
@@ -53,17 +65,7 @@ const catalog = new ProductCatalog();
 catalog.addProduct("Laptop", 999.99);
 catalog.addProduct("Mouse", 29.99);
 
-console.log(catalog.totalProducts);
-console.log(catalog.totalValue);
-console.log(catalog.getProductInfo("Laptop"));
-console.log(catalog.findProductsByPriceRange(0, 100));
-```
-
-Output:
-
-```bash
-2
-1029.98
-Laptop costs $999.99
-[{ name: "Mouse", price: 29.99, ... }]
+console.log(catalog.totalProducts); // 2
+console.log(catalog.totalValue); // 1029.98
+console.log(catalog.getProductInfo("Laptop")); // Laptop costs $999.99
 ```

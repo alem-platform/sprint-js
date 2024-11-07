@@ -2,10 +2,10 @@
 
 | №   | Название                  | Уровень | XP  | Ссылка                                     |
 | --- | ------------------------- | ------- | --- | ------------------------------------------ |
-| 00. | address-book-filter/      |         |     | [github.com](./address-book-filter/)       |
+| 00. | filter-contacts           |         |     | [github.com](./filter-contacts/)           |
 | 01. | book-library              |         |     | [github.com](./book-library/)              |
 | 02. | cache-manager             |         |     | [github.com](./cache-manager/)             |
-| 03. | counter-closure           |         |     | [github.com](./counter-closure/)           |
+| 03. | broken-counter            |         |     | [github.com](./broken-counter/)            |
 | 04. | event-logger              |         |     | [github.com](./event-logger/)              |
 | 05. | product-catalog           |         |     | [github.com](./product-catalog/)           |
 | 06. | product-inventory-manager |         |     | [github.com](./product-inventory-manager/) |

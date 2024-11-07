@@ -1,5 +1,11 @@
 ### Cache Manager
 
+| Expected file    |
+| ---------------- |
+| cache-manager.js |
+
+### Instructions
+
 Fix the variable hoisting and block scope issues in this cache implementation.
 
 ```js
@@ -33,13 +39,11 @@ const cacheManager = {
 const cache = cacheManager.init();
 
 const entry1 = cache.set("apiKey", "abc123");
-console.log(entry1);
-// Should show: { value: "abc123", timestamp: 1234567890 }
+console.log(entry1); // { value: "abc123", timestamp: 1234567890 }
 
-console.log(cache.get("apiKey")); // Should show: "abc123"
-console.log(cache.get("missing")); // Should show: undefined
+console.log(cache.get("apiKey")); // "abc123"
+console.log(cache.get("missing")); // undefined
 
 const entry2 = cache.set("apiKey", "newValue");
-console.log(entry2);
-// Should show: { value: "newValue", timestamp: 1234567891 }
+console.log(entry2); // { value: "newValue", timestamp: 1234567891 }
 ```
