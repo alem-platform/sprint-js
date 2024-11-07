@@ -10,8 +10,8 @@ Write a function called `formatPhoneNumber` that formats phone numbers into a st
 
 The function should format phone numbers according to these rules:
 
-- 11-digit numbers (starting with 7): +7 (XXX) XXX-XX-XX
-- Remove all non-numeric characters from input before processing
+- 11-digit numbers (starting with 7 or +7): +7 (XXX) XXX-XX-XX
+- Remove all non-numeric characters (`-`, ` `, `(`, `)`) from input before processing
 - Return 'Invalid phone number' for invalid inputs
 
 ### Expected Function
