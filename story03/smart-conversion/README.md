@@ -1,8 +1,8 @@
 # Smart Conversion
 
-| Expected file      |
-| ------------------ |
-| smart-convesion.js |
+| Expected file       |
+| ------------------- |
+| smart-conversion.js |
 
 ### Instructions
 
