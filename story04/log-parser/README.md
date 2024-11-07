@@ -19,9 +19,7 @@ Requirements:
 
 - Return null for invalid log format
 - Extract each component into separate fields
-- Validate date and time format
 - Support all standard log levels
-- Handle messages containing special characters
 
 ### Expected Function
 
