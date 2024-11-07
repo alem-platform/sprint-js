@@ -2,9 +2,9 @@
 
 ### Instructions
 
-| Expected file        |
-| -------------------- |
-| word-frequency-counter.js   |
+| Expected file             |
+| ------------------------- |
+| word-frequency-counter.js |
 
 Write a function called `wordFrequency` that counts the frequency of each word in a given text.
 

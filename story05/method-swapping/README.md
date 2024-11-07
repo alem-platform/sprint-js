@@ -1,5 +1,9 @@
 # Method Swapping
 
+| Expected file      |
+| ------------------ |
+| method-swapping.js |
+
 You're given two objects, each with a method that uses this. Swap their methods and verify if they log the correct values after the swap.
 
 ### Starting Code:

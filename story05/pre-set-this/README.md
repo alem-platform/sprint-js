@@ -1,12 +1,24 @@
 # Pre-set this
 
-Given a function that logs this. Use bind to create two new functions `showForObj1` and `showForObj2` that set `this` to two differennt given objects.
+| Expected file   |
+| --------------- |
+| pre-set-this.js |
 
-### Resources:
+Given a function that logs `this`. Use `bind` to create two new functions `showForObj1` and `showForObj2` that set `this` to two differennt given objects.
 
-[this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+### Resources
 
-### Starting Code:
+[Function.prototype.bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+
+### Expected Function
+
+```js
+function preSetThis(obj1, obj2, func) {
+  // Your code here
+}
+```
+
+### Example Starting Code:
 
 ```js
 function showThis() {

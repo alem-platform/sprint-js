@@ -1,5 +1,9 @@
 # Partial Application with bind
 
+| Expected file           |
+| ----------------------- |
+| partial-applications.js |
+
 Write a function `multiply` that multiplies two numbers. Use `bind` to create a new function `multiplyByFive` from the `multiply` that multiplies by 5.
 
 ### Resources:

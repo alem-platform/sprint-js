@@ -1,4 +1,8 @@
-# Using **call** in Constructor Functions
+# Using **call** in Constructor
+
+| Expected file       |
+| ------------------- |
+| call-constructor.js |
 
 You're given a constructor function, you need to create another constructor function that use `call` to invoke it's own context with the given one.
 
@@ -17,5 +21,6 @@ function Dog(name) {
   // your code here
 }
 
-const myDog = new Dog("Rex"); // Output: Dog { type: 'Dog', name: 'Rex' }
+const myDog = new Dog("Rex");
+console.log(myDog); // Output: Dog { type: 'Dog', name: 'Rex' }
 ```

@@ -1,5 +1,9 @@
 # The Hybrid Creature
 
+| Expected file      |
+| ------------------ |
+| hybrid-creature.js |
+
 Create a factory function named `createHybridObject` that returns objects created by a given constructor function. The factory function should accept parameters and pass them to the constructor.
 
 ### Requirements:

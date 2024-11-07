@@ -1,8 +1,18 @@
 # Has Own IT?
 
-### Prototype Inheritance – Own vs Inherited Properties
+| Expected file |
+| ------------- |
+| has-own-it.js |
 
-You're givem an object `child` that inherits from another given object `parent`. Create function `hasOwnIt` that checks if a property belongs directly to the child or the prototype.
+You're given an object `child` that inherits properties from another object `parent`. Create function `hasOwnIt` that checks if a property belongs directly to the child object or or if it is inherited from its prototype.
+
+### Expected Function
+
+```js
+function hasOwnIt(obj, checker) {
+  // Your code here
+}
+```
 
 ### Starting Code:
 

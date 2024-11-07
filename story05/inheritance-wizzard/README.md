@@ -1,5 +1,9 @@
 # Inheritance Wizard
 
+| Expected file          |
+| ---------------------- |
+| inheritance-wizzard.js |
+
 Write a function named `setPrototypeLink` that explicitly sets the **proto** property of an object to link it to another object. This will enable the first object to inherit properties and methods from the second object.
 
 ### Requirements:
