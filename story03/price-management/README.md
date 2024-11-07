@@ -4,8 +4,6 @@
 
 Write a function called `priceManagement` that manages the price of a product and allows applying various discount types to modify it, while keeping track of the original base price.
 
-### Requirements:
-
 - The base price should be set when initializing the function and remain private. This means it cannot be accessed directly but can be modified through specific methods.
 
 - Implement three discount types that modify the price:
