@@ -7,9 +7,9 @@ Write a function called `priceManagement` that manages the price of a product an
 - The base price should be set when initializing the function and remain private. This means it cannot be accessed directly but can be modified through specific methods.
 
 - Implement three discount types that modify the price:
-  - `silver - 10%`
-  - `gold - 20%`
-  - `platinum - 50%`
+  - `silver` - 10%
+  - `gold` - 20%
+  - `platinum` - 50%
 - Each discount can only be applied once. If you try to apply the same discount more than once, it should return an error message.
 
 - Add methods:
