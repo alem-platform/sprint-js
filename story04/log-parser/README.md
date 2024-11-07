@@ -1,20 +1,12 @@
 # Log Parser
 
-### Instructions
-
 | Expected file |
 | ------------- |
 | log-parser.js |
 
-Write a function called `parseLog` that extracts components from log entries using regex. Each log entry contains a timestamp, log level, and message.
+### Instructions
 
-### Expected Function
-
-```js
-function parseLog(logEntry) {
-  // Your code here
-}
-```
+Write a function called `parseLog` that extracts components from log entries. Each log entry contains a timestamp, log level, and message.
 
 The function should parse logs with the format:
 
@@ -30,6 +22,14 @@ Requirements:
 - Validate date and time format
 - Support all standard log levels
 - Handle messages containing special characters
+
+### Expected Function
+
+```js
+function parseLog(logEntry) {
+  // Your code here
+}
+```
 
 ### Example
 
