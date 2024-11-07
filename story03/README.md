@@ -15,4 +15,3 @@
 | 10. | count-masters        | 1       | [github.com](./count-masters)        |
 | 11. | is-equal             | 1       | [github.com](./is-equal)             |
 | 12. | price-management     | 1       | [github.com](./price-management)     |
-| 13. | closure-destructure  | 1       | [github.com](./closure-destructure)  |
