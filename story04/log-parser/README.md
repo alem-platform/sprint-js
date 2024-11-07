@@ -12,7 +12,7 @@ The function should parse logs with the format:
 
 - Date: `YYYY-MM-DD`
 - Time: `HH:mm:ss`
-- Log Level: `[ERROR]`, `[INFO]`, [`WARNING]`, `[DEBUG]`
+- Log Level: `[ERROR]`, `[INFO]`, `[WARNING]`, `[DEBUG]`
 - Message: Rest of the line
 
 Requirements:
