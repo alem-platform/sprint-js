@@ -16,7 +16,7 @@ Write a function named `checkElementExists` that checks if an element with the I
 ### Expected Function:
 
 ```js
-function checkElementExists(elemId) {
+function checkElementExists(property, name) {
   // ...
 }
 ```
