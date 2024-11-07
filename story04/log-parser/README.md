@@ -20,6 +20,7 @@ Requirements:
 - Return null for invalid log format
 - Extract each component into separate fields
 - Support all standard log levels
+- Consider date and time will always be in `YYYY-MM-DD` `HH:mm:ss` format
 
 ### Expected Function
 
