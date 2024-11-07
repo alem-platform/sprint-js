@@ -13,6 +13,8 @@ Create a function called `filterForce` that takes two arguments:
 
 The function should return a new array with elements that pass the callback function's test.
 
+> Using method "filter" required
+
 ### Resources:
 
 - [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
