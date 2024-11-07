@@ -6,7 +6,7 @@
 
 ### Instructions
 
-In your file, implement the following functions:
+Implement the following functions:
 
 - `applyStringMethod(method, str)`: Uses `call` to apply a single String method to str.
 - `chainStringMethods(methods, str)`: Applies multiple String methods in sequence using `call`.

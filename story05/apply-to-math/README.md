@@ -1,13 +1,15 @@
-# Apply to Math
+# Apply to Math Methods
 
 | Expected file    |
 | ---------------- |
 | apply-to-math.js |
 
-Write functions that creates a mathematical utilities with the following capabilities:
+### Instructions
+
+Write functions to create a math utility with these features:
 
 1. Apply any `Math` method (max, min, abs, etc.) to `arrays`
-2. Chain multiple `Math` operations in sequence
+2. Apply multiple `Math` operations in sequence
 3. Transform arrays with custom mathematical formulas
 
 ### Requirements:

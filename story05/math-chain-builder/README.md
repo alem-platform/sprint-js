@@ -4,17 +4,14 @@
 | --------------------- |
 | math-chain-builder.js |
 
-Implement a system that extends the `Math` object with a new methods:
+### Instructions:
+
+Extend `Math` object with a new methods:
 
 - `factorial`: calculates the factorial of the given number
 - `log_a_b`: calculates the logarithm of a base b
 - `gcd`: finds the greatest common divisor of two numbers
 - `mean`: finds the mean value of the given array
-
-### Requirements
-
-- Don't modify existing Math methods
-- Handle invalid inputs
 
 ### Example
 

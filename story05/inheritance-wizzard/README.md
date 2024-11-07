@@ -4,7 +4,7 @@
 | ---------------------- |
 | inheritance-wizzard.js |
 
-Write a function named `setPrototypeLink` that explicitly sets the **proto** property of an object to link it to another object. This will enable the first object to inherit properties and methods from the second object.
+Write a function called `setPrototypeLink` to set the proto property of one object to link it to another, allowing it to inherit properties and methods.
 
 ### Requirements:
 

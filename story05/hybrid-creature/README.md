@@ -6,7 +6,7 @@
 
 ### Instructions
 
-Write a function named `createHybridObject` that accepts an object and a method to add to the prototype of the object. The factory function should return the instance of the object that has been created.
+Write a function called `createHybridObject` that takes an object and a method to add to its prototype. The function should return the created object instance.
 
 The factory function should accept:
 
