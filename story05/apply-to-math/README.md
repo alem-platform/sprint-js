@@ -41,20 +41,3 @@ const transform = (x) => x \* x + 2;
 console.log(transform(transform, [1, 2, 3]));
 // Output: [3, 6, 11]
 ```
-
-// /**\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***/
-
-```js
-function applyMath(method, array) {
-  if (typeof Math[method] !== "function") {
-    return "Not proper Math method";
-  }
-  if (["max", "min"].includes(method)) {
-    return Math[method].apply(null, array);
-  } else {
-    return array.map(function (num) {
-      return Math[method].apply(null, [num]);
-    });
-  }
-}
-```
