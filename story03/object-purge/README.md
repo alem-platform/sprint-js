@@ -1,5 +1,9 @@
 # Object Purge
 
+| Expected file   |
+| --------------- |
+| object-purge.js |
+
 ### Instructions:
 
 Write a function called `objectPurge` that takes an object and a callback function to filter the object’s properties. For each property, if the callback returns `true` for its value, remove that property from the object.

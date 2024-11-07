@@ -2,7 +2,7 @@
 
 | Expected file |
 | ------------- |
-| expect.js  |
+| expect.js     |
 
 ### Instructions:
 

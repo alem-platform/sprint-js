@@ -6,7 +6,7 @@
 
 ### Instructions:
 
-Write a function called `countMaster` that returns another function (an inner function). This inner function will maintain its own count, even after multiple invocations. Each time the inner function is called, it should increment the counter and return the updated value.
+Write a function called `countMaster` that accepts initial value for starting count, and returns another function (an inner function). This inner function will maintain its own count, even after multiple invocations. Each time the inner function is called, it should increment the counter and return the updated value.
 
 1. Create a main function `countMaster` that:
 
@@ -20,8 +20,9 @@ Write a function called `countMaster` that returns another function (an inner fu
    - Maintain its state between calls
 
 ### Expected function:
+
 ```js
-function countMaster() {
+function countMaster(num) {
   //
 }
 ```
@@ -29,15 +30,15 @@ function countMaster() {
 ### Example:
 
 ```js
-const counter = countMaster();
+const counter = countMaster(0);
 counter(); // Output: 1
 counter(); // Output: 2
 counter(); // Output: 3
 ```
 
 ```js
-const firstCounter = countMaster();
-const secondCounter = countMaster();
+const firstCounter = countMaster(0);
+const secondCounter = countMaster(0);
 
 firstCounter(); // Output: 1
 firstCounter(); // Output: 2
