@@ -15,7 +15,7 @@ Implement a system that extends the `Math` object with a new method called `stat
 ### Requirements
 
 - Don't modify existing Math methods
-- Handle invalid inputs gracefully
+- Handle invalid inputs
 - Support proper method chaining for pearson correlation and linear regression calculations
 
 ### Resources

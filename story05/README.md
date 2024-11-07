@@ -2,14 +2,13 @@
 
 | №   | Название            | Уровень | Ссылка                              |
 | --- | ------------------- | ------- | ----------------------------------- |
-| 00. | lost-this           | 1       | [github.com](./lost-this)           |
-| 01. | arrow-this          | 1       | [github.com](./arrow-this)          |
-| 02. | pre-set-this        | 1       | [github.com](./pre-set-this)        |
-| 03. | call-string         | 1       | [github.com](./call-string)         |
-| 04. | apply-to-math       | 1       | [github.com](./apply-to-math)       |
-| 05. | partial-application | 1       | [github.com](./partial-application) |
-| 06. | has-own-it          | 1       | [github.com](./has-own-it)          |
-| 07. | method-swapping     | 1       | [github.com](./method-swapping)     |
-| 08. | hybrid-creature     | 1       | [github.com](./hybrid-creature)     |
-| 09. | inheritance-wizzard | 1       | [github.com](./inheritance-wizzard) |
-| 10. | math-chain-builder  | 1       | [github.com](./math-chain-builder)  |
+| 00. | arrow-this          | 1       | [github.com](./arrow-this)          |
+| 01. | pre-set-this        | 1       | [github.com](./pre-set-this)        |
+| 02. | call-string         | 1       | [github.com](./call-string)         |
+| 03. | apply-to-math       | 1       | [github.com](./apply-to-math)       |
+| 04. | partial-application | 1       | [github.com](./partial-application) |
+| 05. | has-own-it          | 1       | [github.com](./has-own-it)          |
+| 06. | method-swapping     | 1       | [github.com](./method-swapping)     |
+| 07. | hybrid-creature     | 1       | [github.com](./hybrid-creature)     |
+| 08. | inheritance-wizzard | 1       | [github.com](./inheritance-wizzard) |
+| 09. | math-chain-builder  | 1       | [github.com](./math-chain-builder)  |

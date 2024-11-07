@@ -4,7 +4,9 @@
 | ------------- |
 | has-own-it.js |
 
-You're given an object `child` that inherits properties from another object `parent`. Create function `hasOwnIt` that checks if a property belongs directly to the child object or or if it is inherited from its prototype.
+### Instructions
+
+You're given an object `child` that inherits properties from another object `parent`. Create a function `hasOwnIt` that checks if a property belongs directly to the child object or inherited from its prototype.
 
 ### Expected Function
 

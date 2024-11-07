@@ -4,7 +4,9 @@
 | --------------- |
 | pre-set-this.js |
 
-Given a function that logs `this`. Use `bind` to create two new functions `showForObj1` and `showForObj2` that set `this` to two differennt given objects.
+### Instructions
+
+Write a function `preSetThis` that accepts a function and two objects. It should return an array of two functions: `fnForObj1`, `fnForObj2`, which bind `this` to the corresponding objects.
 
 ### Resources
 
@@ -18,7 +20,7 @@ function preSetThis(obj1, obj2, func) {
 }
 ```
 
-### Example Starting Code:
+### Example:
 
 ```js
 function showThis() {
@@ -28,8 +30,7 @@ function showThis() {
 const obj1 = { value: "A" };
 const obj2 = { value: "B" };
 
-// your code here
-
-showForObj1(); // Output: A
-showForObj2(); // Output: B
+const [fnForObj1, fnForObj2] = preSetThis(obj1, obj2, showThis);
+fnForObj1(); // Output: A
+fnForObj2(); // Output: B
 ```

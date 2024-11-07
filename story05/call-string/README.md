@@ -1,8 +1,10 @@
-# Call to String Methods
+# Call String
 
 | Expected file  |
 | -------------- |
 | call-string.js |
+
+### Instructions
 
 In your file, implement the following functions:
 

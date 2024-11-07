@@ -1,4 +1,4 @@
-# Apply to Math Methods
+# Apply to Math
 
 | Expected file    |
 | ---------------- |
