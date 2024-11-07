@@ -4,29 +4,29 @@
 | ------------------ |
 | hybrid-creature.js |
 
-Create a factory function named `createHybridObject` that returns objects created by a given constructor function. The factory function should accept parameters and pass them to the constructor.
+### Instructions
 
-### Requirements:
+Write a function named `createHybridObject` that accepts an object and a method to add to the prototype of the object. The factory function should return the instance of the object that has been created.
 
-- The factory function `createHybridObject` should accept any parameters needed to create an object.
-- The constructor function should define properties and methods for the objects being created.
-- The factory function should return an instance of the object created by the constructor function.
+The factory function should accept:
 
-### Starting Code:
+- obj: The object containing properties to be passed to the constructor function.
+- method: A function that will be added to the prototype of the created object.
+
+### Expected Function:
 
 ```js
-// Constructor function
-function Gadget(type, brand) {
-  this.type = type;
-  this.brand = brand;
-  this.getInfo = function () {
-    return `${this.brand} makes the best ${this.type}!`;
-  };
-}
+function createHybridObject(obj, method) {}
+```
 
-// Your factory function
+### Example:
 
-const phone = createHybridObject("smartphone", "TechCo");
-console.log(phone.getInfo()); // Output: 'TechCo makes the best smartphone!'
-console.log(phone instanceof Gadget); // Output: true
+```js
+const sayHello = function () {
+  console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+};
+const obj = { name: "Alice", age: 30 };
+const hybridPerson = createHybridObject(obj, sayHello);
+hybridPerson.sayHello();
+// Output: Hello, my name is Alice and I am 30 years old
 ```
