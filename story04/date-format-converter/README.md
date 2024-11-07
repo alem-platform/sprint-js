@@ -6,15 +6,14 @@
 | ------------------------ |
 | date-format-converter.js |
 
-Write a function called `convertDateFormat` that converts dates between different formats.
+Write a function `convertDateFormat` that converts dates from one format to another.
 
 The function should:
 
-- Support formats: DD/MM/YYYY, MM-DD-YYYY, YYYY.MM.DD, YYYY/MM/DD
+- Support formats: `DD/MM/YYYY`, `MM-DD-YYYY`, `YYYY.MM.DD`, `YYYY/MM/DD`
 - Handle different separators (/, -, .)
 - Validate input date format
 - Return "Invalid Date Format" for invalid inputs
-- Properly handle single digit months and days
 
 ### Expected Function
 
