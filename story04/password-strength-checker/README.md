@@ -11,16 +11,16 @@ Write a function called `checkPasswordStrength` that evaluates the strength of a
 The function should return password strength based on:
 
 - Length criteria:
-  - Very Weak: Less than 6 characters
-  - Weak: 6-8 characters
-  - Medium: 9-12 characters
-  - Strong: 13+ characters
+  - `Very Weak`: Less than 6 characters
+  - `Weak`: 6-8 characters
+  - `Medium`: 9-12 characters
+  - `Strong`: 13+ characters
 
 - Additional criteria that upgrade the strength:
   - Contains uppercase letters
   - Contains lowercase letters
   - Contains numbers
-  - Contains special characters (!@#$%^&\*()\_+-=[]{}|;:,.<>?)
+  - Contains special characters `!@#$%^&\*()\_+-=[]{}|;:,.<>?`
 
 Rules:
   - A password can't be Strong without at least 3 of the additional criteria
