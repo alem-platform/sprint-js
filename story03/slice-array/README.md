@@ -1,5 +1,9 @@
 # Slice Array
 
+| Expected file  |
+| -------------- |
+| slice-array.js |
+
 ### Instructions:
 
 Write a function called `sliceArray` that divides the original array into sub-arrays, each having a length equal to the provided size.

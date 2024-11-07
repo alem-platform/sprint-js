@@ -1,8 +1,8 @@
 # Round Cut
 
-| Expected file    |
-| ---------------- |
-| round-cut.js |
+| Expected file |
+| ------------- |
+| round-cut.js  |
 
 ### Instructions:
 

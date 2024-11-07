@@ -1,18 +1,18 @@
-# Temperature Converter Class
+# Temperature Converter
+
+| Expected file            |
+| ------------------------ |
+| temperature-converter.js |
 
 ### Instructions
 
-Create a class called `TemperatureConverter` that handles temperature conversions between Celsius and Fahrenheit using modern JavaScript features.
+Create a class called `TemperatureConverter` that handles temperature conversions between celsius and fahrenheit.
 
 The class should:
 
-- Use ES6+ class syntax
-- Implement getters and setters for both Celsius and Fahrenheit
-- Store the temperature in one standard unit (Celsius) internally
-- Use private class fields to prevent direct access to stored temperature
-- Implement proper rounding to 2 decimal places
-- Include input validation for temperature values
-- Use template literals for any string outputs
+- Store the temperature in `celsius` as a private field.
+- Implement getters and setters for both `celsius` and `fahrenheit`
+- Provide a `getDescription` method that returns a formatted string with the current temperature in both celsius and fahrenheit.
 
 ### Expected Class Structure
 
@@ -27,24 +27,13 @@ class TemperatureConverter {
 ```js
 const temp = new TemperatureConverter();
 
-// Basic conversion
 temp.celsius = 25;
-console.log(temp.fahrenheit);
+console.log(temp.celsius); // 25
+console.log(temp.fahrenheit); // 77
 
-// Chained conversions
 temp.fahrenheit = 100;
-console.log(temp.celsius);
-console.log(temp.fahrenheit);
+console.log(temp.celsius); // 37.78
+console.log(temp.fahrenheit); // 100
 
-// Temperature description
-console.log(temp.getDescription());
-```
-
-Output:
-
-```bash
-77
-37.78
-100
-The current temperature is 37.78°C (100°F)
+console.log(temp.getDescription()); // The current temperature is 37.78°C (100°F)
 ```

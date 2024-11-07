@@ -1,5 +1,9 @@
 # Some Sorcerer
 
+| Expected file    |
+| ---------------- |
+| some-sorcerer.js |
+
 Create your own version of JavaScript's built-in `Array.prototype.some()` method.
 
 ### Instructions:

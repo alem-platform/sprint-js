@@ -1,4 +1,10 @@
-### Counter Closure
+### Broken counter
+
+| Expected file     |
+| ----------------- |
+| broken-counter.js |
+
+### Instructions
 
 Fix the scope and variable declaration issues in this counter factory.
 
@@ -27,10 +33,10 @@ function createCounters() {
 
 ```js
 const counter = createCounters();
-counter.increment("userA"); // Returns: 1
-counter.increment("userA"); // Returns: 2
-counter.increment("userB"); // Returns: 1
-console.log(counter.getCount("userA")); // Shows: 2
-console.log(counter.getCount("userB")); // Shows: 1
-console.log(counter.getCount("userC")); // Shows: 0 (non-existent counter)
+counter.increment("userA"); // 1
+counter.increment("userA"); // 2
+counter.increment("userB"); // 1
+console.log(counter.getCount("userA")); // 2
+console.log(counter.getCount("userB")); // 1
+console.log(counter.getCount("userC")); // 0 (non-existent counter)
 ```

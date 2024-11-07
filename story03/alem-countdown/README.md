@@ -1,7 +1,7 @@
 # Alem Countdown
 
-| Expected file   |
-| --------------- |
+| Expected file     |
+| ----------------- |
 | alem-countdown.js |
 
 ### Instructions:

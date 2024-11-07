@@ -1,5 +1,9 @@
 # Price Management
 
+| Expected file       |
+| ------------------- |
+| price-management.js |
+
 ### Instructions
 
 Write a function called `priceManagement` that manages the price of a product and allows applying various discount types to modify it, while keeping track of the original base price.

@@ -1,16 +1,14 @@
 # Recipe Calculator
 
+| Expected file        |
+| -------------------- |
+| recipe-calculator.js |
+
+### Instructions
+
 ### Instructions
 
 Write a function called `calculateRecipe` that handles recipe calculations and conversions.
-
-The function should:
-
-- Work with nested object literals
-- Perform calculations on object properties
-- Handle unit conversions
-- Support recipe scaling
-- Validate ingredient quantities
 
 ### Expected Function
 
@@ -44,30 +42,25 @@ const recipe = {
 };
 
 console.log(calculateRecipe(recipe, 4));
-```
-
-Output:
-
-```bash
-{
-  name: "Chocolate Cake",
-  servings: 4,
-  ingredients: {
-    flour: {
-      amount: 1,
-      unit: "cups"
-    },
-    sugar: {
-      amount: 0.75,
-      unit: "cups"
-    },
-    chocolate: {
-      amount: 100,
-      unit: "grams"
-    }
-  },
-  instructions: ["Mix dry ingredients", "Add wet ingredients", "Bake"],
-  totalWeight: "375g",
-  difficulty: "medium"
-}
+// {
+//   name: "Chocolate Cake",
+//   servings: 4,
+//   ingredients: {
+//     flour: {
+//       amount: 1,
+//       unit: "cups"
+//     },
+//     sugar: {
+//       amount: 0.75,
+//       unit: "cups"
+//     },
+//     chocolate: {
+//       amount: 100,
+//       unit: "grams"
+//     }
+//   },
+//   instructions: ["Mix dry ingredients", "Add wet ingredients", "Bake"],
+//   totalWeight: "375g",
+//   difficulty: "medium"
+// }
 ```
