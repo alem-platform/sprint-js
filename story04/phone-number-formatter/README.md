@@ -26,7 +26,7 @@ function formatPhoneNumber(phone) {
 
 ```js
 console.log(formatPhoneNumber("+7 (777) 123-45-67")); // +7 (777) 123-45-67
-console.log(formatPhoneNumber("7771234567")); // +7 (777) 123-45-67
+console.log(formatPhoneNumber("77771234567")); // +7 (777) 123-45-67
 console.log(formatPhoneNumber("8 (777) 123.45.67")); // Invalid phone number
 console.log(formatPhoneNumber("7-777-123-45-67")); // +7 (777) 123-45-67
 console.log(formatPhoneNumber("777123456789")); // Invalid phone number
