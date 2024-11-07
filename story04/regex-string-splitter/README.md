@@ -1,34 +1,31 @@
-# Regex String Splitter
+# String Splitter
 
 ### Instructions
 
 | Expected file            |
 | ------------------------ |
-| regex-string-splitter.js |
+| string-splitter.js |
 
-Write a function called `multiSplit` that splits a string into an array based on multiple delimiters (space, comma, and semicolon) using a single regex pattern. The function should handle consecutive delimiters and trim whitespace.
+Write a function called `multiSplit` that splits a string into an array based on multiple delimiters (space, comma, and semicolon) using a single regex pattern.
 
 The function should:
 
 - Split on any of these delimiters: space, comma, semicolon
-- Handle multiple consecutive delimiters (treat them as one)
+- Handle multiple consecutive delimiters
 - Trim whitespace from resulting items
-- Remove empty items from the result
 - Return an array of non-empty strings
-- Return empty array for empty input or input with only delimiters
 
-Valid delimiters:
+Valid delimiters: 
+- ` `
+- `,`
+- `;`
 
-- Space character (" ")
-- Comma (",")
-- Semicolon (";")
+### Resourses
 
-### Hints
-
-- Use a regex pattern with character class [,; ]
-- Consider using the `split()` method with regex
-- Use `filter()` to remove empty items
-- Remember to `trim()` each item
+- [Character classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Character_classes)
+- [String.prototype.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+- [String.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/filter)
+- [String.prototype.trim()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
 
 ### Expected Function
 

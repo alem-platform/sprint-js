@@ -1,12 +1,25 @@
 # Log Parser
 
-### Instructions
-
 | Expected file |
 | ------------- |
 | log-parser.js |
 
-Write a function called `parseLog` that extracts components from log entries using regex. Each log entry contains a timestamp, log level, and message.
+### Instructions
+
+Write a function called `parseLog` that extracts components from log entries. Each log entry contains a timestamp, log level, and message.
+
+The function should parse logs with the format:
+
+- Date: `YYYY-MM-DD`
+- Time: `HH:mm:ss`
+- Log Level: `[ERROR]`, `[INFO]`, `[WARNING]`, `[DEBUG]`
+- Message: Rest of the line
+
+Requirements:
+
+- Return null for invalid log format
+- Extract each component into separate fields
+- Support all standard log levels
 
 ### Expected Function
 
@@ -16,20 +29,9 @@ function parseLog(logEntry) {
 }
 ```
 
-The function should parse logs with the format:
+### Resourses:
 
-- Date: YYYY-MM-DD
-- Time: HH:mm:ss
-- Log Level: [ERROR], [INFO], [WARNING], [DEBUG]
-- Message: Rest of the line
-
-Requirements:
-
-- Return null for invalid log format
-- Extract each component into separate fields
-- Validate date and time format
-- Support all standard log levels
-- Handle messages containing special characters
+- [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 ### Example
 
