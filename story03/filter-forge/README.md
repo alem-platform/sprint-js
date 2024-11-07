@@ -1,5 +1,9 @@
 # Filter Forge
 
+| Expected file   |
+| --------------- |
+| filter-forge.js |
+
 Create your own version of JavaScript's built-in `Array.prototype.filter()` method.
 
 ### Instructions:
