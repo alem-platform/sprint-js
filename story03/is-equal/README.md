@@ -2,7 +2,7 @@
 
 | Expected file |
 | ------------- |
-| is-equal.js   |
+| expect.js     |
 
 ### Instructions:
 

@@ -8,6 +8,13 @@
 
 Write a function called `zeroMover` that moves all the zeroes in an array to the end, without altering the order of the non-zero elements.
 
+### Expected funciton:
+```js
+function zeroMover(arr) {
+  //
+}
+```
+
 ### Example:
 
 ```js
