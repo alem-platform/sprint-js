@@ -1,5 +1,9 @@
 # Ultimate Accumulator
 
+| Expected file           |
+| ----------------------- |
+| ultimate-accumulator.js |
+
 Create your own version of JavaScript's built-in `Array.prototype.reduce()` method.
 
 ### Instructions:
