@@ -15,6 +15,12 @@ The function should:
 - Validate input date format
 - Return "Invalid Date Format" for invalid inputs
 
+### Resourses
+
+- [Array.prototype.indexOf()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+- [Array.prototype.split()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+- [RegExp.prototype.test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
+
 ### Expected Function
 
 ```js
