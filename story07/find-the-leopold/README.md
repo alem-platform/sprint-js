@@ -50,6 +50,8 @@ function findLeopold() {
 
 ### Example HTML:
 
+You can create your own HTML file by using starting html code example to test your solution:
+
 ```html
 <ul id="guild">
   <li>

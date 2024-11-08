@@ -25,6 +25,8 @@ function addCssClassToDiv(divId) {
 
 ### Starting Example HTML:
 
+To test your solution you can create your own HTML file by using starting html code example:
+
 ```html
 <p id="greet">Original Text</p>
 <div id="myDiv">Div Content</div>

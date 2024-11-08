@@ -6,7 +6,7 @@
 
 ### Instructions:
 
-Write a function named `checkElementExists` that checks if an element with the ID special-element exists in the DOM.
+Write a function named `checkElementExists` that checks if an element with the ID/CLASS special-element exists in the DOM.
 
 - The function should take 2 argument:
   - String: Will be element searched according to id/class?

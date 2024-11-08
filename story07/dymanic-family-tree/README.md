@@ -26,6 +26,8 @@ Removal Process: After reaching the maximum depth of 4 members:
 - During removal, the element should be styled with a special "removing" class.
 - The text of the button should toggle between "Add Family Member" and "Remove Family Member" depending on whether it's adding or removing.
 
+You're provided with starting CSS and HTML codes below. You can use them to create proper css and html files to test your solution
+
 ### Expecting Function:
 
 ```js
