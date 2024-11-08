@@ -25,8 +25,10 @@ function createHybridObject(obj, method) {}
 const sayHello = function () {
   console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
 };
+
 const obj = { name: "Alice", age: 30 };
-const hybridPerson = createHybridObject(obj, sayHello);
-hybridPerson.sayHello();
-// Output: Hello, my name is Alice and I am 30 years old
+
+const hybridObj = createHybridObject(obj, sayHello);
+
+hybridObj.sayHello(); // Hello, my name is Alice and I am 30 years old
 ```
