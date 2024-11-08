@@ -31,7 +31,7 @@ Runtime environment examples:
 - etc.
 
 ```sh
-node hello.js
+node welcome.js
 ```
 
 Let's create the first JS program and run it in browser environment
@@ -39,7 +39,7 @@ Let's create the first JS program and run it in browser environment
 1. Create a js file named `welcome.js`
 
 ```sh
-echo 'console.log("Hey there! 👋")' > hello.js
+echo 'console.log("Hey there! 👋")' > welcome.js
 ```
 
 2. Browser needs an entry point, which is an html file, so create an `index.html`
