@@ -29,6 +29,5 @@ const sayHello = function () {
 const obj = { name: "Alice", age: 30 };
 
 const hybridObj = createHybridObject(obj, sayHello);
-
 hybridObj.sayHello(); // Hello, my name is Alice and I am 30 years old
 ```
