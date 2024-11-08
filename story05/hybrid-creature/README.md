@@ -13,13 +13,18 @@ The factory function should accept:
 - obj: The object containing properties to be passed to the constructor function.
 - method: A function that will be added to the prototype of the created object.
 
-### Expected Function:
+### Expected Function
 
 ```js
 function createHybridObject(obj, method) {}
 ```
 
-### Example:
+### Resources
+
+- [Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+- [Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
+### Example
 
 ```js
 const sayHello = function () {
