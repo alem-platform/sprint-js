@@ -6,7 +6,7 @@
 
 ### Instructions
 
-Write a function called `createHybridObject` that takes an object and a method to add to its prototype. The function should return the created object instance.
+Write a function called `createHybridObject` that takes an object and a method to add to its prototype. The function should create and return a new object instance.
 
 The factory function should accept:
 
@@ -16,7 +16,7 @@ The factory function should accept:
 ### Expected Function:
 
 ```js
-function createHybridObject(obj, method) {}
+function createHybridObject(obj, methodName, method) {}
 ```
 
 ### Example:
@@ -28,6 +28,6 @@ const sayHello = function () {
 
 const obj = { name: "Alice", age: 30 };
 
-const hybridObj = createHybridObject(obj, sayHello);
+const hybridObj = createHybridObject(obj, 'sayHello', sayHello);
 hybridObj.sayHello(); // Hello, my name is Alice and I am 30 years old
 ```
