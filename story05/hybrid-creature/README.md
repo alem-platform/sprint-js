@@ -1,8 +1,8 @@
-# The Hybrid Creature
+# The Hybrid Object
 
 | Expected file      |
 | ------------------ |
-| hybrid-creature.js |
+| hybrid-object.js |
 
 ### Instructions
 
