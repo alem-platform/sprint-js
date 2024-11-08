@@ -1,4 +1,4 @@
-# The DOM Threat
+# DOM Threat
 
 | Expected file |
 | ------------- |

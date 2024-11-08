@@ -1,4 +1,4 @@
-# The Interactive Keyboard Symphony
+# Keyboard Symphony
 
 | Expected file        |
 | -------------------- |

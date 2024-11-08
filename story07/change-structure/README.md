@@ -1,4 +1,4 @@
-# Change HTML Structure: Wrap All <h1> Elements in a Div
+# Change Structure
 
 | Expected file       |
 | ------------------- |

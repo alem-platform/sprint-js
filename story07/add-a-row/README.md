@@ -1,4 +1,4 @@
-# Modify the Table: Add a Row
+# Add a Row
 
 | Expected file |
 | ------------- |

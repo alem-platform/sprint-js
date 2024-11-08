@@ -1,4 +1,4 @@
-# Count Words in a Textarea
+# Count Words
 
 | Expected file  |
 | -------------- |

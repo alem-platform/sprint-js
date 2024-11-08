@@ -1,4 +1,4 @@
-# The Space Collector Challenge
+# Space Collector
 
 | Expected file      |
 | ------------------ |

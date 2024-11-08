@@ -1,4 +1,4 @@
-# Monoyer Challenge: Changing Text Size and Colors
+# Monoyer Challenge
 
 | Expected file        |
 | -------------------- |

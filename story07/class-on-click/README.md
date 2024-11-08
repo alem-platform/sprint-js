@@ -1,4 +1,4 @@
-# Toggle Class on Click: active Class
+# Class on Click
 
 | Expected file     |
 | ----------------- |

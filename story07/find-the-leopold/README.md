@@ -1,4 +1,4 @@
-# The Architect Hunt: A Journey to Leopold
+# Find the Leopold
 
 | Expected file       |
 | ------------------- |
