@@ -15,7 +15,7 @@ Implement the following functions:
 
 - Use `call` in each function to ensure each String method is invoked on str as a context.
 - Allow chaining multiple String methods by passing them in an array to chainStringMethods.
-- Methods that do not exist in String should be ignored.
+- Calls to methods that do not exist on String should be ignored.
 
 ### Resources
 
