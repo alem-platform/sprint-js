@@ -17,7 +17,7 @@ The function `setPrototypeLink` should accept two arguments:
 ### Expected Function
 
 ```js
-function setPrototypeLink(obj1, obj2) {
+function setPrototypeLink(obj, parent) {
   // Your code here
 }
 ```
