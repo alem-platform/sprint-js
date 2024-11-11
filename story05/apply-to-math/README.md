@@ -19,7 +19,7 @@ In your file create the following functions:
 - `applyMath(method, array)`: Applies a single Math method to an array
 - `chainMath(methods, array)`: Applies multiple Math methods in sequence
 - `transform(formula, array)`: Applies custom mathematical transformations
--  In case of invalid Math method return "not a valid Math method"
+-  In case of invalid Math method return `"Not a valid Math method"`
 
 ### Resources:
 
