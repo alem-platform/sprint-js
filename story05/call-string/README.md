@@ -15,6 +15,7 @@ Implement the following functions:
 
 - Use `call` in each function to ensure each String method is invoked on str as a context.
 - Allow chaining multiple String methods by passing them in an array to chainStringMethods.
+- Calls to methods that do not exist on String should be ignored.
 
 ### Resources
 
@@ -28,9 +29,13 @@ Implement the following functions:
 const text = " JavaScript is fun! ";
 console.log(applyStringMethod("trim", text));
 // Output: "JavaScript is fun!"
+console.log(applyStringMethod("hello", text));
+// Output: " JavaScript is fun! "
 
 // Chaining String methods
-const sentence = "this is a test";
+const sentence = "      This is a test    ";
 console.log(chainStringMethods(["toUpperCase", "trim"], sentence));
 // Output: "THIS IS A TEST"
+console.log(chainStringMethods(["hello", "trim"], sentence));
+// Output: "This is a test"
 ```

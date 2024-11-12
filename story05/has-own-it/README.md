@@ -7,6 +7,7 @@
 ### Instructions
 
 You're given an object `child` that inherits properties from another object `parent`. Create a function `hasOwnIt` that checks if a property belongs directly to the child object or inherited from its prototype.
+> Your solutions should not use `hasOwn` and `hasOwnProperty` methods.
 
 ### Expected Function
 
