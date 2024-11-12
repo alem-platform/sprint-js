@@ -1,18 +1,18 @@
 # story02
 
-| №   | Название         | Уровень | Ссылка                           |
-| --- | ---------------- | ------- | -------------------------------- |
-| 00. | double-agent     | 1       | [github.com](./double-agent)     |
-| 01. | filter-force     | 1       | [github.com](./filter-force)     |
-| 02. | map-master       | 1       | [github.com](./map-master)       |
-| 03. | some-sense       | 1       | [github.com](./some-sense)       |
-| 04. | reducer          | 1       | [github.com](./reducer)          |
-| 05. | palindrome       | 1       | [github.com](./palindrome)       |
-| 06. | reverse-ninja    | 1       | [github.com](./reverse-ninja)    |
-| 07. | falsy-busters    | 1       | [github.com](./falsy-busters)    |
-| 08. | immutable        | 1       | [github.com](./immutable)        |
-| 09. | array-flattener  | 1       | [github.com](./array-flattener)  |
-| 10. | count-keeper     | 1       | [github.com](./count-keeper)     |
-| 11. | merge            | 1       | [github.com](./merge)            |
-| 12. | threshold-filter | 1       | [github.com](./threshold-filter) |
-| 13. | zero-mover       | 1       | [github.com](./zero-mover)       |
+| №   | Название         | Уровень | XP  | Ссылка                                     |
+| --- | ---------------- | ------- | --- | ------------------------------------------ |
+| 00. | double-agent     | 1       | 50  | [github.com](./double-agent/README.md)     |
+| 01. | filter-force     | 1       | 50  | [github.com](./filter-force/README.md)     |
+| 02. | map-master       | 1       | 50  | [github.com](./map-master/README.md)       |
+| 03. | some-sense       | 1       | 50  | [github.com](./some-sense/README.md)       |
+| 04. | reducer          | 2       | 100 | [github.com](./reducer/README.md)          |
+| 05. | palindrome       | 1       | 50  | [github.com](./palindrome/README.md)       |
+| 06. | reverse-ninja    | 1       | 50  | [github.com](./reverse-ninja/README.md)    |
+| 07. | falsy-busters    | 1       | 50  | [github.com](./falsy-busters/README.md)    |
+| 08. | immutable        | 1       | 50  | [github.com](./immutable/README.md)        |
+| 09. | array-flattener  | 1       | 50  | [github.com](./array-flattener/README.md)  |
+| 10. | count-keeper     | 2       | 100 | [github.com](./count-keeper/README.md)     |
+| 11. | merge            | 2       | 100 | [github.com](./merge/README.md)            |
+| 12. | threshold-filter | 1       | 50  | [github.com](./threshold-filter/README.md) |
+| 13. | zero-mover       | 1       | 50  | [github.com](./zero-mover/README.md)       |
