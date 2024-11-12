@@ -15,23 +15,28 @@ Your task is to find the shortest path from a starting point to a target point u
 
 ### Instructions
 
-1. Input:
+1. Motion process
+
+- When determining the correct path, note that Sir Wiggleton the Wanderer is only allowed to move only to directly adjacent cells, while diagonal movement is strictly prohibited.
+- Moving through walls is prohibbited.
+
+2. Input:
 
 - A 2D array grid representing the maze.
 - Coordinates start and end, where: - start = [x1, y1] is the starting position in the maze. - end = [x2, y2] is the destination point.
 
-2. Output:
+3. Output:
 
 - A visualization of the maze exploration as the algorithm searches for the shortest path.
 - The algorithm should highlight how it dynamically discovers new areas, moving towards the target.
 
-3. Algorithm Choice:
+4. Algorithm Choice:
 
 - [DFS](https://en.wikipedia.org/wiki/Depth-first_search)
 - [Dijkstra’s Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 - Alternatively, choose any other pathfinding algorithm of your preference.
 
-4. Visualization Requirements:
+5. Visualization Requirements:
 
 - Mark the cells that have been visited (during search process with selected Algorithm) with number 2.
 - Highlight the final path once found by replacing cells with number 3
@@ -85,7 +90,7 @@ You can take these 3 maps to test your solution:
   [1, 1, 1, 1, 1, 1],
 ],
   [0, 1], // start point
-  [3, 1]; // final destrination
+  [3, 1]; // final destination
 ```
 
 ```js
@@ -107,7 +112,7 @@ You can take these 3 maps to test your solution:
   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
 ],
   [1, 1], // start point
-  [16, 13]; // final destrination
+  [16, 13]; // final destination
 ```
 
 ```js
@@ -131,7 +136,7 @@ You can take these 3 maps to test your solution:
   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
 ],
   [1, 1], // start point
-  [18, 15]; // final destrination
+  [18, 15]; // final destination
 ```
 
 ### Assessment criteria
