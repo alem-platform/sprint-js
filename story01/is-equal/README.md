@@ -4,16 +4,15 @@
 | ------------- |
 | is-equal.js   |
 
-Write a function called `isEqual` that accepts two objects and returns true if they are identical in terms of properties and values, otherwise returns false.
+Write a function called `isEqual` that accepts two objects and returns `true` if they are identical in terms of properties and values, otherwise returns `false`.
 
 ### Expected Function:
 
 ```js
 function isEqual() {
- //
+  //
 }
 ```
-
 
 ### Example:
 
