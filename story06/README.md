@@ -2,14 +2,14 @@
 
 | №   | Название                  | Уровень | XP  | Ссылка                                     |
 | --- | ------------------------- | ------- | --- | ------------------------------------------ |
-| 00. | filter-contacts           |         |     | [github.com](./filter-contacts/)           |
-| 01. | book-library              |         |     | [github.com](./book-library/)              |
-| 02. | cache-manager             |         |     | [github.com](./cache-manager/)             |
-| 03. | broken-counter            |         |     | [github.com](./broken-counter/)            |
-| 04. | event-logger              |         |     | [github.com](./event-logger/)              |
-| 05. | product-catalog           |         |     | [github.com](./product-catalog/)           |
-| 06. | product-inventory-manager |         |     | [github.com](./product-inventory-manager/) |
-| 07. | recipe-calculator         |         |     | [github.com](./recipe-calculator/)         |
-| 08. | smart-array-merge         |         |     | [github.com](./smart-array-merge/)         |
+| 00. | product-inventory-manager |         |     | [github.com](./product-inventory-manager/) |
+| 01. | filter-contacts           |         |     | [github.com](./filter-contacts/)           |
+| 02. | recipe-calculator         |         |     | [github.com](./recipe-calculator/)         |
+| 03. | user-profile-merge        |         |     | [github.com](./user-profile-merge/)        |
+| 04. | smart-array-merge         |         |     | [github.com](./smart-array-merge/)         |
+| 05. | broken-counter            |         |     | [github.com](./broken-counter/)            |
+| 06. | cache-manager             |         |     | [github.com](./cache-manager/)             |
+| 07. | event-logger              |         |     | [github.com](./event-logger/)              |
+| 08. | book-library              |         |     | [github.com](./book-library/)              |
 | 09. | temperature-converter     |         |     | [github.com](./temperature-converter/)     |
-| 10. | user-profile-merge        |         |     | [github.com](./user-profile-merge/)        |
+| 10. | product-catalog           |         |     | [github.com](./product-catalog/)           |
