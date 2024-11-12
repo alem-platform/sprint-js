@@ -12,7 +12,7 @@ Write a function named `addTableRow` that adds a new row to an existing HTML tab
 - Insert a new row with cells containing placeholder text received by function, like "New Row, Column 1", "New Row, Column 2", and "New Row, Column 3".
 - Each new row should be inserted at the end of the table.
 
-You only need to create and submit the `add-a-row.js` file, which you can be checked locally with provided HTML file:
+> You only need to create and submit the `add-a-row.js` file, which you can test locally with provided HTML file:
 
 - [add-a-row.html](story07/add-a-row/add-a-row.html)
 

@@ -28,7 +28,11 @@ Removal Process: After reaching the maximum depth of 4 members:
 
 You're provided with starting CSS and HTML codes below. You can use them to create proper css and html files to test your solution
 
-### Expecting Function:
+> You only need to create and submit the `dynamic-family-tree.js` file, where you can use provided CSS file:
+
+- [style.css](story07/dymanic-family-tree/style.css)
+
+### Expected Function:
 
 ```js
 function addFamilyMember() {
@@ -36,42 +40,7 @@ function addFamilyMember() {
 }
 ```
 
-### Staring CSS Code:
-
-```css
-.member {
-  padding: 10px;
-  margin-left: 10px;
-  border: 2px solid black;
-  font-size: 20px;
-}
-.level-1 {
-  background-color: lightblue;
-  font-size: 20px;
-  border-style: solid;
-}
-.level-2 {
-  background-color: lightgreen;
-  font-size: 18px;
-  border-style: dashed;
-}
-.level-3 {
-  background-color: lightcoral;
-  font-size: 16px;
-  border-style: dotted;
-}
-.level-4 {
-  background-color: lightgoldenrodyellow;
-  font-size: 14px;
-  border-style: double;
-}
-.removing {
-  opacity: 0.5;
-  text-decoration: line-through;
-}
-```
-
-### Starting HTML Code:
+### Example HTML:
 
 ```html
 <button id="toggleBtn">Add Family Member</button>

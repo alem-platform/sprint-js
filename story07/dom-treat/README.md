@@ -23,7 +23,7 @@ function addCssClassToDiv(divId) {
 }
 ```
 
-### Starting Example HTML:
+### Example HTML:
 
 To test your solution you can create your own HTML file by using starting html code example:
 

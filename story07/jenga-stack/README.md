@@ -26,7 +26,7 @@ Write two functions `buildJengaStack` and `removeJengaBox` that will help to man
 function buildJengaStack(numOfBlocks) {
   // ...
 }
-fucntion removeJengaBox(blockId){
+function removeJengaBox(blockId) {
   // ...
 }
 ```
