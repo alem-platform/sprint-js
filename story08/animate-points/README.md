@@ -56,7 +56,8 @@ try {
 } catch (e) {
   console.log("Error caught successfully");
 }
-//Should output (approximately):
+
+// approximately:
 // 0    // at 0ms
 // 25   // at 200ms
 // 50   // at 400ms
