@@ -6,7 +6,7 @@
 
 ### Instructions
 
-Fix the variable hoisting and block scope issues in this cache implementation.
+Fix the variable hoisting, block scope and other issues in this cache implementation.
 
 ```js
 // BROKEN CODE
@@ -17,11 +17,10 @@ const cacheManager = {
     return {
       set(key, value) {
         // Only set if key doesn't exist or value has changed
-        if (!cache.has(key)) {
-          let timestamp = Date.now();
-          cache.set(key, value);
-        }
-        return entry;
+        let timestamp = Date.now();
+        cache.set(key, value);
+
+        return cache.get(value);
       },
 
       get(key) {
