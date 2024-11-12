@@ -22,18 +22,3 @@ You're provided with starting HTML, CSS and JS codes, which can be used to write
 
 -[Keyboard Event](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
 
-### Starting JS code:
-
-```js
-const instrumentColors = {
-  piano: {
-    a: "#FF6B6B",
-    b: "#4ECDC4",
-    c: "#45B7D1",
-    d: "#96CEB4",
-    e: "#FFEEAD",
-    f: "#D4A5A5",
-    g: "#9B59B6",
-  },
-};
-```
