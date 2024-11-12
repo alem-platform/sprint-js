@@ -16,6 +16,7 @@ const cacheManager = {
 
     return {
       set(key, value) {
+        // Only set if key doesn't exist or value has changed
         if (!cache.has(key)) {
           let timestamp = Date.now();
           cache.set(key, value);
