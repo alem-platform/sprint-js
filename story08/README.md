@@ -2,13 +2,13 @@
 
 | №   | Название               | Уровень | XP  | Ссылка                                  |
 | --- | ---------------------- | ------- | --- | --------------------------------------- |
-| 00. | animate-points         |         |     | [github.com](./animate-points/)         |
-| 01. | cancellable            |         |     | [github.com](./cancellable/)            |
-| 02. | debounce               |         |     | [github.com](./debounce/)               |
-| 03. | parallel-task-executor |         |     | [github.com](./parallel-task-executor/) |
-| 04. | promise-all            |         |     | [github.com](./promise-all/)            |
-| 05. | promise-race           |         |     | [github.com](./promise-race/)           |
-| 06. | promise-allSettled     |         |     | [github.com](./promise-allSettled/)     |
-| 07. | retry                  |         |     | [github.com](./retry/)                  |
-| 08. | throttle               |         |     | [github.com](./throttle/)               |
-| 09. | time-limit             |         |     | [github.com](./time-limit/)             |
+| 00. | debounce               | 1       | 50  | [github.com](./debounce/)               |
+| 01. | throttle               | 1       | 50  | [github.com](./throttle/)               |
+| 02. | animate-points         | 2       | 100 | [github.com](./animate-points/)         |
+| 03. | cancellable            | 2       | 100 | [github.com](./cancellable/)            |
+| 04. | time-limit             | 2       | 100 | [github.com](./time-limit/)             |
+| 05. | promise-all            | 3       | 150 | [github.com](./promise-all/)            |
+| 06. | promise-race           | 3       | 150 | [github.com](./promise-race/)           |
+| 07. | promise-allSettled     | 3       | 150 | [github.com](./promise-allSettled/)     |
+| 08. | retry                  | 3       | 150 | [github.com](./retry/)                  |
+| 09. | parallel-task-executor | 3       | 150 | [github.com](./parallel-task-executor/) |
