@@ -4,10 +4,6 @@ Create a function called `animatePoints` that animates a value from start to end
 
 ### Instructions
 
-Create a function called `animatePoints` that animates a value from start to end over time.
-
-### Instructions:
-
 Write a function that accepts an object with these properties:
 
 - start (number): Starting value
@@ -25,20 +21,20 @@ Write a function that accepts an object with these properties:
 3. Space callbacks evenly over the duration
 4. Complete exactly after the specified duration
 
-Rules:
+### Rules
 
 - Must use setTimeout or setInterval (not both)
 - Must clean up any timers if animation is interrupted
 - Must handle edge cases (steps < 2, duration <= 0, etc.)
 - Callback timing must be as precise as possible
 
-### Resources:
+### Resources
 
 - [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout)
 - [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval)
 - [throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 
-### Example:
+### Example
 
 ```js
 animatePoints({
