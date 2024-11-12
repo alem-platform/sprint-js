@@ -12,15 +12,13 @@ Fix the variable hoisting and block scope issues in this cache implementation.
 // BROKEN CODE
 const cacheManager = {
   init() {
-    console.log(cache);
     var cache = new Map();
 
     return {
       set(key, value) {
         if (!cache.has(key)) {
           let timestamp = Date.now();
-          var entry = { value, timestamp };
-          cache.set(key, entry);
+          cache.set(key, value);
         }
         return entry;
       },
