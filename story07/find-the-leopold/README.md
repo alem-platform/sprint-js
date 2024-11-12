@@ -32,7 +32,7 @@ You’re provided with an HTML file that lists people in the guild. Some are arc
 
 - [find-the-leopold.html](story07/find-the-leopold/find-the-leopold.html)
 
-### Expecting Functions:
+### Expected Functions
 
 ```js
 function filterArchitects() {
