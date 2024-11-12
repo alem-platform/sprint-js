@@ -14,6 +14,8 @@ The function `setPrototypeLink` should accept two arguments:
 2. parentObj: The object that will serve as the prototype.
    After linking, childObj should have access to properties and methods from parentObj.
 
+> Your solutions should not use `setPrototypeOf` method.
+
 ### Expected Function
 
 ```js
