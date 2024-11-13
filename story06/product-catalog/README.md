@@ -36,7 +36,7 @@ function ProductCatalog() {
 
 ProductCatalog.prototype.addProduct = function (name, price) {
   if (price < 0) {
-    throw "Price cannot be negative";
+    throw "Price must be a positive number.";
   }
   var product = {
     name: name,
