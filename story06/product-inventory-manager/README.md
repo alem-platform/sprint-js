@@ -25,7 +25,6 @@ console.log(createProduct(1, "Laptop", 999.99, "Electronics"));
 //   name: "Laptop",
 //   price: 999.99,
 //   category: "Electronics",
-//   displayInfo: [Function],
 //   priceWithTax: 1099.99,
 // }
 console.log(createProduct(2, "Book", 29.99, "Books"));
@@ -34,7 +33,6 @@ console.log(createProduct(2, "Book", 29.99, "Books"));
 //   name: "Book",
 //   price: 29.99,
 //   category: "Books",
-//   displayInfo: [Function],
 //   priceWithTax: 32.99,
 // }
 ```
