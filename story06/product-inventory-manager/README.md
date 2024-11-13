@@ -6,7 +6,7 @@
 
 ### Instructions
 
-Create a function `createProduct` that manages product information in an e-commerce system. The function should return the product object.
+Create a function `createProduct` that manages product information in an e-commerce system. The function should return the product object. By default set tax to 10%, otherwise expect it from arguments. 
 
 ### Expected Function
 
@@ -27,7 +27,6 @@ console.log(createProduct(1, "Laptop", 999.99, "Electronics"));
 //   category: "Electronics",
 //   displayInfo: [Function],
 //   priceWithTax: 1099.99,
-//   isExpensive: true
 // }
 console.log(createProduct(2, "Book", 29.99, "Books"));
 // {
@@ -37,6 +36,5 @@ console.log(createProduct(2, "Book", 29.99, "Books"));
 //   category: "Books",
 //   displayInfo: [Function],
 //   priceWithTax: 32.99,
-//   isExpensive: false
 // }
 ```
