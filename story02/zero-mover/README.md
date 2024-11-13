@@ -8,7 +8,14 @@
 
 Write a function called `zeroMover` that moves all the zeroes in an array to the end, without altering the order of the non-zero elements.
 
+> We recommend to use only [builtin array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+### Resources:
+
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
 ### Expected funciton:
+
 ```js
 function zeroMover(arr) {
   //

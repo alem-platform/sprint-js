@@ -6,6 +6,12 @@
 
 Not every number makes the cut. Create a function called `thresholdFilter` that filters an array of numbers, returning only those greater than a specified threshold.
 
+> We recommend to use only [builtin array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+### Resources:
+
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
 ### Example:
 
 ```js
