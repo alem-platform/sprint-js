@@ -1,1 +1,1 @@
-# bootcamp-js
+# sprint-js
