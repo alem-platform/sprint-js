@@ -38,6 +38,9 @@ ProductCatalog.prototype.addProduct = function (name, price) {
   if (price < 0) {
     throw "Price must be a positive number.";
   }
+  if (typeof name !== 'string' || name.trim() === '') {
+    throw new Error('Product name must be a non-empty string.')
+  }
   var product = {
     name: name,
     price: price,
