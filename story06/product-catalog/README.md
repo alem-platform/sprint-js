@@ -45,7 +45,7 @@ ProductCatalog.prototype.addProduct = function (name, price) {
     name: name,
     price: price,
     getInfo: function () {
-      return name + " costs " + price + " dollars";
+      return name + " costs " + price.toFixed(2) + " dollars";
     },
   };
   this.products.push(product);
