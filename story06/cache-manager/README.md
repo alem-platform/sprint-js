@@ -23,7 +23,7 @@ const cacheManager = {
       },
 
       get(key) {
-        return cache.get(key)?.value;
+        //
       },
     };
   },
