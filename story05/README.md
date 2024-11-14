@@ -2,7 +2,7 @@
 
 | №   | Название            | XP  | Lvl | Ссылка                                        |
 | --- | ------------------- | --- | --- | --------------------------------------------- |
-| 01. | hybrid-creature     | 50  | 1   | [github.com](./hybrid-creature/README.md)     |
+| 01. | hybrid-object       | 50  | 1   | [github.com](./hybrid-object/README.md)     |
 | 02. | arrow-this          | 50  | 1   | [github.com](./arrow-this/README.md)          |
 | 03. | pre-set-this        | 50  | 1   | [github.com](./pre-set-this/README.md)        |
 | 04. | call-string         | 50  | 1   | [github.com](./call-string/README.md)         |
