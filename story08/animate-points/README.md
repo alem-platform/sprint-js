@@ -6,14 +6,14 @@ Create a function called `animatePoints` that animates a value from start to end
 
 Write a function that accepts an object with these properties:
 
-- start (number): Starting value
-- end (number): Ending value
-- steps (number): Number of steps to take
-- duration (number): Total animation time in milliseconds
-- onStep (function): Callback for each step, receives:
-  - currentValue (number): The current value
-  - stepNumber (number): Current step number (0-based)
-  - timestamp (number): Time elapsed since start
+- `start` (number): Starting value
+- `end` (number): Ending value
+- `steps` (number): Number of steps to take
+- `duration` (number): Total animation time in milliseconds
+- `onStep` (function): Callback for each step, receives:
+  - `currentValue` (number): The current value
+  - `stepNumber` (number): Current step number (0-based)
+  - `timestamp` (number): Time elapsed since start
     The function should:
 
 1. Animate from start to end in equal steps
