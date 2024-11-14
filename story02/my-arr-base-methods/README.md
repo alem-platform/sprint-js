@@ -26,7 +26,7 @@ Restrictions:
 - [Array.prototype.at](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at)
 - [Array.prototype.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
-**Function definitions:**
+### Function definitions:
 
 ```js
 /**

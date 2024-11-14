@@ -22,7 +22,7 @@ Restrictions:
 - [Array.prototype.slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 - [Array.prototype.flat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)
 
-**Function definitions:**
+### Function definitions:
 
 ```js
 /**

@@ -18,7 +18,7 @@ Restrictions:
 - [Array.prototype.join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 - [Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
-**Function definitions:**
+### Function definitions:
 
 ```js
 /**
