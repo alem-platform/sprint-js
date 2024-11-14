@@ -4,11 +4,11 @@
 
 Студенты поймут из чего состоят строки, что елемент строки может хранить 2 байта, в общем как работать со строками.
 
-| №   | Название (new)            | Темы                                                         | Lvl | XP  | Ссылка                                              | Tests                                                             |
-| --- | ------------------------- | ------------------------------------------------------------ | --- | --- | --------------------------------------------------- | ----------------------------------------------------------------- |
+| №   | Название (new)            | Темы                                                         | Lvl | XP  | Ссылка                                              | Tests |
+| --- | ------------------------- | ------------------------------------------------------------ | --- | --- | --------------------------------------------------- | ----- |
 | 01. | my-string-split           | [my] (string) Understanding string el size                   | 1   | 50  | [github.com](./my-string-split/README.md)           | 🚧 |
 | 02. | my-string-split-safe      | [my] (string) Understanding string el size, unicode          | 2   | 100 | [github.com](./my-string-split-safe/README.md)      | 🚧 |
-| 03. | reverse-string-safe       | [challenge] (string)                                         | 2   | 100 | [github.com](./reverse-string-safe/README.md)       | ✅ |
+| 03. | reverse-string-safe       | [challenge] (string) unicode                                 | 2   | 100 | [github.com](./reverse-string-safe/README.md)       | ✅ |
 | 04. | is-palindrome             | [challenge] (string)                                         | 1   | 50  | [github.com](./is-palindrome/README.md)             | ✅ |
 | 05. | alem-countdown            | [challenge] (nums to string)                                 | 1   | 50  | [github.com](./alem-countdown/README.md)            | ✅ |
 | 06. | find-longest-string       | [challenge] (array, string) Array.reduce                     | 1   | 50  | [github.com](./find-longest-string/README.md)       | 🚧 |
