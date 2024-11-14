@@ -1,7 +1,7 @@
 # The Hybrid Object
 
-| Expected file      |
-| ------------------ |
+| Expected file    |
+| ---------------- |
 | hybrid-object.js |
 
 ### Instructions
@@ -37,12 +37,11 @@ const obj = { name: "Alice", age: 30 };
 const hybridObj = createHybridObject(obj, sayHello);
 hybridObj.sayHello(); // Hello, my name is Alice and I am 30 years old
 
-obj.sayHello() // Error
-
+obj.sayHello(); // Error
 
 const mathObj = { x: 10, y: 20 };
-const mathInstance = createHybridObject(mathObj, function sum() { 
-    return this.x + this.y; 
+const mathInstance = createHybridObject(mathObj, function sum() {
+  return this.x + this.y;
 });
 console.log(mathInstance.sum()); // 30
 ```
