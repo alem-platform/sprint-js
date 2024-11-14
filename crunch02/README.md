@@ -97,12 +97,12 @@ space-news-dashboard/
 └── README.md
 ```
 
-### Recommended Reading
+### Resources
 
-- MDN Web Docs: Array Methods
-- MDN Web Docs: DOM Manipulation
-- CSS Grid Layout Guide
-- JavaScript Event Handling
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM)
+- [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
+- [JavaScript Event Handling](https://developer.mozilla.org/en-US/docs/Web/Events/Event_handlers)
 
 ## Notes
 
