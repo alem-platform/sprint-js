@@ -4,21 +4,16 @@ Write a function that creates a cancellable interval.
 
 ### Instructions
 
-1.  The function should take 4 parameters:
-
-- fn: The function to be called repeatedly
-- args: Array of arguments to pass to fn
-- t: Interval time in milliseconds
-- cancelTimeMs: Time after which the interval should be cancelled
-
-2.  The function should:
-
-- Call fn immediately with args
-- Call fn every t milliseconds with args
-- Return a cancelFn that will be called after cancelTimeMs
-- Stop calling fn after cancelFn is called
-
-3. Return array of times at which fn is called
+- The function should take 4 parameters:
+  - `fn`: The function to be called repeatedly
+  - `args`: Array of arguments to pass to fn
+  - `t`: Interval time in milliseconds
+  - `cancelTimeMs`: Time after which the interval should be cancelled
+- Call `fn` immediately with args
+- Call `fn` every `t` milliseconds with args
+- Return a `cancelFn` that will be called after `cancelTimeMs`
+- Stop calling `fn` after `cancelFn` is called
+- Return array of times at which fn is called
 
 ```js
 function cancellable(fn, args, t, cancelTimeMs) {
