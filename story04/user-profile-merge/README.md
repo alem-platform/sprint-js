@@ -1,8 +1,8 @@
 # User Profile Merger
 
-| Expected file          |
-| ---------------------- |
-| user-profile-merger.js |
+| Expected file         |
+| --------------------- |
+| user-profile-merge.js |
 
 ### Instructions
 
