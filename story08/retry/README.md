@@ -4,23 +4,19 @@ Implement a retry function that attempts to execute an async operation multiple 
 
 ### Instructions
 
-1. The function should take the following parameters:
-
-- fn: async function to retry
-- retries: number of retry attempts (default: 3)
-- timeout: timeout for each attempt in ms (default: 1000)
-- onRetry: optional callback called on each retry with attempt number and error
-
-2.  The function should:
-
-- Attempt to execute fn
-- If fn fails or times out, retry up to 'retries' times
-- Wait for the specified timeout before failing each attempt
-- Call onRetry callback between attempts with attempt count and error
-- Return the first successful result
-- Throw the last error if all attempts fail
-
-3.  Use `Promise.race()` to implement the timeout functionality
+- The function should take the following parameters:
+  - `fn`: async function to retry
+  - `retries`: number of retry attempts (default: 3)
+  - `timeout`: timeout for each attempt in ms (default: 1000)
+  - `onRetry`: optional callback called on each retry with attempt number and error
+- The function should:
+  - Attempt to execute `fn`
+  - If `fn` fails or times out, retry up to `retries` times
+  - Wait for the specified timeout before failing each attempt
+  - Call `onRetry` callback between attempts with attempt count and error
+  - Return the first successful result
+  - Throw the last error if all attempts fail
+- Use `Promise.race()` to implement the timeout functionality
 
 ```js
 function retry(fn, retries = 3, timeout = 1000, onRetry = null) {
