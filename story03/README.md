@@ -13,12 +13,12 @@
 | 05. | alem-countdown               | alem-countdown            | [challenge] (nums to string)                                 | 1   | 50  | [github.com](./alem-countdown/README.md)          | ✅  |
 | 06. | -                            | find-longest-word (NEW)   | [challenge] (array, string) Array.reduce                     | 1   | 50  | [github.com](./find-longest-word/README.md)       | 🚧  |
 | 07. | -                            | string-codes-sum (NEW)    | [challenge] (array, string) String.codePointAt, Array.reduce | 1   | 50  | [github.com](./string-codes-sum/README.md)        | 🚧  |
-| 08. | email-validator              | email-validator           |                                                              |     |     | [github.com](./email-validator/)                  | ✅  |
-| 09. | phone-number-formatter       | phone-number-formatter    |                                                              |     |     | [github.com](./phone-number-formatter/)           | ✅  |
-| 10. | url-extractor                | url-extractor             |                                                              |     |     | [github.com](./url-extractor/)                    | ✅  |
-| 11. | hashtag-extractor            | hashtag-extractor         |                                                              |     |     | [github.com](./hashtag-extractor/)                | ✅  |
-| 12. | date-format-converter        | date-format-converter     |                                                              |     |     | [github.com](./date-format-converter/)            | ✅  |
-| 13. | dublicate-word-finder        | dublicate-word-finder     |                                                              |     |     | [github.com](./dublicate-word-finder/)            | ✅  |
-| 14. | word-frequency-counter       | word-frequency-counter    |                                                              |     |     | [github.com](./word-frequency-counter/)           | ✅  |
-| 15. | password-strength-checker    | password-strength-checker |                                                              |     |     | [github.com](./password-strength-checker/)        | ✅  |
-| 16. | regex-string-splitter        | regex-string-splitter     |                                                              |     |     | [github.com](./regex-string-splitter/)            | ✅  |
+| 08. | email-validator              | email-validator           | [challenge] [new] (string) Regex                             |     |     | [github.com](./email-validator/)                  | ✅  |
+| 09. | phone-number-formatter       | phone-number-formatter    | [challenge] (string) Regex                                   |     |     | [github.com](./phone-number-formatter/)           | ✅  |
+| 10. | url-extractor                | url-extractor             | [challenge] (string) Regex                                   |     |     | [github.com](./url-extractor/)                    | ✅  |
+| 11. | hashtag-extractor            | hashtag-extractor         | [challenge] (string) Regex                                   |     |     | [github.com](./hashtag-extractor/)                | ✅  |
+| 12. | date-format-converter        | date-format-converter     | [challenge] (string) Regex                                   |     |     | [github.com](./date-format-converter/)            | ✅  |
+| 13. | dublicate-word-finder        | dublicate-word-finder     | [challenge] (string) Regex                                   |     |     | [github.com](./dublicate-word-finder/)            | ✅  |
+| 14. | word-frequency-counter       | word-frequency-counter    | [challenge] (string) Regex                                   |     |     | [github.com](./word-frequency-counter/)           | ✅  |
+| 15. | password-strength-checker    | password-strength-checker | [challenge] (string) Regex                                   |     |     | [github.com](./password-strength-checker/)        | ✅  |
+| 16. | regex-string-splitter        | regex-string-splitter     | [challenge] (string) Regex                                   |     |     | [github.com](./regex-string-splitter/)            | ✅  |
