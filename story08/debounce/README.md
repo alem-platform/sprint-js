@@ -7,11 +7,11 @@ Create your own implementation of the lodash `debounce` function.
 Write a function `debounce` that works exactly like \_.debounce from `lodash`.
 Your function should accept these parameters:
 
-- func (Function): The function to debounce
-- wait (number): The number of milliseconds to delay
-- options (Object) [optional]: The options object
-  - leading (boolean): Call func on the leading edge of the timeout
-  - trailing (boolean): Call func on the trailing edge of the timeout
+- `func` (Function): The function to debounce
+- `wait` (number): The number of milliseconds to delay
+- `options` (Object) [optional]: The options object
+  - `leading` (boolean): Call func on the leading edge of the timeout
+  - `trailing` (boolean): Call func on the trailing edge of the timeout
 
 ### Resources:
 

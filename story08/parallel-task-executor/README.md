@@ -4,27 +4,22 @@ Create a function that executes multiple tasks in parallel with the following re
 
 ### Instructions
 
-1.  The function should take an array of task objects with:
-
-- id: unique identifier
-- task: async function to execute
-- priority: number (1-3, where 1 is highest)
-- timeout: maximum time allowed for execution in ms
-
-2.  Implementation requirements:
-
-- Execute tasks in parallel using Promise.all()
-- Tasks with priority 1 should start immediately
-- Tasks with priority 2 should start after 100ms delay
-- Tasks with priority 3 should start after 200ms delay
-- If a task exceeds its timeout, it should fail with "Task Timeout"
-- Collect results including success/failure status and execution time
-
-3.  Return an object with:
-
-- successful: array of successful task results
-- failed: array of failed task details
-- totalTime: total execution time
+- The function should take an array of task objects with:
+  - `id`: unique identifier
+  - `task`: async function to execute
+  - `priority`: number (1-3, where 1 is highest)
+  - `timeout`: maximum time allowed for execution in ms
+- Implementation requirements:
+  - Execute tasks in parallel using `Promise.all()`
+  - Tasks with priority 1 should start immediately
+  - Tasks with priority 2 should start after 100ms delay
+  - Tasks with priority 3 should start after 200ms delay
+  - If a task exceeds its timeout, it should fail with `"Task Timeout"`
+  - Collect results including `success/failure` status and execution time
+- Return an object with:
+  - `successful`: array of successful task results
+  - `failed`: array of failed task details
+  - `totalTime`: total execution time
 
 ```js
 async function executeParallelTasks(tasks) {
@@ -68,9 +63,7 @@ const tasks = [
 ];
 
 const result = await executeParallelTasks(tasks);
-```
 
-```js
 // Expected output format:
 {
     successful: [

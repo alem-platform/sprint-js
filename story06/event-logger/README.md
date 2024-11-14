@@ -10,24 +10,26 @@ Fix the scoping issues in this event tracking system. The code should maintain m
 
 ```js
 // BROKEN CODE
-let events = [];
-const MAX_EVENTS = 5;
-
 const eventTracker = {
+  events: [],
+  MAX_EVENTS: 5,
+
   logEvent(eventName) {
-    if (events.length >= MAX_EVENTS) {
-      let events = []; // Wrong scope!
-    }
-    events.push({ name: eventName, timestamp: Date.now() });
-    return events.length;
+    // Code to log events goes here
   },
 
   get currentEvents() {
-    return events;
+    return this.events;
   },
 };
 ```
-
+Each event is an object:
+```js
+{
+  eventName: 'event name',
+  timestamp: 'date of event',
+}
+```
 ### Example
 
 ```js

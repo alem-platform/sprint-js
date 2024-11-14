@@ -6,28 +6,23 @@
 
 ### Instructions
 
-Fix the variable hoisting and block scope issues in this cache implementation.
+Fix the variable hoisting, block scope and other issues in this cache implementation.
 
 ```js
 // BROKEN CODE
 const cacheManager = {
   init() {
-    console.log(cache);
     var cache = new Map();
 
     return {
       set(key, value) {
-        if (!cache.has(key)) {
-          let timestamp = Date.now();
-          var entry = { value, timestamp };
-          cache.set(key, entry);
-        }
-        return entry;
+        // Only set if key doesn't exist or value has changed
+        let timestamp = Date.now();
+
+        return cache.get(value);
       },
 
-      get(key) {
-        return cache.get(key)?.value;
-      },
+      get(key) {},
     };
   },
 };
@@ -39,11 +34,14 @@ const cacheManager = {
 const cache = cacheManager.init();
 
 const entry1 = cache.set("apiKey", "abc123");
-console.log(entry1); // { value: "abc123", timestamp: 1234567890 }
+console.log(entry1); // { value: 'abc123', timestamp: 1731410502322 }
 
-console.log(cache.get("apiKey")); // "abc123"
+const entry2 = cache.set("apiKey", "abc123");
+console.log(entry2); // { value: 'abc123', timestamp: 1731410502322 }
+
+const entry3 = cache.set("apiKey", "newValue");
+console.log(entry3); // { value: 'newValue', timestamp: 1731410502330 }
+
+console.log(cache.get("apiKey")); // newValue
 console.log(cache.get("missing")); // undefined
-
-const entry2 = cache.set("apiKey", "newValue");
-console.log(entry2); // { value: "newValue", timestamp: 1234567891 }
 ```

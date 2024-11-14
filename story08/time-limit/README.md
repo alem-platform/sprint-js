@@ -4,19 +4,15 @@ Write a function that implements a time limit for asynchronous functions.
 
 ### Instructions
 
-The function should:
 
-1.  Take two parameters:
-
-- fn: an async function to be time-limited
-- t: time limit in milliseconds
-
-2.  Return a new time-limited version of the input function that:
-
-- Takes the same arguments as fn
-- Returns a promise that resolves with fn's result if fn completes within t milliseconds
-- Rejects with "Time Limit Exceeded" if fn takes longer than t milliseconds
-- Properly handles any errors thrown by fn
+- The function should take two parameters:
+  - `fn`: an async function to be time-limited
+  - `t`: time limit in milliseconds
+- Return a new time-limited version of the input function that:
+  - Takes the same arguments as `fn`
+  - Returns a promise that resolves with `fn`'s result if fn completes within t milliseconds
+  - Rejects with `"Time Limit Exceeded"` if `fn` takes longer than `t` milliseconds
+  - Properly handles any errors thrown by `fn`
 
 ### Resources:
 
