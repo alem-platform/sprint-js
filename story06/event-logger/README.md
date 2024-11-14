@@ -26,7 +26,7 @@ const eventTracker = {
 Each event is an object:
 ```js
 {
-  name: 'event name',
+  eventName: 'event name',
   timestamp: 'date of event',
 }
 ```
