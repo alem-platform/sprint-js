@@ -16,6 +16,7 @@ Your task is to identify and remove all falsy values (false, null, undefined, 0,
 Create a function called `falsyBusters` that takes an array as input and uses a built-in method (such as `filter`) to remove falsy values, returning a new, cleaned-up array.
 
 ### Expected function:
+
 ```js
 function falsyBusters(arr) {
   //

@@ -10,11 +10,17 @@ Your task is to count how many times each element appears in an array.
 
 Write a function called `countKeeper` that takes an array and returns an [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) with the count of each element’s occurrence.
 
+> We recommend to use only [builtin array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+### Resources:
+
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
 ### Expected Function:
 
 ```js
 function countKeeper(arr) {
-  // 
+  //
 }
 ```
 

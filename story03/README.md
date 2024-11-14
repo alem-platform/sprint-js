@@ -1,17 +1,24 @@
 # story03
 
-| №   | Название             | Уровень | Ссылка                               |
-| --- | -------------------- | ------- | ------------------------------------ |
-| 00. | slice-array          | 1       | [github.com](./slice-array)          |
-| 01. | filter-forge         | 1       | [github.com](./filter-forge)         |
-| 02. | map-craft            | 1       | [github.com](./map-craft)            |
-| 03. | some-sorcerer        | 1       | [github.com](./some-sorcerer)        |
-| 04. | ultimate-accumulator | 1       | [github.com](./ultimate-accumulator) |
-| 05. | alem-countdown       | 1       | [github.com](./alem-countdown)       |
-| 06. | object-purge         | 1       | [github.com](./object-purge)         |
-| 07. | smart-conversion     | 1       | [github.com](./smart-conversion)     |
-| 08. | round-cut            | 1       | [github.com](./round-cut)            |
-| 09. | math-trio            | 1       | [github.com](./math-trio)            |
-| 10. | count-masters        | 1       | [github.com](./count-masters)        |
-| 11. | is-equal             | 1       | [github.com](./is-equal)             |
-| 12. | price-management     | 1       | [github.com](./price-management)     |
+Работа со строками и регулярными выражениями.
+
+Студенты поймут из чего состоят строки, что елемент строки может хранить 2 байта, в общем как работать со строками.
+
+| №   | Название (new)            | Темы                                                         | Lvl | XP  | Ссылка                                              | Tests                                                             |
+| --- | ------------------------- | ------------------------------------------------------------ | --- | --- | --------------------------------------------------- | ----------------------------------------------------------------- |
+| 01. | my-string-split           | [my] (string) Understanding string el size                   | 1   | 50  | [github.com](./my-string-split/README.md)           | 🚧                                                                |
+| 02. | my-string-split-safe      | [my] (string) Understanding string el size, unicode          | 2   | 100 | [github.com](./my-string-split-safe/README.md)      | 🚧                                                                |
+| 03. | reverse-string-safe       | [challenge] (string)                                         | 2   | 100 | [github.com](./reverse-string-safe/README.md)       | ✅ (reverse-ninja -> reverse-string-safe + add tests for unicode) |
+| 04. | is-palindrome             | [challenge] (string)                                         | 1   | 50  | [github.com](./is-palindrome/README.md)             | ✅ (added restrictions non alphabet symbols ignored)              |
+| 05. | alem-countdown            | [challenge] (nums to string)                                 | 1   | 50  | [github.com](./alem-countdown/README.md)            | ✅                                                                |
+| 06. | find-longest-string       | [challenge] (array, string) Array.reduce                     | 1   | 50  | [github.com](./find-longest-string/README.md)       | 🚧                                                                |
+| 07. | string-charcodes-sum      | [challenge] (array, string) String.codePointAt, Array.reduce | 1   | 50  | [github.com](./string-charcodes-sum/README.md)      | 🚧                                                                |
+| 08. | email-validator           | [challenge] [new] (string) Regex                             | 2   | 100 | [github.com](./email-validator/README.md)           | ✅                                                                |
+| 09. | phone-number-formatter    | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./phone-number-formatter/README.md)    | ✅                                                                |
+| 10. | url-extractor             | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./url-extractor/README.md)             | ✅                                                                |
+| 11. | hashtag-extractor         | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./hashtag-extractor/README.md)         | ✅                                                                |
+| 12. | date-format-converter     | [challenge] (string) Regex                                   | 1   | 50  | [github.com](./date-format-converter/README.md)     | ✅                                                                |
+| 13. | dublicate-word-finder     | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./dublicate-word-finder/README.md)     | ✅                                                                |
+| 14. | word-frequency-counter    | [challenge] (string) Regex                                   | 1   | 50  | [github.com](./word-frequency-counter/README.md)    | ✅                                                                |
+| 15. | password-strength-checker | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./password-strength-checker/README.md) | ✅                                                                |
+| 16. | regex-string-splitter     | [challenge] (string) Regex                                   | 1   | 50  | [github.com](./regex-string-splitter/README.md)     | ✅                                                                |

@@ -1,14 +1,14 @@
 # Immutability Protector
 
-| Expected file            |
-| ------------------------ |
-| with-updated-property.js |
+| Expected file                |
+| ---------------------------- |
+| obj-with-updated-property.js |
 
 In this task, you need to update a property of an object without mutating the original.
 
 ### Instructions
 
-Write a function called `withUpdatedProperty` that returns a new object with one property updated. Keep the original object safe from any changes.
+Write a function called `objWithUpdatedProperty` that returns a new object with one property updated. Keep the original object safe from any changes.
 
 The function should take three parameters:
 
@@ -19,7 +19,7 @@ The function should take three parameters:
 Function should return a new object that has the updated property, without modifying the original obj.
 
 ```js
-function withUpdatedProperty(obj, key, value) {
+function objWithUpdatedProperty(obj, key, value) {
   // ...
 }
 ```
@@ -28,7 +28,7 @@ function withUpdatedProperty(obj, key, value) {
 
 ```js
 const obj = { name: "Alice", age: 25 };
-const updatedObj = withUpdatedProperty(obj, "age", 26);
+const updatedObj = objWithUpdatedProperty(obj, "age", 26);
 
 console.log(updatedObj); // Output: { name: 'Alice', age: 26 }
 console.log(obj); // Output: { name: 'Alice', age: 25 } (unchanged)

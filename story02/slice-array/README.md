@@ -10,6 +10,12 @@ Write a function called `sliceArray` that divides the original array into sub-ar
 If the array cannot be split evenly, the last sub-array should contain the remaining elements.
 In case of invalid input values, function should return initial array
 
+> We recommend to use only [builtin array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+### Resources:
+
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
 ### Expected Function:
 
 ```js
