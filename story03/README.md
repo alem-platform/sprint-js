@@ -17,8 +17,8 @@
 | 09. | phone-number-formatter    | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./phone-number-formatter/README.md)    | ✅    |
 | 10. | url-extractor             | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./url-extractor/README.md)             | ✅    |
 | 11. | hashtag-extractor         | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./hashtag-extractor/README.md)         | ✅    |
-| 12. | date-format-converter     | [challenge] (string) Regex                                   | 1   | 50  | [github.com](./date-format-converter/README.md)     | ✅    |
-| 13. | duplicate-word-finder     | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./duplicate-word-finder/README.md)     | 🚧    |
+| 12. | date-format-converter     | [challenge] (string) Regex                                   | 1   | 50  | [github.com](./date-format-converter/README.md)     | 🚧    |
+| 13. | duplicate-word-finder     | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./duplicate-word-finder/README.md)     | ✅    |
 | 14. | word-frequency-counter    | [challenge] (string) Regex                                   | 1   | 50  | [github.com](./word-frequency-counter/README.md)    | ✅    |
 | 15. | password-strength-checker | [challenge] (string) Regex                                   | 2   | 100 | [github.com](./password-strength-checker/README.md) | ✅    |
 | 16. | regex-string-splitter     | [challenge] (string) Regex                                   | 1   | 50  | [github.com](./regex-string-splitter/README.md)     | ✅    |
