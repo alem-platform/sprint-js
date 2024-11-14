@@ -10,16 +10,16 @@ Fix the scoping issues in this event tracking system. The code should maintain m
 
 ```js
 // BROKEN CODE
-let events = [];
-const MAX_EVENTS = 5;
-
 const eventTracker = {
+  events: [],
+  MAX_EVENTS: 5,
+
   logEvent(eventName) {
-    //
+    // Code to log events goes here
   },
 
   get currentEvents() {
-    return events;
+    return this.events;
   },
 };
 ```
