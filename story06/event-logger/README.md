@@ -23,7 +23,13 @@ const eventTracker = {
   },
 };
 ```
-
+Each event is an object:
+```js
+{
+  name: 'event name',
+  timestamp: 'date of event',
+}
+```
 ### Example
 
 ```js
