@@ -4,13 +4,19 @@
 | ---------------- |
 | is-palindrome.js |
 
+### Instructions:
+
 You must determine whether a string reads the same forward and backward—a palindrome! Write a function called `isPalindrome` that takes a string and checks if it’s a palindrome, ensuring that the string is the same in both directions.
+
+Restrictions:
+
+- The funciton should ignore non latin alphabet characters.
 
 ### Expected function:
 
 ```js
 function isPalindrome(str) {
-  //
+  // Your code
 }
 ```
 

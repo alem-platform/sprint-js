@@ -1,12 +1,12 @@
-# My String Unicode Split
+# My String Split Safe
 
-| Expected file                |
-| ---------------------------- |
-| `my-string-unicode-split.js` |
+| Expected file             |
+| ------------------------- |
+| `my-string-split-safe.js` |
 
 ### Instructions:
 
-Write a function `myStringUnicodeSplit` that takes a string and a separator, similar to `String.prototype.split`, but with special handling for Unicode characters. This function should accurately split strings containing Unicode characters, ensuring that multi-byte characters, emojis, and other complex Unicode sequences are correctly separated.
+Write a function `myStringSplitSafe` that takes a string and a separator, similar to `String.prototype.split`, but with special handling for Unicode characters. This function should accurately split strings containing Unicode characters, ensuring that multi-byte characters, emojis, and other complex Unicode sequences are correctly separated.
 
 Restrictions:
 
@@ -15,7 +15,7 @@ Restrictions:
 
 ### Requirements:
 
-The function `myStringUnicodeSplit` should support:
+The function `myStringSplitSafe` should support:
 
 - **String separator**: When a string is provided as the separator, split the input string by occurrences of this separator.
 - **Empty string separator**: If the separator is an empty string (`""`), return an array of individual Unicode characters.
@@ -30,7 +30,7 @@ The function `myStringUnicodeSplit` should support:
 ### Function definition:
 
 ```js
-function myStringUnicodeSplit(str, separator, limit) {
+function myStringSplitSafe(str, separator, limit) {
   // Your Solution
 }
 ```
@@ -38,18 +38,18 @@ function myStringUnicodeSplit(str, separator, limit) {
 ### Example usage:
 
 ```javascript
-console.log(myStringUnicodeSplit("apple🍏banana🍌orange🍊", "🍏"));
+console.log(myStringSplitSafe("apple🍏banana🍌orange🍊", "🍏"));
 // Output: ["apple", "banana🍌orange🍊"]
 
-console.log(myStringUnicodeSplit("hello🌍", ""));
+console.log(myStringSplitSafe("hello🌍", ""));
 // Output: ["h", "e", "l", "l", "o", "🌍"]
 
-console.log(myStringUnicodeSplit("🦄🌈🦄🌈", "🌈", 3));
+console.log(myStringSplitSafe("🦄🌈🦄🌈", "🌈", 3));
 // Output: ["🦄", "🦄", "🌈"]
 
-console.log(myStringUnicodeSplit("good💙day", "💙", 1));
+console.log(myStringSplitSafe("good💙day", "💙", 1));
 // Output: ["good"]
 
-console.log(myStringUnicodeSplit("emoji😀split😀test", "😀", 2));
+console.log(myStringSplitSafe("emoji😀split😀test", "😀", 2));
 // Output: ["emoji", "split"]
 ```

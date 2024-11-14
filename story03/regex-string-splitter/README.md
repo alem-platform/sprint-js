@@ -2,8 +2,8 @@
 
 ### Instructions
 
-| Expected file            |
-| ------------------------ |
+| Expected file      |
+| ------------------ |
 | string-splitter.js |
 
 Write a function called `multiSplit` that splits a string into an array based on multiple delimiters (space, comma, and semicolon) using a single regex pattern.
@@ -15,7 +15,8 @@ The function should:
 - Trim whitespace from resulting items
 - Return an array of non-empty strings
 
-Valid delimiters: 
+Valid delimiters:
+
 - ` `
 - `,`
 - `;`
