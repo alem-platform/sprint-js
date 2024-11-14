@@ -21,7 +21,7 @@ Write a funciton that determines whether the passed value is an [Array](https://
  * @param {*} value - The value to check
  * @return {boolean} True if the value is an array; otherwise, false
  */
-function myIsArray(value) {
+function builtinIsArray(value) {
   // Your Solution
 }
 ```
@@ -29,13 +29,13 @@ function myIsArray(value) {
 **Example usage:**
 
 ```javascript
-console.log(myIsArray([1, 2, 3])); // Output: true
-console.log(myIsArray("hello")); // Output: false
-console.log(myIsArray({ name: "Alice" })); // Output: false
-console.log(myIsArray(42)); // Output: false
-console.log(myIsArray(null)); // Output: false
-console.log(myIsArray(undefined)); // Output: false
-console.log(myIsArray(() => {})); // Output: false
-console.log(myIsArray([])); // Output: true
-console.log(myIsArray(new Array(5))); // Output: true
+console.log(builtinIsArray([1, 2, 3])); // Output: true
+console.log(builtinIsArray("hello")); // Output: false
+console.log(builtinIsArray({ name: "Alice" })); // Output: false
+console.log(builtinIsArray(42)); // Output: false
+console.log(builtinIsArray(null)); // Output: false
+console.log(builtinIsArray(undefined)); // Output: false
+console.log(builtinIsArray(() => {})); // Output: false
+console.log(builtinIsArray([])); // Output: true
+console.log(builtinIsArray(new Array(5))); // Output: true
 ```
