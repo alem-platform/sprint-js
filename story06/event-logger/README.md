@@ -15,11 +15,7 @@ const MAX_EVENTS = 5;
 
 const eventTracker = {
   logEvent(eventName) {
-    if (events.length >= MAX_EVENTS) {
-      let events = []; // Wrong scope!
-    }
-    events.push({ name: eventName, timestamp: Date.now() });
-    return events.length;
+    //
   },
 
   get currentEvents() {
