@@ -12,7 +12,7 @@ Write a funciton that determines whether the passed value is an [Array](https://
 
 - [Array.isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 
-**Function definition:**
+### Expected Function
 
 ```js
 /**
@@ -26,7 +26,7 @@ function builtinIsArray(value) {
 }
 ```
 
-**Example usage:**
+### Example:
 
 ```javascript
 console.log(builtinIsArray([1, 2, 3])); // Output: true

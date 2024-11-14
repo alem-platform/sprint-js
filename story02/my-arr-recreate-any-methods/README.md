@@ -51,7 +51,7 @@ function myArrayReduce(arr, callback, initialValue) {
 }
 ```
 
-**Example usage:**
+### Example:
 
 ```javascript
 let arr = [1, 2, 3, 4, 5];

@@ -112,7 +112,7 @@ function myArrayayFind(arr, callback) {
 }
 ```
 
-**Example usage:**
+### Example:
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];

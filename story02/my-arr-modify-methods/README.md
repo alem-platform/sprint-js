@@ -67,7 +67,7 @@ function myArrayReverse(arr) {
 }
 ```
 
-**Example usage:**
+### Example:
 
 ```javascript
 let arr = [1, 2, 3, 4, 5];

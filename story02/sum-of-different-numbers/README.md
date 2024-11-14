@@ -28,7 +28,7 @@ function sumOfDifferentNumbers(arr) {
 }
 ```
 
-**Example usage:**
+### Example:
 
 ```javascript
 console.log(sumOfDifferentNumbers([1, 2, 3.5, 4, 5, 0.2, -7, -2]));
