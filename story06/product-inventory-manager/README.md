@@ -1,12 +1,12 @@
 # Product Inventory Manager
 
-| Expected file        |
-| -------------------- |
-| product-inventory.js |
+| Expected file                |
+| ---------------------------- |
+| product-inventory-manager.js |
 
 ### Instructions
 
-Create a function `createProduct` that manages product information in an e-commerce system. The function should return the product object. By default set tax to 10%, otherwise expect it from arguments. 
+Create a function `createProduct` that manages product information in an e-commerce system. The function should return the product object. By default set tax to 10%, otherwise expect it from arguments.
 
 ### Expected Function
 
