@@ -23,7 +23,7 @@ Requirements:
 ### Expected Function:
 
 ```js
-function totalInvertNumbers(numbers) {
+function rotateAllNumbers(numbers) {
   // Your Solution
 }
 ```
@@ -31,9 +31,9 @@ function totalInvertNumbers(numbers) {
 ### Example:
 
 ```js
-totalInvertNumbers([1, 2, -3, 4]);
+rotateAllNumbers([1, 2, -3, 4]);
 // Output: [-4, 3, -2, -1]
 
-totalInvertNumbers([-1, -2, -3, -4]);
+rotateAllNumbers([-1, -2, -3, -4]);
 // Output: [4, 3, 2, 1]
 ```
