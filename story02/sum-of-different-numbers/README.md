@@ -46,6 +46,6 @@ console.log(sumOfDifferentNumbers([0, -3, -2.5, 6, 8.8]));
 //   oddSum: -3,
 //   evenSum: 6,
 //   floatingSum: 6.3,
-//   naturalSum: undefined
+//   naturalSum: 6
 // }
 ```
