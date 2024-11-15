@@ -45,7 +45,7 @@ console.log(myStringSplitSafe("hello🌍", ""));
 // Output: ["h", "e", "l", "l", "o", "🌍"]
 
 console.log(myStringSplitSafe("🦄🌈🦄🌈", "🌈", 3));
-// Output: ["🦄", "🦄", "🌈"]
+// Output: ["🦄", "🦄", ""]
 
 console.log(myStringSplitSafe("good💙day", "💙", 1));
 // Output: ["good"]
