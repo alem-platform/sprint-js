@@ -12,7 +12,7 @@
 | 08. | temperature-converter     |                                       | 1       | 50  | [github.com](./temperature-converter/README.md)     |                                 |
 | 09. | product-catalog           |                                       | 1       | 50  | [github.com](./product-catalog/README.md)           |                                 |
 | 10. | count-masters             | [challenge] [new] Closures            | 1       | 50  | [github.com](./count-masters/README.md)             | ✅🆕                            |
-| 11. | expect                    | [challenge] [new] Functions, closures | 2       | 100 | [github.com](./expect/README.md)                    | ✅🆕(rename is-equal -> expect) |
+| 11. | expect                    | [challenge] [new] Functions, closures | 2       | 100 | [github.com](./expect/README.md)                    | ✅🆕                            |
 | 12. | price-management          | [challenge] [new] Closures            | 3       | 150 | [github.com](./price-management/README.md)          | ✅🆕                            |
 
 > Работа с Closures, Functions
