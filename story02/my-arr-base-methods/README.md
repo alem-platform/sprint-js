@@ -104,6 +104,7 @@ function myArrayAt(arr, index) {
  * @callback callback
  * @param {*} any
  * @param {number} index
+ * @param {*[]} arr
  *
  * @return {(any | undefined)}
  */
