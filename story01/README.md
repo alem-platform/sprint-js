@@ -13,6 +13,6 @@
 | 09. | abstract-equality         |                                                            | 1   | 50  | [github.com](./abstract-equality/README.md)         | ✅    |
 | 10. | stringify                 |                                                            | 1   | 50  | [github.com](./stringify/README.md)                 | ✅    |
 | 11. | simple-sum                |                                                            | 1   | 50  | [github.com](./simple-sum/README.md)                | ✅    |
-| 12. | smart-conversion          | [challenge] (конвертация)                                  | 1   | 50  | [github.com](./smart-conversion/README.md)          | ✅🆕  |
-| 13. | round-cut                 | [challenge] Решить без использования (round, trunc, floor) | 3   | 150 | [github.com](./round-cut/README.md)                 | ✅🆕  |
-| 14. | math-trio                 | [challenge] Решить без использования операторов            | 3   | 150 | [github.com](./math-trio/README.md)                 | ✅🆕  |
+| 12. | smart-conversion          | [challenge] (конвертация)                                  | 1   | 50  | [github.com](./smart-conversion/README.md)          | ✅    |
+| 13. | round-cut                 | [challenge] Решить без использования (round, trunc, floor) | 3   | 150 | [github.com](./round-cut/README.md)                 | ✅    |
+| 14. | math-trio                 | [challenge] Решить без использования операторов            | 3   | 150 | [github.com](./math-trio/README.md)                 | ✅    |
