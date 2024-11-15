@@ -12,6 +12,7 @@ Implement the following functions to replicate the behavior of common JavaScript
 - `myObjectValues`: Replicates `Object.values`, returning an array of the object's own property values.
 - `myObjectEntries`: Replicates `Object.entries`, returning an array of the object's own key-value pairs.
 - `myObjectFromEntries`: Replicates `Object.fromEntries`, constructing an object from an array of key-value pairs.
+- In case of invalid arguments, each function should return `undefind`
 
 Restrictions:
 
