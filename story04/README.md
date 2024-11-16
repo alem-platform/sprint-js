@@ -12,8 +12,8 @@
 | 06. | clone-master              | [challenge] [new] (Object, copy object)             | 1   | 50  | [github.com](./clone-master/README.md)              | ✅    |
 | 07. | user-profile-merge        | [challenge] [new] (Object, merging)                 | 2   | 100 | [github.com](./user-profile-merge/README.md)        | ✅    |
 | 08  | is-iterable               | [challenge] [new] (Object advanced, iterations)     | 2   | 100 | [github.com](./is-iterable/README.md)               | ✅    |
-| 09. | create-iterable-obj       | [challenge] [new] (Object advanced, iterations)     | 2   | 100 | [github.com](./create-iterable-object/README.md)    | ✅    |
-| 10. | iterable-obj-to-arr       | [challenge] [new] (Object advanced, iterations)     | 2   | 100 | [github.com](./iterable-object-to-array/README.md)  | ✅    |
+| 09. | create-iterable-obj       | [challenge] [new] (Object advanced, iterations)     | 2   | 100 | [github.com](./create-iterable-obj/README.md)       | ✅    |
+| 10. | iterable-obj-to-arr       | [challenge] [new] (Object advanced, iterations)     | 2   | 100 | [github.com](./iterable-obj-to-arr/README.md)       | ✅    |
 | 11. | filter-contacts           | [challenge] [new] (Object and Arrays)               | 2   | 100 | [github.com](./filter-contacts/README.md)           | ✅    |
 | 12. | log-parser                | [challenge] (Object, string) Regex                  | 2   | 100 | [github.com](./log-parser/README.md)                | ✅    |
 
