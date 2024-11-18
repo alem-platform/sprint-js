@@ -14,13 +14,14 @@ Write a function that accepts an object with these properties:
   - `currentValue` (number): The current value
   - `stepNumber` (number): Current step number (0-based)
   - `timestamp` (number): Time elapsed since start
-    The function should:
 
-1. Animate from start to end in equal steps
-2. Call `onStep` at each step with current progress
-3. Space callbacks evenly over the duration
-4. Complete exactly after the specified duration
-5. Returns a cleanup function that when called:
+The function should:
+
+-  Animate from start to end in equal steps
+-  Call `onStep` at each step with current progress
+-  Space callbacks evenly over the duration
+-  Complete exactly after the specified duration
+-  Returns a cleanup function that when called:
   - Stops any pending animations
   - Clears all timers
 
