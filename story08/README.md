@@ -2,8 +2,8 @@
 
 | №   | Название               | Уровень | XP  | Ссылка                                  |
 | --- | ---------------------- | ------- | --- | --------------------------------------- |
-| 00. | debounce               | 1       | 50  | [github.com](./debounce/)               |
-| 01. | throttle               | 1       | 50  | [github.com](./throttle/)               |
+| 00. | debounce               | 1       | 100 | [github.com](./debounce/)               |
+| 01. | throttle               | 1       | 100 | [github.com](./throttle/)               |
 | 02. | animate-points         | 2       | 100 | [github.com](./animate-points/)         |
 | 03. | cancellable            | 2       | 100 | [github.com](./cancellable/)            |
 | 04. | time-limit             | 2       | 100 | [github.com](./time-limit/)             |
