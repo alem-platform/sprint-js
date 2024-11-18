@@ -11,7 +11,6 @@ Parameters:
 - `wait` (number): The number of milliseconds to throttle invocations to
 - `options` (Object) [optional]: The options object
   - `leading` (boolean): Call func on the leading edge of the timeout
-  - `trailing` (boolean): Call func on the trailing edge of the timeout
 
 ### Resources:
 
