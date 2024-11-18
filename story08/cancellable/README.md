@@ -25,24 +25,54 @@ function cancellable(fn, args, t) {
 ### Example:
 
 ```js
- // Example 1: Simple retry
- const fetchWithRetry = retry(
-     async () => {
-         const response = await fetch('https://api.example.com/data');
-         if (!response.ok) throw new Error('API error');
-         return response.json();
-     },
-     3,
-     1000
- );
+const greet = (name) => console.log(`Hello, ${name}!`);
+const cancelGreeting = cancellable(greet, ['Alice'], 2000);
 
- // Example 2: With retry callback
- const result = await retry(
-     async () => { // some async operation },
-     3,
-     1000,
-     (attempt, error) => {
-         console.log(`Attempt ${attempt} failed: ${error.message}`);
-     }
- );
+// Cancel after 6 seconds
+setTimeout(cancelGreeting, 6000);
+// Hello, Alice!
+// Hello, Alice!
+// Hello, Alice!
+
+const fetchData = async (url) => {
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
+        console.log('Fetched Data:', data);
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
+};
+
+const cancelFetching = cancellable(fetchData, ['https://jsonplaceholder.typicode.com/posts/1'], 5000);
+
+// Cancel after 15 seconds
+setTimeout(cancelFetching, 15000);
+// Fetched Data: {
+//   userId: 1,
+//   id: 1,
+//   title: 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit',
+//   body: 'quia et suscipit\n' +
+//     'suscipit recusandae consequuntur expedita et cum\n' +
+//     'reprehenderit molestiae ut ut quas totam\n' +
+//     'nostrum rerum est autem sunt rem eveniet architecto'
+// }
+// Fetched Data: {
+//   userId: 1,
+//   id: 1,
+//   title: 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit',
+//   body: 'quia et suscipit\n' +
+//     'suscipit recusandae consequuntur expedita et cum\n' +
+//     'reprehenderit molestiae ut ut quas totam\n' +
+//     'nostrum rerum est autem sunt rem eveniet architecto'
+// }
+// Fetched Data: {
+//   userId: 1,
+//   id: 1,
+//   title: 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit',
+//   body: 'quia et suscipit\n' +
+//     'suscipit recusandae consequuntur expedita et cum\n' +
+//     'reprehenderit molestiae ut ut quas totam\n' +
+//     'nostrum rerum est autem sunt rem eveniet architecto'
+// }
 ```
