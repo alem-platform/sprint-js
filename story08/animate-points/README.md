@@ -48,6 +48,12 @@ animatePoints({
   onStep: (value, step, time) => console.log(value),
 });
 
+// 0    // at 0ms
+// 25   // at 200ms
+// 50   // at 400ms
+// 75   // at 600ms
+// 100  // at 800ms (approx.)
+
 try {
   animatePoints({
     start: 0,
@@ -59,11 +65,4 @@ try {
 } catch (e) {
   console.log("Error caught successfully");
 }
-
-// approximately:
-// 0    // at 0ms
-// 25   // at 200ms
-// 50   // at 400ms
-// 75   // at 600ms
-// 100  // at 800ms
 ```
