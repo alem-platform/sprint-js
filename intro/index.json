@@ -1,0 +1,39 @@
+{
+  "dialogue": [
+    {
+      "index": 0,
+      "type": "system_message_wait_keydown",
+      "text": "Press any key to start..."
+    },
+    {
+      "index": 1,
+      "type": "hero_message",
+      "username": "di0n",
+      "text": "Salem, {{username}}.\nIt's Zere Dion, remember me? So proud of you for making it this far!",
+      "text_variables": [
+        {
+          "type": "username",
+          "replace": "{{username}}"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": "hero_message",
+      "username": "di0n",
+      "text": "So, you've chosen the JS track – alright!\nI am sure it's the right choice."
+    },
+    {
+      "index": 3,
+      "type": "hero_message_waiting_option",
+      "username": "di0n",
+      "text": "You pretty much know how it works here – besides, this time you won't have load tests.\nThe overall idea is the same – do a push to learn the new topic quickly and then steadily go on the chosen track.\nI'm glad to see you here on the front-end track.",
+    },
+    {
+      "index": 7,
+      "type": "hero_message",
+      "username": "di0n",
+      "text": "That's all you need right now.\nLet's go!"
+    }
+  ]
+}
