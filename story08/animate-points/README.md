@@ -29,7 +29,6 @@ Rules:
 - Must use `setTimeout` or `setInterval`
 - Must clean up any timers if animation is interrupted
 - Must handle edge cases (steps < 2, duration <= 0, etc.)
-- Callback timing must be as precise as possible
 
 ### Resources
 
