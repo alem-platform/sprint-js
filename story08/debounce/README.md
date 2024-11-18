@@ -11,7 +11,6 @@ Your function should accept these parameters:
 - `wait` (number): The number of milliseconds to delay
 - `options` (Object) [optional]: The options object
   - `leading` (boolean): Call func on the leading edge of the timeout
-  - `trailing` (boolean): Call func on the trailing edge of the timeout
 
 ### Resources:
 
