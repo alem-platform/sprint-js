@@ -46,7 +46,6 @@ animatePoints({
   duration: 1000, // 1 second
   onStep: (value, step, time) => console.log(value),
 });
-
 // 0    // at 0ms
 // 25   // at 200ms
 // 50   // at 400ms
@@ -64,4 +63,21 @@ try {
 } catch (e) {
   console.log("Error caught successfully");
 }
+
+const cleanup = animatePoints({
+  start: 0,
+  end: 100,
+  steps: 5,
+  duration: 1000,
+  onStep: (value) => console.log(value)
+});
+
+// After 300ms, we decide to stop the animation early
+setTimeout(() => {
+  cleanup(); // This should cancel all remaining steps
+}, 300);
+
+// Expected behavior:
+// 0    (at 0ms)     - prints
+// 25   (at 250ms)   - prints
 ```
