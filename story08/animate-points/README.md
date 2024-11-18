@@ -17,12 +17,15 @@ Write a function that accepts an object with these properties:
     The function should:
 
 1. Animate from start to end in equal steps
-2. Call onStep at each step with current progress
+2. Call `onStep` at each step with current progress
 3. Space callbacks evenly over the duration
 4. Complete exactly after the specified duration
+5. Returns a cleanup function that when called:
+  - Stops any pending animations
+  - Clears all timers
 
 Rules:
-- Must use setTimeout or setInterval (not both)
+- Must use `setTimeout` or `setInterval`
 - Must clean up any timers if animation is interrupted
 - Must handle edge cases (steps < 2, duration <= 0, etc.)
 - Callback timing must be as precise as possible
