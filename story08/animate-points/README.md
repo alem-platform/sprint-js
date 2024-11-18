@@ -22,8 +22,8 @@ The function should:
 -  Space callbacks evenly over the duration
 -  Complete exactly after the specified duration
 -  Returns a cleanup function that when called:
-  - Stops any pending animations
-  - Clears all timers
+    - Stops any pending animations
+    - Clears all timers
 
 Rules:
 - Must use `setTimeout` or `setInterval`
