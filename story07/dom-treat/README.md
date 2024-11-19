@@ -8,13 +8,13 @@
 
 Create two functions that manipulate different elements in the DOM using JavaScript.
 
-1. `changeParagraphText`: function that selects a <p> element by its ID and changes its inner text to "Hello, World!".
+1. `changeParagraphText`: function that selects a <p> element by its ID and changes its inner text to provided text.
 2. `addCssClassToDiv`: function that selects a <div> element by its ID and adds a CSS class called "highlight".
 
 ### Expected Functions:
 
 ```js
-function changeParagraphText(pId) {
+function changeParagraphText(pId, innerText) {
   //...
 }
 
