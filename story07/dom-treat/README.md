@@ -9,7 +9,7 @@
 Create two functions that manipulate different elements in the DOM using JavaScript.
 
 1. `changeParagraphText`: function that selects a <p> element by its ID and changes its inner text to provided text.
-2. `addCssClassToDiv`: function that selects a <div> element by its ID and adds a CSS class called "highlight".
+2. `addCssClassToDiv`: function that selects a <div> element by its ID and adds a provided CSS class called.
 
 ### Expected Functions:
 
@@ -18,7 +18,7 @@ function changeParagraphText(pId, innerText) {
   //...
 }
 
-function addCssClassToDiv(divId) {
+function addCssClassToDiv(divId, newClass) {
   //...
 }
 ```
