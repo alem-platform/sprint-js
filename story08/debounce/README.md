@@ -14,7 +14,7 @@ Your function should accept these parameters:
 
 ### Resources:
 
-- [debounce](https://javascript.info/task/debounce)
+- [debounce decorator](https://javascript.info/task/debounce)
 - [lodash.debounce](https://www.npmjs.com/package/lodash.debounce)
 
 ### Example:
