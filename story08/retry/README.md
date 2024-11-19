@@ -34,30 +34,15 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 ### Example:
 
 ```js
-const result = [];
+const slowFn = async () => {
+  await delay(2000) // Simulates a slow operation
+  return 'Slow success!'
+}
 
-const fn = (x) => x * 2;
-const args = [4];
-const t = 35;
-const cancelTimeMs = 190;
+const retriedSlowFn = retry(slowFn, 3, 1000)
 
-const start = performance.now();
-
-const log = (...argsArr) => {
-  const diff = Math.floor(performance.now() - start);
-  result.push({ time: diff, returned: fn(...argsArr) });
-};
-
-const cancel = cancellable(log, args, t, cancelTimeMs);
-
-// After cancelTimeMs (190ms), log should have been called 6 times
-// with the following approximate return values:
-// [
-//    {"time": 0, "returned": 8},
-//    {"time": 35, "returned": 8},
-//    {"time": 70, "returned": 8},
-//    {"time": 105, "returned": 8},
-//    {"time": 140, "returned": 8},
-//    {"time": 175, "returned": 8}
-// ]
+retriedSlowFn()
+  .then((result) => console.log('Result:', result))
+  .catch((error) => console.error('Failed:', error.message))
+// Failed: Operation timed out
 ```
