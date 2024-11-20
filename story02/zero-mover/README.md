@@ -6,7 +6,7 @@
 
 ### Instructions:
 
-Write a function called `zeroMover` that moves all the zeroes in an array to the end, without altering the order of the non-zero elements.
+Write a function called `zeroMover` that modifies the array moving zeroes in an array to the end, and change the order of the non-zero elements.
 
 > We recommend to use only [builtin array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
