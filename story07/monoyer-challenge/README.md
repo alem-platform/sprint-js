@@ -6,7 +6,7 @@
 
 ### Instructions
 
-Write a function named `monoyerChallenge` that creates 60 <div> elements and insert them in the table of 10x6 size.
+Write a function named `monoyerChallenge` that creates 60 <div> elements and arranges them in a 10x6 table layout. It is mandatory to use CSS Grid to define the table structure within a parent <div> container, ensuring the layout is organized and visually clear.
 
 Each <div> should contain a letter randomly selected from the uppercase alphabet.
 
@@ -21,6 +21,7 @@ Set the font-weight as follows:
 ### Resources:
 
 [Monoyer](https://en.wikipedia.org/wiki/Monoyer_chart)
+[grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)
 
 ### Expected Function:
 
