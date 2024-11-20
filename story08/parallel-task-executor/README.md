@@ -19,7 +19,6 @@ Create a function that executes multiple tasks in parallel with the following re
 - Return an object with:
   - `successful`: array of successful task results
   - `failed`: array of failed task details
-  - `totalTime`: total execution time
 
 ```js
 async function executeParallelTasks(tasks) {
@@ -67,11 +66,10 @@ const result = await executeParallelTasks(tasks);
 // Expected output format:
 {
     successful: [
-        { id: 1, result: {...}, executionTime: 123 }
+        { id: 1, result: {...}, }
     ],
     failed: [
-        { id: 2, error: "Task Timeout", executionTime: 2000 }
-    ],
-    totalTime: 2000
+        { id: 2, error: "Task Timeout"}
+    ]
 }
 ```
