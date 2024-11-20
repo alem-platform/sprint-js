@@ -25,9 +25,13 @@ function zeroMover(arr) {
 ### Example:
 
 ```js
-zeroMover([1, 0, 2, 0, 3]);
+let arr = [1, 0, 2, 0, 3]
+zeroMover(arr);
+console.log(arr)
 // Output: [1, 2, 3, 0, 0]
 
-zeroMover([0, 0, 5, 6]);
+arr = [0, 0, 5, 6]
+zeroMover(arr);
+console.log(arr)
 // Output: [5, 6, 0, 0]
 ```
