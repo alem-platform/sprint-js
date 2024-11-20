@@ -23,7 +23,7 @@ Upgrade your `executeParallelTasks` function and add some additional features. A
 - Use `Promise.race()` to enforce the timeout for each task.
 
 ```js
-async function executeParallelTasksParallel(tasks) {
+async function executeParallelTasksPriority(tasks) {
   // Write your code here
 }
 
