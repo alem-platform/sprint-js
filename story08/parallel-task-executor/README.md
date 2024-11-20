@@ -12,6 +12,7 @@ Create a function that executes multiple tasks in parallel with the following re
   - `failed`: array of failed task details
 
 ### Notes
+
 - Execute all tasks in parallel using `Promise.all()`
 
 ```js
@@ -29,8 +30,6 @@ const createTask =
   };
 ```
 
-- [Promise.all()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
-
 ### Example:
 
 ```js
@@ -39,11 +38,11 @@ const tasks = [
   { id: 2, task: createTask(200, true) },
   { id: 3, task: createTask(100) },
   { id: 4, task: createTask(500) },
-]
+];
 
 executeParallelTasks(tasks).then((result) =>
   console.log(JSON.stringify(result, null, 2))
-)
+);
 // {
 //     "successful": [
 //       {
