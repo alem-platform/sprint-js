@@ -12,6 +12,7 @@ Write a function `addFamilyMember` that:
 - Each newly added member is nested inside the previous one, creating deeper levels.
 - Each new level should be progressively indented to reflect its depth.
 - The tree can be a maximum of 4 levels deep.
+- Tracking depth of the nested elements should be done in the function itself through DOM, without use of the global variables.
 
 Style Changes: Each newly created family member should:
 
@@ -23,7 +24,6 @@ Style Changes: Each newly created family member should:
 Removal Process: After reaching the maximum depth of 4 members:
 
 - Remove child elements one by one, starting from the deepest level.
-- During removal, the element should be styled with a special "removing" class.
 - The text of the button should toggle between "Add Family Member" and "Remove Family Member" depending on whether it's adding or removing.
 
 You're provided with starting CSS and HTML codes below. You can use them to create proper css and html files to test your solution
