@@ -49,14 +49,12 @@ Your project must include these functionalities:
 
 #### Layout & Design
 
-- Create a clean, intuitive interface
 - Ensure responsive design works on all screen sizes
-- Use consistent spacing and typography
-- Implement a color scheme appropriate for space content
+- Choose a color scheme that complements space-related content.
 
-### Provided Files
+### Data
 
-A `data.json` file containing:
+> You will be provided with a [`data.json`](./data.json) file containing a collection of sample articles. Each article in the file includes detailed information such as the title, publication date, source, category, a brief description, full content, an associated image, and relevant tags:
 
 ```json
 {
@@ -77,9 +75,11 @@ A `data.json` file containing:
 
 ### Bonus
 
-You can expand your project with:
+If you want to explore advanced concepts, replace `data.json` with live data from the **SpaceFlight News API**. This will introduce you to the rereal-world experience with API integration.
 
-- Dark/light theme toggle
+- API Documentation: [SpaceFlight News API Docs](https://api.spaceflightnewsapi.net/v4/docs/#/blogs)
+- Key Tasks:
+  - Fetch articles dynamically from the API.
 
 ## Project Structure
 
@@ -103,9 +103,4 @@ space-news-dashboard/
 - [DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM)
 - [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
 - [JavaScript Event Handling](https://developer.mozilla.org/en-US/docs/Web/Events/Event_handlers)
-
-## Notes
-
-- Focus on code quality and organization
-- Test with different screen sizes
-- Consider edge cases
+- [Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
