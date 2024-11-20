@@ -62,8 +62,8 @@ filterClassicalArchitects();
 // Output: [['Leopold the Grand', 'Bruno', 'Gustav'], ['Vincent']]
 
 filterActiveArchitects();
-// Output: [['Leopold the Grand', 'Bruno'], ['Gustav', 'Vincent']]
+// Output: [['Leopold the Grand', 'Bruno'], ['Gustav']]
 
 findLeopold();
-// Output: [['Leopold the Grand'], ['Bruno', 'Gustav', 'Vincent']]
+// Output: [['Leopold the Grand'], ['Bruno']]
 ```
