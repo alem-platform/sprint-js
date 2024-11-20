@@ -10,7 +10,7 @@ Learn DOM manipulation through keyboard events.
 
 Write a function named `playNote` that:
 
-- Highlights a note with the coressponding color when specific keyboard keys (a, b, c, d, e, f, g) are pressed.
+- Highlights a note with the coressponding color when specific keyboard keys (a, s, d, f, g, h, j) are pressed.
 - Removes the highlight when the key is released.
 
 You're provided with starting HTML, CSS and JS codes, which can be used to write your code and test your solution. You can freely create your own HTML and CSS files without being tied to provided ones:
@@ -18,13 +18,13 @@ You're provided with starting HTML, CSS and JS codes, which can be used to write
 ```js
 const instrumentColors = {
   piano: {
-    a: "#FF6B6B",
-    b: "#4ECDC4",
-    c: "#45B7D1",
-    d: "#96CEB4",
-    e: "#FFEEAD",
-    f: "#D4A5A5",
-    g: "#9B59B6",
+    do: "#FF6B6B",
+    re: "#4ECDC4",
+    mi: "#45B7D1",
+    fa: "#96CEB4",
+    sol: "#FFEEAD",
+    la: "#D4A5A5",
+    si: "#9B59B6",
   },
 };
 - [keyboard-symphony.html](story07/keyboard-symphony/keyboard-symphony.html)
@@ -34,3 +34,4 @@ const instrumentColors = {
 
 -[Keyboard Event](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
 
+```
