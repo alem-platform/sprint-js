@@ -10,8 +10,8 @@ Learn DOM manipulation through keyboard events.
 
 Write a function named `playNote` that:
 
-- Highlights a note with the coressponding color when specific keyboard keys (a, s, d, f, g, h, j) are pressed.
-- Removes the highlight when the key is released.
+- Highlights a note with the coressponding color when specific keyboard keys (a, s, d, f, g, h, j) are pressed, and assign corresponding div with `active` class.
+- Removes the highlight when the key is released, and remove `active` class.
 
 You're provided with starting HTML, CSS and JS codes, which can be used to write your code and test your solution. You can freely create your own HTML and CSS files without being tied to provided ones:
 
