@@ -32,6 +32,6 @@ const instrumentColors = {
 
 ### Resources:
 
--[Keyboard Event](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
+-[Keyboard Event](https:/\/developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
 
 ```
