@@ -54,9 +54,9 @@ Your project must include these functionalities:
 - Use consistent spacing and typography
 - Implement a color scheme appropriate for space content
 
-### Provided Files
+### Data
 
-A `data.json` file containing:
+A [`data.json`](./data.json) file containing:
 
 ```json
 {
