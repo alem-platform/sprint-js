@@ -54,7 +54,7 @@ Your project must include these functionalities:
 
 ### Data
 
-A [`data.json`](./data.json) file containing:
+> You will be provided with a [`data.json`](./data.json) file containing a collection of sample articles. Each article in the file includes detailed information such as the title, publication date, source, category, a brief description, full content, an associated image, and relevant tags:
 
 ```json
 {
@@ -75,7 +75,7 @@ A [`data.json`](./data.json) file containing:
 
 ### Bonus
 
-If you want to explore advanced concepts, replace `data.json` with live data from the _SpaceFlight News API_. This will introduce you to the rereal-world experience with API integration.
+If you want to explore advanced concepts, replace `data.json` with live data from the **SpaceFlight News API**. This will introduce you to the rereal-world experience with API integration.
 
 - API Documentation: [SpaceFlight News API Docs](https://api.spaceflightnewsapi.net/v4/docs/#/blogs)
 - Key Tasks:
