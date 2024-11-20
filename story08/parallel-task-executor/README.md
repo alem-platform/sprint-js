@@ -11,9 +11,9 @@ Create a function that executes multiple tasks in parallel with the following re
   - `timeout`: maximum time allowed for execution in ms
 - Implementation requirements:
   - Execute tasks in parallel using `Promise.all()`
-  - Tasks with priority 1 should start immediately
-  - Tasks with priority 2 should start after 100ms delay
-  - Tasks with priority 3 should start after 200ms delay
+  - Tasks with priority `1` should start immediately
+  - Tasks with priority `2` should start after 100ms delay
+  - Tasks with priority `3` should start after 200ms delay
   - If a task exceeds its timeout, it should fail with `"Task Timeout"`
   - Collect results including `success/failure` status and execution time
 - Return an object with:
