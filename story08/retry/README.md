@@ -1,6 +1,10 @@
 # Retry
 
-Implement a retry function that attempts to execute an async operation multiple times with timeout.
+| Expected file |
+| ------------- |
+| `retry.js`    |
+
+Implement a `retry` function that attempts to execute an async operation multiple times with timeout.
 
 ### Instructions
 
@@ -35,14 +39,14 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 ```js
 const slowFn = async () => {
-  await delay(2000) // Simulates a slow operation
-  return 'Slow success!'
-}
+  await delay(2000); // Simulates a slow operation
+  return "Slow success!";
+};
 
-const retriedSlowFn = retry(slowFn, 3, 1000)
+const retriedSlowFn = retry(slowFn, 3, 1000);
 
 retriedSlowFn()
-  .then((result) => console.log('Result:', result))
-  .catch((error) => console.error('Failed:', error.message))
+  .then((result) => console.log("Result:", result))
+  .catch((error) => console.error("Failed:", error.message));
 // Failed: Operation timed out
 ```

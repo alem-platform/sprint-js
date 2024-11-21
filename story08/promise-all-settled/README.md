@@ -1,5 +1,9 @@
 # Promise.allSettled()
 
+| Expected file            |
+| ------------------------ |
+| `promise-all-settled.js` |
+
 Implement `Promise.allSettled()`
 
 ### Instructions

@@ -1,5 +1,9 @@
 # Debounce
 
+| Expected file |
+| ------------- |
+| `debounce.js` |
+
 Create your own implementation of the lodash `debounce` function.
 
 ### Instructions

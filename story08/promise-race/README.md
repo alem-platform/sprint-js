@@ -1,5 +1,9 @@
 # Promise.race()
 
+| Expected file     |
+| ----------------- |
+| `promise-race.js` |
+
 Implement `Promise.race()`
 
 ### Instructions
