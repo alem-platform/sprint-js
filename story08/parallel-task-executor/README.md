@@ -1,5 +1,9 @@
 # Parallel Tasks Executor
 
+| Expected file               |
+| --------------------------- |
+| `parallel-task-executor.js` |
+
 Create a function that executes multiple tasks in parallel with the following requirements:
 
 ### Instructions

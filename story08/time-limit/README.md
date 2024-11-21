@@ -1,9 +1,12 @@
 # Time limit
 
+| Expected file   |
+| --------------- |
+| `time-limit.js` |
+
 Write a function that implements a time limit for asynchronous functions.
 
 ### Instructions
-
 
 - The function should take two parameters:
   - `fn`: an async function to be time-limited

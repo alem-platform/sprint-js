@@ -1,5 +1,9 @@
 # Cancellable
 
+| Expected file    |
+| ---------------- |
+| `cancellable.js` |
+
 Write a function that creates a cancellable interval.
 
 ### Instructions
@@ -26,7 +30,7 @@ function cancellable(fn, args, t) {
 
 ```js
 const greet = (name) => console.log(`Hello, ${name}!`);
-const cancelGreeting = cancellable(greet, ['Alice'], 2000);
+const cancelGreeting = cancellable(greet, ["Alice"], 2000);
 
 // Cancel after 6 seconds
 setTimeout(cancelGreeting, 6000);
@@ -35,16 +39,20 @@ setTimeout(cancelGreeting, 6000);
 // Hello, Alice!
 
 const fetchData = async (url) => {
-    try {
-        const response = await fetch(url);
-        const data = await response.json();
-        console.log('Fetched Data:', data);
-    } catch (error) {
-        console.error('Error fetching data:', error);
-    }
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log("Fetched Data:", data);
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
 };
 
-const cancelFetching = cancellable(fetchData, ['https://jsonplaceholder.typicode.com/posts/1'], 5000);
+const cancelFetching = cancellable(
+  fetchData,
+  ["https://jsonplaceholder.typicode.com/posts/1"],
+  5000
+);
 
 // Cancel after 15 seconds
 setTimeout(cancelFetching, 15000);

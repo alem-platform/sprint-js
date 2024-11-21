@@ -1,5 +1,9 @@
 # Throttle
 
+| Expected file |
+| ------------- |
+| `throttle.js` |
+
 Create your own implementation of the lodash `throttle` function.
 
 ### Instructions

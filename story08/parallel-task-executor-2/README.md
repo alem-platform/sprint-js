@@ -1,5 +1,9 @@
 # Parallel Tasks Executor Priority
 
+| Expected file                 |
+| ----------------------------- |
+| `parallel-task-executor-2.js` |
+
 Upgrade your `executeParallelTasks` function and add some additional features. Add task execution priority.
 
 ### Instructions

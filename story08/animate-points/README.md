@@ -1,5 +1,9 @@
 # Animate points
 
+| Expected file       |
+| ------------------- |
+| `animate-points.js` |
+
 Create a function called `animatePoints` that animates a value from start to end over time.
 
 ### Instructions
@@ -17,15 +21,16 @@ Write a function that accepts an object with these properties:
 
 The function should:
 
--  Animate from start to end in equal steps
--  Call `onStep` at each step with current progress
--  Space callbacks evenly over the duration
--  Complete exactly after the specified duration
--  Returns a cleanup function that when called:
-    - Stops any pending animations
-    - Clears all timers
+- Animate from start to end in equal steps
+- Call `onStep` at each step with current progress
+- Space callbacks evenly over the duration
+- Complete exactly after the specified duration
+- Returns a cleanup function that when called:
+  - Stops any pending animations
+  - Clears all timers
 
 Rules:
+
 - Must use `setTimeout` or `setInterval`
 - Must clean up any timers if animation is interrupted
 - Must handle edge cases (steps < 2, duration <= 0, etc.)
@@ -69,7 +74,7 @@ const cleanup = animatePoints({
   end: 100,
   steps: 5,
   duration: 1000,
-  onStep: (value) => console.log(value)
+  onStep: (value) => console.log(value),
 });
 
 // After 300ms, we decide to stop the animation early

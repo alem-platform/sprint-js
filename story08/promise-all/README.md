@@ -1,5 +1,9 @@
 # Promise.all()
 
+| Expected file    |
+| ---------------- |
+| `promise-all.js` |
+
 Implement `Promise.all()`
 
 ### Instructions
