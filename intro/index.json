@@ -25,7 +25,7 @@
       },
       {
          "index":3,
-         "type":"hero_message_waiting_option",
+         "type":"hero_message",
          "username":"di0n",
          "text":"You pretty much know how it works here – besides, this time you won't have load tests.\nThe overall idea is the same – do a push to learn the new topic quickly and then steadily go on the chosen track.\nI'm glad to see you here on the front-end track."
       },
