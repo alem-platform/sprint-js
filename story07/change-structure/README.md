@@ -13,7 +13,7 @@ Write a function named `wrapH1InDiv` that wraps all <h1> elements in a new <div>
 
 You only need to create and submit the `change-structure.js` file, which you can be checked locally with provided HTML file:
 
-- [change-structure.html](story07/change-structure/change-structure.html)
+- [change-structure.html](https://github.com/alem-platform/sprint-js/blob/main/story07/change-structure/change-structure.html)
 
 Fell free to modify provided file according to your needs, and don't forget to link your solution to the HTML file. If necessary, you can add your own CSS file.
 

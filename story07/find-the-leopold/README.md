@@ -30,7 +30,7 @@ You’re provided with an HTML file that lists people in the guild. Some are arc
 
 > You only need to create and submit the `find-the-leopold.js` file. You can create your own HTML file by using starting html code example to test your solution:
 
-- [find-the-leopold.html](story07/find-the-leopold/find-the-leopold.html)
+- [find-the-leopold.html](https://github.com/alem-platform/sprint-js/blob/main/story07/find-the-leopold/find-the-leopold.html)
 
 ### Expected Functions
 
