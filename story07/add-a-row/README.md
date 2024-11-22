@@ -14,7 +14,7 @@ Write a function named `addTableRow` that adds a new row to an existing HTML tab
 
 > You only need to create and submit the `add-a-row.js` file, which you can test locally with provided HTML file:
 
-- [add-a-row.html](./add-a-row.html)
+- [add-a-row.html](https://github.com/alem-platform/sprint-js/blob/main/story07/add-a-row/add-a-row.html)
 
 Feel free to modify provided file according to your needs. If necessary, you can add your own CSS file.
 
