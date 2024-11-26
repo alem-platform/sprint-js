@@ -1,8 +1,8 @@
 # Smart Array Merger
 
-| Expected file        |
-| -------------------- |
-| smart-array-merge.js |
+| Expected file          |
+| ---------------------- |
+| `smart-array-merge.js` |
 
 ### Instructions
 

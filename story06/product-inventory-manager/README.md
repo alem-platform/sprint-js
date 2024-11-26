@@ -1,8 +1,8 @@
 # Product Inventory Manager
 
-| Expected file                |
-| ---------------------------- |
-| product-inventory-manager.js |
+| Expected file                  |
+| ------------------------------ |
+| `product-inventory-manager.js` |
 
 ### Instructions
 

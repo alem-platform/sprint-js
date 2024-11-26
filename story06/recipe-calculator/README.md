@@ -1,8 +1,8 @@
 # Recipe Calculator
 
-| Expected file        |
-| -------------------- |
-| recipe-calculator.js |
+| Expected file          |
+| ---------------------- |
+| `recipe-calculator.js` |
 
 ### Instructions
 
