@@ -1,8 +1,8 @@
 # Temperature Converter
 
-| Expected file            |
-| ------------------------ |
-| temperature-converter.js |
+| Expected file              |
+| -------------------------- |
+| `temperature-converter.js` |
 
 ### Instructions
 

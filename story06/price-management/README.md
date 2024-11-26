@@ -1,8 +1,8 @@
 # Price Management
 
-| Expected file       |
-| ------------------- |
-| price-management.js |
+| Expected file         |
+| --------------------- |
+| `price-management.js` |
 
 ### Instructions
 

@@ -1,8 +1,8 @@
 ### Event Logger
 
-| Expected file   |
-| --------------- |
-| event-logger.js |
+| Expected file     |
+| ----------------- |
+| `event-logger.js` |
 
 ### Instructions
 
@@ -23,13 +23,16 @@ const eventTracker = {
   },
 };
 ```
+
 Each event is an object:
+
 ```js
 {
   eventName: 'event name',
   timestamp: 'date of event',
 }
 ```
+
 ### Example
 
 ```js

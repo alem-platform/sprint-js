@@ -1,8 +1,8 @@
 # Count-Masters
 
-| Expected file    |
-| ---------------- |
-| count-masters.js |
+| Expected file      |
+| ------------------ |
+| `count-masters.js` |
 
 ### Instructions:
 
