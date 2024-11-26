@@ -14,5 +14,5 @@ Create three functions that demonstrate your ability to create, move, and monito
 
 > You're provided with starting CSS and HTML codes below. You can use them to create proper css and html files to test your solution:
 
-- [space-collector.html](story07/space-collector/space-collector.html)
-- [style.css](story07/space-collector/style.css)
+- [space-collector.html](https://github.com/alem-platform/sprint-js/blob/main/story07/space-collector/space-collector.html)
+- [style.css](https://github.com/alem-platform/sprint-js/blob/main/story07/space-collector/style.css)

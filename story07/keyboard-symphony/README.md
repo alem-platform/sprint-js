@@ -27,11 +27,11 @@ const instrumentColors = {
     si: "#9B59B6",
   },
 };
-- [keyboard-symphony.html](story07/keyboard-symphony/keyboard-symphony.html)
-- [style.css](story07/keyboard-symphony/style.css)
+```
+
+- [keyboard-symphony.html](https://github.com/alem-platform/sprint-js/blob/main/story07/keyboard-symphony/keyboard-symphony.html)
+- [style.css](https://github.com/alem-platform/sprint-js/blob/main/story07/keyboard-symphony/style.css)
 
 ### Resources:
 
--[Keyboard Event](https:/\/developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
-
-```
+-[Keyboard Event](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)

@@ -30,7 +30,7 @@ You're provided with starting CSS and HTML codes below. You can use them to crea
 
 > You only need to create and submit the `dynamic-family-tree.js` file, where you can use provided CSS file:
 
-- [style.css](story07/dymanic-family-tree/style.css)
+- [style.css](https://github.com/alem-platform/sprint-js/blob/main/story07/dynamic-family-tree/style.css)
 
 ### Expected Function:
 
