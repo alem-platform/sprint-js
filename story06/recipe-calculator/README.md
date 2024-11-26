@@ -60,7 +60,7 @@ console.log(calculateRecipe(recipe, 4));
 //     }
 //   },
 //   instructions: ["Mix dry ingredients", "Add wet ingredients", "Bake"],
-//   totalWeight: "375g",
+//   totalWeight: "100",
 //   difficulty: "medium"
 // }
 ```
