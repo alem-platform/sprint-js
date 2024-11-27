@@ -13,6 +13,7 @@ The class should:
 - Store the temperature in `celsius` as a private field.
 - Implement getters and setters for both `celsius` and `fahrenheit`
 - Provide a `getDescription` method that returns a formatted string with the current temperature in both celsius and fahrenheit.
+- When accessing private fields through getters, round the returned values to 2 decimal places. Keep the original values unrounded in storage.
 
 ### Expected Class Structure
 
