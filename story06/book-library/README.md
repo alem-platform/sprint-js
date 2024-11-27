@@ -1,8 +1,8 @@
 # Book Library
 
-| Expected file   |
-| --------------- |
-| book-library.js |
+| Expected file     |
+| ----------------- |
+| `book-library.js` |
 
 ### Instructions
 

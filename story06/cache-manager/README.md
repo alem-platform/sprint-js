@@ -1,8 +1,8 @@
 ### Cache Manager
 
-| Expected file    |
-| ---------------- |
-| cache-manager.js |
+| Expected file      |
+| ------------------ |
+| `cache-manager.js` |
 
 ### Instructions
 

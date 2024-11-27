@@ -1,8 +1,8 @@
 ### Broken counter
 
-| Expected file     |
-| ----------------- |
-| broken-counter.js |
+| Expected file       |
+| ------------------- |
+| `broken-counter.js` |
 
 ### Instructions
 
