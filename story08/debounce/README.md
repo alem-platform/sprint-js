@@ -13,7 +13,7 @@ Your function should accept these parameters:
 
 - `func` (Function): The function to debounce
 - `wait` (number): The number of milliseconds to delay
-- `options` (Object) [optional]: The options object
+- `options` (Object): The options object
   - `leading` (boolean): Call func on the leading edge of the timeout
 
 ### Resources:
