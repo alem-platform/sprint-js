@@ -6,9 +6,9 @@
 
 ### Instructions:
 
-Write a function called `countWords` that calculates the number of words inside a <textarea>.
+Write a function called `countWords` that calculates the number of words inside a `<textarea>`.
 
-- The function should accept the ID of a <textarea>.
+- The function should accept the ID of a `<textarea>`.
 - It should return the number of words, defined as space-separated strings.
 
 > You only need to create and submit the `count-words.js` file, which you can be checked locally with provided HTML file:
