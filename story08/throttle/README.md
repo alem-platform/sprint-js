@@ -13,7 +13,7 @@ Parameters:
 
 - `func` (Function): The function to throttle
 - `wait` (number): The number of milliseconds to throttle invocations to
-- `options` (Object) [optional]: The options object
+- `options` (Object): The options object
   - `leading` (boolean): Call func on the leading edge of the timeout
 
 ### Resources:
