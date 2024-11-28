@@ -6,10 +6,10 @@
 
 ### Instructions:
 
-Write a function called `toggleActiveClass` that toggles the class `active` on a <div> when it is clicked.
+Write a function called `toggleActiveClass` that toggles the class `active` on a `<div>` when it is clicked.
 
 - The function should accept an element ID as an argument.
-- Add a click event listener to the <div>. When clicked, the class `active` should be toggled.
+- Add a click event listener to the `<div>`. When clicked, the class `active` should be toggled.
 
 You only need to create and submit the `class-on-click.js` file, which you can be checked locally with provided HTML file:
 
