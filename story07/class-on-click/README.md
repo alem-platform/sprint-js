@@ -15,7 +15,7 @@ You only need to create and submit the `class-on-click.js` file, which you can b
 
 - [class-on-click.html](https://github.com/alem-platform/sprint-js/blob/main/story07/class-on-click/class-on-click.html)
 
-Fell free to modify provided file according to your needs, and don't forget to link your solution to the HTML file. If necessary, you can add your own CSS file.
+Feel free to modify provided file according to your needs, and don't forget to link your solution to the HTML file. If necessary, you can add your own CSS file.
 
 ### Resources
 
