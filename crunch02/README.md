@@ -54,7 +54,7 @@ Your project must include these functionalities:
 
 ### Data
 
-> You will be provided with a [`data.json`](https://github.com/alem-platform/sprint-js/blob/main/crunch02/data.json) file containing a collection of sample articles. Each article in the file includes detailed information such as the title, publication date, source, category, a brief description, full content, an associated image, and relevant tags:
+> You will be provided with a [`data.json`](https://raw.githubusercontent.com/alem-platform/sprint-js/refs/heads/main/crunch02/data.json) file containing a collection of sample articles. Each article in the file includes detailed information such as the title, publication date, source, category, a brief description, full content, an associated image, and relevant tags:
 
 ```json
 {
