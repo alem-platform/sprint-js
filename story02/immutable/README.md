@@ -12,7 +12,7 @@ Create an object called `constants` with three constant values:
 - num for number
 - bool for boolean
 
-Try to change these values and observe why they cannot be modified.
+Use `Object.freeze` on the object and try to change these values. Observe why they cannot be modified.
 
 ## Part B: Square Numbers
 
@@ -34,9 +34,9 @@ constants.str = "New value"; // Error
 
 console.log(constants.str); // test
 
-constants.squareSentries([1, 2, 3]); // [1, 4, 9]
+console.log(constants.squareNumbers([1, 2, 3])); // [1, 4, 9]
 
-constants.squareSentries([4, 5, 6]); // [16, 25, 36]
+console.log(constants.squareNumbers([4, 5, 6])); // [16, 25, 36]
 
-constants.appendChampion([1, 2, 3], 4); // [1, 2, 3, 4]
+console.log(constants.addElement([1, 2, 3], 4)); // [1, 2, 3, 4]
 ```
